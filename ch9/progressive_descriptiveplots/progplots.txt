@@ -1,0 +1,559 @@
+library(dplyr)
+
+progpost <- read.csv(file = "progpost.csv", sep = ";", header = TRUE)
+
+# Aggregate the number of instances per textid
+progpost_agg <- progpost %>%
+  group_by(textid, year, genre) %>%
+  summarize(num_instances = n())
+
+# Merge 'total' column from buinn_all to progpost_agg based on 'textid'
+merged_data <- progpost_agg %>%
+  left_join(buinn_all[, c("textid", "total")], by = "textid")
+
+# Calculate the relative frequency per textid
+merged_data <- merged_data %>%
+  mutate(relative_frequency = num_instances / total * 100)
+
+# Remove the 'total' column as it's no longer needed
+merged_data <- merged_data %>% select(-total)
+
+# Plot the graph with the correct dataset and aesthetics
+ggplot(merged_data[merged_data$year >= 1500, ], aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = num_instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  xlim(1600, NA) +
+  geom_smooth(method = "loess", se = FALSE, color = "purple") +
+  labs(title = "Relative Frequency of PROG in IcePAHC",
+       x = "Year",
+       y = "Rel. freq.",
+       subtitle = "") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+ggplot(merged_data, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = num_instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency vs. Year",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year with dot size based on instances and color based on genre") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  geom_smooth(method = "glm", se = FALSE)
+
+ggplot(merged_data, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = num_instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency vs. Year",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year with dot size based on instances and color based on genre") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  xlim(1600, NA) +
+  geom_smooth(method = "loess", se = FALSE)
+
+ggplot(merged_data, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = num_instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  geom_smooth(method = "loess", se = FALSE, color = "purple") +
+  xlim(1600, NA) +
+  labs(title = "Relative Frequency of PROG in IcePAHC",
+       x = "Year",
+       y = "Rel. freq.",
+       subtitle = "") +
+  theme_minimal()
+
+
+
+ggplot(merged_data, aes(x = year, y = relative_frequency, color = genre, size = num_instances)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency of PROG in IcePAHC",
+       x = "Year",
+       y = "Rel. freq.",
+       subtitle = "") +
+  theme(legend.position = "bottom") +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  theme_minimal()
+
+ggplot(merged_data, aes(x = year, y = relative_frequency, color = genre, size = num_instances)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency of PROG in IcePAHC",
+       x = "Year",
+       y = "Rel. freq.",
+       subtitle = "") +
+  theme(legend.position = "bottom") +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  theme_minimal()
+
+
+library(ggplot2)
+
+# Aggregate the data by century, label and tense
+progpost_agg2 <- progpost %>%
+  group_by(century, label, tense) %>%
+  summarise(count = n())
+
+ggplot(progpost_agg2, aes(x = century, y = count, fill = tense)) +
+  geom_col(position = "stack") +
+  facet_wrap(~label, nrow = 2) +
+  scale_fill_viridis_d() +
+  scale_x_continuous(limits = c(15, NA), breaks = seq(16, 20, by = 2)) 
+  labs(title = "Stacked Bar Plot of Label and Tense by Century",
+       x = "Century",
+       y = "Count",
+       fill = "Tense") +
+  scale_color_viridis_d() +
+  theme_minimal()
+
+ggplot(progpost_agg2, aes(x = century, y = count, fill = tense)) +
+    geom_col(position = "stack") +
+    facet_wrap(~label, nrow = 2) +
+    scale_fill_viridis_d() +
+    scale_x_continuous(limits = c(15, NA), breaks = seq(16, 20, by = 2)) +
+    labs(title = "PROG by Century in IcePAHC",
+         x = "Century",
+         y = "Count",
+         fill = "Tense") +
+    scale_color_viridis_d() +
+    theme_minimal() +
+    scale_fill_manual(values = viridis_pal()(4),
+                      labels = c("BEDI" = "PST",
+                                 "BEDS" = "PST-SBJ",
+                                 "BEPI" = "PRS",
+                                 "BEPS" = "PRS-SBJ")) +
+  theme_minimal()
+  
+
+progpost_agg3 <- progpost %>%
+  group_by(century, label, tense) %>%
+  summarise(count = n())
+
+
+ggplot(progpost_agg2, aes(x = century, y = count, fill = tense)) +
+  geom_col() +
+  facet_wrap(~label, nrow = 2) +
+  scale_fill_brewer(type = "qual", palette = "Set1") +
+  labs(title = "Proportions of Labels and Tenses Over Time",
+       x = "Century",
+       y = "Count") +
+  scale_x_continuous(limits = c(15, NA), breaks = seq(16, 20, by = 2)) +
+  theme(legend.position = "bottom") +
+scale_color_viridis_d() +
+  theme_minimal() 
+
+
+
+
+
+
+
+mean_year <- mean(merged_data$year)
+merged_data$centered_year <- merged_data$year - mean_year
+
+
+
+merged_data$integer <- merged_data$num_instances*round(merged_data$relative_frequency*10)
+
+library(lme4)
+progmodel <- glm(rounded_relative_frequency ~ mean_year, data = merged_data, family = poisson(link = "log"))
+summary(progmodel)
+exp(0.010082)
+
+warnings()
+
+
+pcentered_model1 <- glmer(integer ~ centered_year + genre + (1|textid), data = merged_data, family = poisson(link = "log"))
+summary(pcentered_model1)
+warnings()
+pcentered_model2 <- glmer(integer ~ centered_year + (1|textid), data = merged_data, family = poisson(link = "log"))
+summary(pcentered_model2)
+pcentered_model3 <- glmer(integer ~ centered_year*genre + (1|textid), data = merged_data, family = poisson(link = "log"))
+summary(centered_model3)
+
+summary(pcentered_model1)
+summary(pcentered_model2)
+summary(pcentered_model3)
+
+
+subset_merged_data <- subset(merged_data, year >= 1400)
+pcentered_model1 <- glmer(integer ~ centered_year + genre + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model1)
+warnings()
+
+pcentered_model2 <- glmer(integer ~ centered_year + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model2)
+
+pcentered_model3 <- glmer(integer ~ centered_year*genre + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model3)
+
+
+subset_merged_data$standardized_year <- scale(subset_merged_data$centered_year)
+
+pcentered_model1 <- glmer(integer ~ standardized_year + genre + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model1)
+warnings()
+
+pcentered_model2 <- glmer(integer ~ standardized_year + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model2)
+
+pcentered_model3 <- glmer(integer ~ standardized_year*genre + (1|textid), data = subset_merged_data, family = poisson(link = "log"))
+summary(pcentered_model3)
+
+r.squaredGLMM(pcentered_model3)
+
+anova(pcentered_model1, pcentered_model3)
+
+install.packages("coefplot")
+library(coefplot)
+
+# Extract fixed effects
+fixed_effects <- fixef(pcentered_model3)
+
+# Plot fixed effects with confidence intervals
+coefplot(fixed_effects, pcentered_model3, confint.level = 0.95)
+
+# Plot fixed effects with confidence intervals
+coefplot(pcentered_model3, confint.level = 0.95)
+
+coefplot(pcentered_model3, confint.level = 0.95,
+         xlab = "Estimate", ylab = "Fixed Effects",
+         main = "Fixed Effects with 95% Confidence Intervals")
+
+subset_merged_data$predictions <- predict(pcentered_model3, newdata = subset_merged_data, type = "response", re.form = NA)
+
+library(ggplot2)
+
+
+prog1400_plot <- ggplot(subset_merged_data, aes(x = year, y = relative_frequency, color = genre, size = num_instances)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() + 
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(title = "PROG in IcePAHC (Subset)",
+       x = "Year",
+       y = "Rel. freq",
+       subtitle = "") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+prog1400_plot
+
+ggplot(subset_merged_data, aes(x = year, y = predictions, color = genre)) +
+  geom_point() +
+  geom_line() +
+  labs(title = "Predictions vs. Actual Years",
+       x = "Year",
+       y = "Predictions") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+# Create a function to calculate standard errors
+se <- function(x) sqrt(diag(vcov(x)))
+
+# Calculate the standard errors for the fixed effects
+fixed_effects_se <- se(pcentered_model3)
+
+
+
+# Run bootstrap with 500 iterations (increase the number for more accuracy)
+boot_results <- bootMer(pcentered_model3, FUN = function(x) fixef(x), nsim = 500)
+
+# Calculate the standard errors for the fixed effects
+fixed_effects_se <- apply(boot_results$t, 2, sd)
+
+# Calculate the standard errors for the predictions
+# Calculate the standard errors of the predictions
+predictions_se <- predict(pcentered_model3, newdata = subset_merged_data, type = "link", re.form = NA)
+predictions_se <- sqrt(diag(vcov(pcentered_model3)) %*% t(as.matrix(model.matrix(pcentered_model3, subset_merged_data)))^2)
+
+
+
+pchisq( -0.82514, 2, lower.tail = FALSE)
+pchisq(abs(-82.585), abs(2), lower.tail = FALSE)
+
+
+# Calculate the standard errors of the predictions
+predictions_se <- predict(pcentered_model3, newdata = subset_merged_data, type = "response", se.fit = TRUE)$se.fit
+library(ggplot2)
+
+ggplot(subset_merged_data, aes(x = year, y = relative_frequency, color = genre)) +
+  geom_point(aes(y = predictions), alpha = 0.5, shape = 1) +
+  geom_line(aes(y = predictions)) +
+  geom_ribbon(aes(ymin = predictions - 1.96 * predictions_se,
+                  ymax = predictions + 1.96 * predictions_se),
+              alpha = 0.2) +
+  labs(title = "Predictions and Relative Frequency with 95% Confidence Intervals",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+
+
+exp(0.011346)
+
+
+merged_data$predicted <- predict(centered_model2, merged_data, type = "response")
+ggplot(merged_data, aes(x = year, y = integer)) +
+  geom_point() +
+  geom_line(aes(y = predicted)) +
+  labs(title = "Centered Year vs Rounded Relative Frequency",
+       x = "Centered Year",
+       y = "Rounded Relative Frequency") +
+  theme_minimal() +
+  scale_color_discrete(name = "Genre")
+
+merged_data$predicted <- predict(centered_model2, merged_data, type = "response")
+
+library(MuMIn)
+r.squaredGLMM(pcentered_model2)
+r.squaredGLMM(pcentered_model1)
+r.squaredGLMM(pcentered_model3)
+
+
+ggplot(merged_data, aes(x = year, y = integer)) +
+  geom_point() +
+  geom_line(aes(y = predicted)) +
+  labs(title = "Centered Year vs Rounded Relative Frequency",
+       x = "Centered Year",
+       y = "Rounded Relative Frequency") +
+  theme_minimal() +
+  scale_color_discrete(name = "Genre")
+
+
+
+
+ggplot(merged_data[merged_data$year >= 1500, ], aes(x = year, y = relative_frequency, size = num_instances)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = FALSE, color = "blue") +
+  labs(title = "Scatter plot with regression line",
+       x = "Centered Year",
+       y = "Rounded Relative Frequency")
+
+ggplot(merged_data[merged_data$year >= 1500, ], aes(x = year, y = relative_frequency, size = num_instances)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "blue") +
+  labs(title = "PROG in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency")
+
+
+merged_data$residuals2 <- residuals(centered_model1, type = "deviance")
+
+ggplot(merged_data, aes(x = centered_year, y = residuals2)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Residual plot",
+       x = "Centered Year",
+       y = "Deviance Residuals")
+
+
+library(dplyr)
+
+merged_data <- progpost %>%
+  left_join(buinn_all[, c("textid", "total")], by = "textid")
+
+
+
+library(dplyr)
+
+# Aggregate the number of instances per textid
+progpost_agg <- progpost %>%
+  group_by(textid, year, genre) %>%
+  summarize(num_instances = n())
+
+# Merge 'total' column from buinn_all to progpost_agg based on 'textid'
+merged_data <- progpost_agg %>%
+  left_join(buinn_all[, c("textid", "total")], by = "textid")
+
+# Calculate the relative frequency per textid
+merged_data <- merged_data %>%
+  mutate(relative_frequency = num_instances / total * 100)
+
+# Now you can join the progpost dataframe with the merged_data to add the relative_frequency column
+progpost_final <- progpost %>%
+  left_join(merged_data[, c("textid", "relative_frequency")], by = "textid")
+
+
+library(ggplot2)
+
+
+
+library(ggplot2)
+
+# Create a scatterplot of relative_frequency vs. year
+ggplot(merged_data, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(color = textid), alpha = 0.7) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency vs. Year",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+
+
+
+
+
+
+library(dplyr)
+
+# Aggregate the number of instances per textid
+instances_per_textid <- merged_data %>%
+  group_by(textid, year, genre) %>%
+  summarize(instances = n(),
+            relative_frequency = mean(relative_frequency))
+
+# Create a scatterplot with size and color adjustments
+ggplot(instances_per_textid, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency vs. Year",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year with dot size based on instances and color based on genre") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+
+library(ggplot2)
+library(viridis)
+
+# Create a scatterplot with size and color adjustments
+ggplot(progpost_agg, aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = num_instances, color = genre), alpha = 0.7) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d() +
+  labs(title = "Relative Frequency vs. Year",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year with dot size based on instances and color based on genre") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+
+
+
+
+
+ggplot(progpost_agg, aes(x = century, y = mean_relative_frequency, color = label, shape = tense)) +
+  geom_point(size = 3) +
+  labs(title = "Mean Relative Frequency per Century",
+       x = "Century",
+       y = "Mean Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+
+# Fit a linear regression model
+model <- glm(relative_frequency ~ year, data = progpost2, family = quasibinomial)
+
+# Display model summary
+summary(model)
+
+
+
+ggplot(subset_merged_data, aes(x = year, y = relative_frequency,size = num_instances)) +
+  geom_point() +
+  scale_color_viridis() +
+  scale_size(range = c(1, 10)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "blue") +
+  labs(title = "PROG in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+ggplot(subset_merged_data, aes(x = year, y = relative_frequency, size = num_instances)) +
+  geom_point(aes(color = factor(genre)), alpha = 0.7) +
+  scale_color_viridis(discrete = TRUE) +
+  scale_size(range = c(1, 10)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "purple") +
+  labs(title = "PROG in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency",
+       color = "Genre") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+
+modelsimpprog <- glm(integer ~ standardized_year, data = subset_merged_data, family = poisson(link = "log"))
+summary(modelsimpprog)
+exp(2.46005)
+
+subset_merged_data$predictions <- predict(modelsimpprog, newdata = subset_merged_data, type = "response")
+
+# Create a scatterplot of the predicted values versus the actual year
+ggplot(subset_merged_data, aes(x = year, y = predictions)) +
+  geom_point() +
+  labs(title = "Predicted Values vs. Actual Year",
+       x = "Actual Year",
+       y = "Predicted Values")
+
+
+
+# Obtain the predicted values for the model
+subset_merged_data$predictions <- predict(pcentered_model3, newdata = subset_merged_data, type = "response")
+
+# Compute the total predicted values
+total_predicted <- sum(subset_merged_data$predictions)
+
+# Create a new column with the rescaled predicted values
+subset_merged_data$rescaled_predictions <- subset_merged_data$predictions / subset_merged_data$num_instances
+subset_merged_data$rescaled_predictions <- (subset_merged_data$rescaled_predictions)/10
+
+ggplot(subset_merged_data, aes(x = year, y = rescaled_predictions)) +
+  geom_point() +
+  labs(title = "Rescaled Predicted Values vs. Actual Year",
+       x = "Actual Year",
+       y = "Rescaled Predicted Values")
+
+
+
+ggplot(subset_merged_data, aes(x = year, y = relative_frequency, size = num_instances)) +
+  geom_point(aes(color = factor(genre)), alpha = 0.7) +
+  scale_color_viridis(discrete = TRUE) +
+  scale_size(range = c(1, 10)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "purple") +
+  labs(title = "PROG in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency",
+       color = "Genre") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+
+
+ggplot(subset_merged_data, aes(x = year, y = rescaled_predictions)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "purple") +
+  geom_point(color = "blue") +
+  geom_point(aes(y = relative_frequency), color = "red") +
+  scale_color_viridis() +
+  labs(title = "Rescaled Predictions and Rescaled Regression Predictions vs. Actual Year",
+       x = "Actual Year",
+       y = "Relative Frequency") +
+  theme_minimal()
+

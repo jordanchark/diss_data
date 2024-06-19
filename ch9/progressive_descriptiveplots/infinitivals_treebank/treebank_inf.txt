@@ -1,0 +1,938 @@
+label	subgenre	century	lexicaldiversity	genre	textid	treeid	text
+IP-MAT	lin	12	0.29	sci	firstgrammar	77	En það er gott að vita sem fyrr var getið er svo kveður að hverjum raddarstaf í hverju máli sem hann heitir í stafrófi nema þá er hann hafnar sínu eðli og hann má heldur þá samhljóðandi heita en raddarstafur
+IP-MAT	ser	12	0.17	rel	homiliubok	185	Menn þeir er bera kennimannanöfn og vígslur yfir ólærðum mönnum þeir eru skyldir að þjóna Guði skapera sínum á öllum hátíðum með tvinnri þjónustu
+IP-MAT	ser	12	0.17	rel	homiliubok	186	þeir eru skyldir að þjóna Guði skapera sínum á öllum hátíðum með tvinnri þjónustu Þeirri annarri að veita tíðagjörð í heyrn yður slíka sem til hverrar hátíðar er gjör á bókum og reka svo erindi yðvart við Guð að halda fyr yður bænum þeim er til eru settar
+IP-SUB	ser	12	0.17	rel	homiliubok	203	En þó er hennar hreinlífi dýrlegra en annarra því að meiri vegur er að sýna in bestu dæmi en eftir að glíkja
+IP-MAT	ser	12	0.17	rel	homiliubok	284	Á jörðu er mönnum skylt að fagna dýrð hennar því að hún vill hjálpa öllum þeim er hana dýrka
+IP-MAT	ser	12	0.17	rel	homiliubok	381	Og eigi er maður skyldur að gefa framar
+IP-MAT	ser	12	0.17	rel	homiliubok	597	En þó að allra mest þyki það til hátíða koma að ræða of þekktarhluti þá er þó enn sem nauðsyn beiði að láta yður vita við hví varast skal alls þó verður mjög langt á meðal áminninganna
+IP-MAT	ser	12	0.17	rel	homiliubok	608	Sicut þeim manni verður harla þungt að svimma ef hann vill eigi kasta fötum sínum áður af sér hvort er hann svimmur í sjó eða vatni þá er þó torveldlegri byrður öndinni að komast með syndirnar í loftið upp
+IP-SUB	ser	12	0.17	rel	homiliubok	622	Nú svo sem vanur er veiðimaðurinn að verpa þar neti sínu er hann veit mestrar veiði von svo gerði og Guðs sonur að hann beið þessa fjölmennis og gaf huggera vinum sínum á þeirri tíð er menn mætti víðast bera lof hans og segja hverjar vingjafar hann veitti ástmönnum sínum
+IP-MAT	ser	12	0.17	rel	homiliubok	656	Það var síðan önn ólítil að skíra þá menn er til trúu komu
+IP-MAT	ser	12	0.17	rel	homiliubok	721	og er oss boðið að halda minning lausnar vorrar til þess að vér gleymim eigi miskunn Guðs
+IP-MAT	ser	12	0.17	rel	homiliubok	827	Allar sakar eru smáar og fáar þær er órir bræður gera við oss við það að virða er vér gerum við vorn almáttkan föður
+IP-SUB	ser	12	0.17	rel	homiliubok	856	Það er svo rétt skilið Þó að svo illa hafim vér fyr oss leitað er vér vorum Guðs börn að nú séim vér djöfuls mansmenn og synda þjónar og þýjar að Guð frelsi oss frá þeirri ánauð svo að vér þjónim hans réttlæti og standimst freistni og megim fyrgefa þeim er oss misbjóða til þess að Guð fyrgefi oss órar syndir svo að vér séim maklegir að taka þeirrar styrktar brauð er vér lifim að Guðs þokka svo að vér verðim himinríkis menn og heilög Guðs börn honum að öllu þokkuð eftir dómadag þá er vér erum að fullu frelst frá öllu illu frá helvíti og djöfli og öllum hans árum frá öllum svikum og frá sótt og dauða og öllum synda vítum og öllum þessa heims meinum í fullri sælu og eilífum fagnaði ei og ei
+IP-MAT	ser	12	0.17	rel	homiliubok	1047	En nú er að ræða of þá er undir miskunn vóru og náðu að sjá Krist í mennskum líkam og heyra orð hans og kenningar og styrkjast af hans jarteinum
+IP-MAT	ser	12	0.17	rel	homiliubok	1078	en það er að helga kirkju Jóhanni baptista er fyrstur kenndi mönnum synda iðrun
+IP-SUB	ser	12	0.17	rel	homiliubok	1118	Það vil eg og segja yður að aldregi verða syndir órar svo stórar eða svo margar að eigi vilji Guð þegar fyrgefa þær ef af er látið að misgjöra og svo yfirbætt sem máttur er til
+IP-MAT	ser	12	0.17	rel	homiliubok	1189	Svo var fyrst að farið að skipta heiminum í þriðjunga
+IP-MAT	ser	12	0.17	rel	homiliubok	1568	en þó er oss bannað að fara ina sömu götu aftur alls vér kenndum Jesúm
+IP-MAT	ser	12	0.17	rel	homiliubok	1706	Það er svo að skilja að maður matist hvern dag og aldregi sem fýsir
+IP-MAT	ser	12	0.17	rel	homiliubok	1772	Það er rétt páskahald að halda siðlæti öllu inu sama sem of föstu og viðsjá synda
+IP-SUB	ser	12	0.17	rel	homiliubok	1836	Kristur lét sér sóma að deyja meðal vondra manna og þeim dauða sem títt var að bana vændismönnum að hann sýndi sig til þess hafa komið í heim að samtengja góða menn og illa þeirri samtengingu er illir menn mætti batna af samvistum góðra og hverfa frá illsku en þeim yrði að áfallsdómi er eigi vildi batna
+IP-SUB	ser	12	0.17	rel	homiliubok	1909	Upprisutíð Drottins sú er vér höldum nú er æðst og helgust allra hátíða þeirra er oss sé boðnar að halda í þessum heimi
+IP-SUB	ser	12	0.17	rel	homiliubok	2196	Af því megum vér merkja hversu skyldir vér erum að fylla það er Guð býður oss til syndabótar er Kristur sjálfur eða móðir hans létu sér sóma syndalaus að ganga undir lög þau er syndgum mönnum vóru til hreinsunar sett
+IP-MAT	sag	13	0.21	rel	jartein	2553	Menn voru að tjalda kirkju á einhverjum bæ
+IP-MAT	sag	13	0.21	rel	jartein	2570	Var þar hvorki að sjá til værleika né verknaðar
+IP-MAT	sag	13	0.21	rel	jartein	2782	En þá var fengin til öx mikil að höggva þelann
+IP-MAT	sag	13	0.21	rel	jartein	2949	og var það rætt í hvers manns híbýlum daglega að segja frá hans jarteinum og heilagleik
+IP-SUB	sag	13	0.25	rel	thorlakur	3141	Gjörði hann það maklega þótt hann virði hann mikils í sinni umræðu því að það var honum í að launa
+IP-SUB	sag	13	0.25	rel	thorlakur	3417	Sá hann hve mikil nauðsyn á var gott að kenna sem Davíð segir í saltara Komið þér synir
+IP-MAT	sag	13	0.25	rel	thorlakur	3454	Þess er og að geta er Þorlákur biskup elskaði þann stað mest þegar er Skálholt leið er hann hafði áður prýddan með sinni aðvist
+IP-MAT	sag	13	0.25	rel	thorlakur	3477	Nú er að segja af hversdagsháttum hins sæla Þorláks biskups hve jafnlyndur hann var í góðum hlutum
+IP-SUB	sag	13	0.25	rel	thorlakur	3486	Hann var svo jafnlyndur í föstum sínum þá hann var heima en í vökum og bænahaldi hvort sem hann var heima eða eigi að til hins sama var ey að ætla
+IP-MAT	sag	13	0.25	rel	thorlakur	3598	og var í sönghúsi þrjár nætur að bíða graftrar
+IP-MAT	sag	13	0.18	nar	sturlunga	4687	Jafnframt þessu er að segja frá Sturlu
+IP-MAT	sag	13	0.18	nar	sturlunga	5710	COM:Chapter_306 Frá ferð Órækju er það að segja að hann kom til Laugarvatns um dagseturs skeið
+IP-SUB	sag	13	0.32	nar	thetubrot	6113	lét Þorsteinn þar að vera marga menn um vorið því að það er löng leið að gerða
+IP-MAT	sag	13	0.16	nar	jomsvikingar	6223	og er títt að reyna þessa vitru hennar og tilskipan
+IP-MAT	sag	13	0.16	nar	jomsvikingar	6434	Nú er þar til máls að taka er þeir eru feðgar Haraldur og Gormur konungur að þeir urðu ósamþykkir þegar er Haraldur hafði nokkurn kraft aldursins
+IP-MAT	sag	13	0.16	nar	jomsvikingar	6775	Nú er fyrst að segja frá keisaranum og þeim hinum mikla her er hann hafði að þeir ganga á land upp þá er þeir koma við Danmörk og sjá Danavirki og þykir eigi vera auðvelligt að sækja ef varnarmenn eru fyrir og hverfa frá og ofan til skipa sinna og ganga á skip út
+IP-SUB	sag	13	0.16	nar	jomsvikingar	6884	og megu nú sjá það að þeir fá eigi náð skipunum þvíað þeir keisari hafa þar yfirsókn og sýnist nú rállegast að svo vöxnu máli sem var að senda menn á fund Óttu keisara og Ólafs Tryggvasonar
+IP-MAT	sag	13	0.16	nar	jomsvikingar	6934	Nú er að segja frá því er gerðist í ferð Hákonar jarls þá er hann fór heim til Noregs að hann kom við Gautland
+IP-MAT	sag	13	0.16	nar	jomsvikingar	7036	Nú er að segja frá Haraldi konungi þá er hann fregn að Áki var farinn til boðsins
+IP-SUB	sag	13	0.16	nar	jomsvikingar	7066	og var það mest fyrir því að honum þóttu ósýnar hefndirnar við þann sem um var að eiga reyndar er konungur var sjálfur
+IP-MAT	sag	13	0.16	nar	jomsvikingar	7306	Nú er frá því að segja þá er voraði
+IP-MAT	law	13	0.19	law	gragas	7769	Þar er kostur að lýsa sér hvort frumhlaup og drep
+IP-MAT	law	13	0.19	law	gragas	7865	Lagalöstu þessa alla sem hér eru taldir um víg og um sár og um drep og um öll frumhlaup er rétt að lýsa fyrir vettvangsbúum fimm þeim er réttir sé að leiðarlengd í níu búa kvið frá vettvangi og vanda að engu annars
+IP-MAT	his	13	0.18	nar	morkin	8390	og var síð of aftaninn tekið að berjast
+IP-MAT	his	13	0.18	nar	morkin	8731	Nú er þar til að taka að Ragnhildur konungsdóttir fer til Sveins konungs
+IP-MAT	his	13	0.18	nar	morkin	8868	En það er að segja frá Haraldi konungi að hann hefir þing of morgininn
+IP-MAT	his	13	0.18	nar	morkin	9465	en vant er nú að yrkja eftir er Þjóðólfur kvað áður og þér fyrst að upphafi
+IP-SUB	sag	14	0.21	nar	alexander	10207	Þessi sveinn Alexander var í skóla settur sem siðvenja er til ríkra manna utanlands að láta gera við börn sín
+IP-SUB	sag	14	0.21	nar	alexander	10546	Og því skundar hann svo að þaðan sem hann var þá staddur er að fara inn í megin landsins um þröngva dali og miklar torfærur
+IP-MAT	sag	14	0.21	nar	alexander	10558	Tólf þjóðir voru til settar að varðveita þenna blótskap þær er á sína tungu mælti hver
+IP-MAT	sag	14	0.21	nar	alexander	10587	Nú er að segja frá Alexandro að hvar sem hann fer þá stökkur landsfólkið undan og eyðir héruðin
+IP-MAT	sag	14	0.21	nar	alexander	10689	Nú er að segja frá Dario konungi að þá er hann er kominn fram að þröngva dal þeim er fyrr var getið með allan her kemur í mót honum með mikla riddarasveit gerskur maður einn sá er Timodes hét
+IP-MAT	sag	14	0.21	nar	alexander	10775	Og ef hann skyldi kjósa hvort hann vildi heldur flýja og hafa sigur eða verjast úr stað og vera sigraður af flóttamönnum væri sá einn fyr hendi að taka þann kost annan hvorn
+IP-MAT	sag	14	0.21	nar	alexander	10807	Nú er frá því að segja að Alexander fylkir liði sínu
+IP-MAT	sag	14	0.21	nar	alexander	10846	Og engi er það mildi að þyrma mótstöðumönnum sínum í bardaga
+IP-MAT	sag	14	0.21	nar	alexander	10866	Frá því er nú að segja að hér verður kostur að sjá sem ætla má mörg og ágætlig vopn
+IP-MAT	sag	14	0.21	nar	alexander	10875	En það var allt látið niðri liggja er þeim hafði til svívirðingar gerst
+IP-MAT	sag	14	0.21	nar	alexander	10881	En það er að segja frá ævilokum Cyri konungs þess er hvervetna er getið á bókum að drottning ein sú er Tomyris hét reis í mót honum
+IP-MAT	sag	14	0.21	nar	alexander	10983	Frá því er nú að segja að sá maður gengur hart fram í liði Serkja er Negusar heitir
+IP-MAT	sag	14	0.21	nar	alexander	11293	Það er nú næst að segja frá Alexandro konungi að hann fer yfir ána Euphraten með allt lið sitt
+IP-MAT	sag	14	0.21	nar	alexander	11571	Það er nú að segja frá Alexandro konungi að hann hefir lagst til svefns
+IP-MAT	sag	14	0.2	nar	grettir	11741	Var Gretti ætlað að leika við
+IP-MAT	sag	14	0.2	nar	grettir	12334	Nú er að segja frá berserkjunum að þeim þótti Gretti dveljast afturkoman
+IP-MAT	sag	14	0.2	nar	grettir	12354	Var það hin mesta mannhætta að fást við þá fyrir afls sakir þó að þeir hefðu eigi vopn
+IP-MAT	sag	14	0.2	nar	grettir	12398	Var þá farið að leita berserkjanna þeirra sem undan höfðu komist um kveldið
+IP-MAT	sag	14	0.2	nar	grettir	12562	Var þá ekki að metast við aðra um atgönguna
+IP-MAT	sag	14	0.2	nar	grettir	13456	Annan dag jóla var farið að leita við enn að færa Glám til kirkju
+IP-SUB	sag	14	0.2	nar	grettir	13458	og gátu þeir hvergi fært hann þegar sléttlendið var og eigi var forbrekkis að fara
+IP-SUB	sag	14	0.21	nar	arni	13879	Hann tjáði og það fyrir honum að það væri biskupleg skylda að eggja fólk á þá hluti sem þeim væri bæði í sæmd og uppreist siðbót og nauðsyn
+IP-MAT	sag	14	0.21	nar	arni	13916	Magnús kóngur var beðinn að sitja hjá dómi
+IP-MAT	sag	14	0.21	nar	arni	14539	Nú er í annan stað frá Loðin að segja
+IP-MAT	sag	14	0.21	nar	arni	14553	Var það þá ráðs tekið er hún var skoðuð að lögtaka hana ei alla
+IP-SUB	sag	14	0.21	nar	arni	14562	og það hafa og halda sem Magnús kóngur gaf þeim að allir menn séu frjálsir í þessu landi sínu góssi að ráða um lögaura og dilkfjáreign um búfjárábyrgð og skildaga er að öngvu skal hafa um ábyrgð á fúlgufé og hversu af höndum skal lúka um vinnumenn og leiguföll um þjófafærslur og heytökur um fjárhald ómaga um fátækra manna flutning
+IP-SUB	sag	14	0.21	nar	arni	14754	En er biskup vissi þessar greinir tók hann senn úr að það væri yfirdrepskapur Ásgríms að láta fyrir þeim manni líklegast er biskup trúði framast því að það mátti alla tíma djarflega segja að hjá Runólfi ábóta mundi annar endir mála Árna biskups
+IP-MAT	sag	14	0.2	nar	bandamennM	14830	Þá var hann beðinn af vinum sínum að staðfestast hér
+IP-MAT	sag	14	0.2	nar	bandamennM	15259	Nú er þar til að taka að Ófeigur karl gengur upp á völluna og til dómanna
+IP-MAT	sag	14	0.16	nar	finnbogi	16629	Nú er að segja frá Finnboga
+IP-MAT	sag	14	0.16	nar	finnbogi	17373	Það er nú að segja frá Hrafni
+IP-SUB	sag	14	0.16	nar	finnbogi	17704	Jökull sá að þetta mundi svo fara með því að hann mæddi mjög blóðrás og það að Svartur stóð með reidda rekuna og var búinn að slá hann með
+IP-MAT	sag	14	0.16	nar	finnbogi	17990	Var hann og jafnan síðan formælandi það að styrkja og styðja sem hinir ágætustu menn boðuðu
+IP-MAT	sag	14	0.16	nar	finnbogi	18157	Þar er til að taka sem Finnbogi er heima að Borg
+IP-SUB	sag	14	0.24	rel	marta	18355	Hið fyrsta tákn af þessum segir Comestor á þá leið in Historiis evangeliorum að þá er drottinn Jesús var beðinn að fara til húsa þess höfðingja er Jarkus hét að reisa af dauða dóttur hans þröngdu honum mjög á veginum miklir flokkar þeirra manna sem sumir vildu heyra kenningar hans sumir þiggja af honum lækning sumir að undrast tákn hans sumir að finna að atferð hans
+IP-MAT	sag	14	0.24	rel	marta	18423	Í friði var henni boðið að fara að hún gengi um sannleiksgötur en dræpi eigi fótum í áhlekkingar
+IP-SUB	sag	14	0.24	rel	marta	18428	Og er þessi grein haldandi í milli peccatum og delictum að delictum verður í tjón góðra verka ef maður vinnur eigi vinnandi hluti en peccatum er að vinna óvinnandi hluti
+IP-MAT	sag	14	0.24	rel	marta	18468	það er að skilja sú sála sem sjálfur guð gerði sér til herbergis fyrirkemur sér með saurlífis synd
+IP-MAT	sag	14	0.24	rel	marta	18487	Mikil tign er að þiggja slíka vináttu af guðs syni og maklig miklu lofi
+IP-MAT	sag	14	0.24	rel	marta	18550	Það er svo að skilja að sá sem á mig trúir þótt hann hafi dauður verið í líkam mun lifa í önd þar til er hann lifnar og hörund hans sú er þá lifnar mun aldrei deyja þaðan af
+IP-MAT	sag	14	0.24	rel	marta	18885	Og það er eigi vor að greina því að hin fyrstu sjö ár nærði hún heldur en fæddi sinn líkam með hnotum og grasarótum hrám og skógareplum svo sem hún mátti minnst lifa við
+IP-MAT	sag	14	0.24	rel	marta	19224	Makligt er að votta minniligt tákn og opinbert það er guðlig mildi gerði fyrir verðleika sællar Maríu Magdalenu í hennar fyrrnefndu klaustri að ásjáöndum mörgum mönnum
+IP-SUB	sag	14	0.24	rel	marta	19251	og sveipuðu dúkum sem þar var siður til um dauða menn að búa
+IP-MAT	sag	15	0.21	nar	gunnar	19332	Það var hans iðn að geyma fjár vetur og sumar
+IP-MAT	sag	15	0.21	nar	gunnar	19468	En frá Þorgrímssonum er það að segja að Jökull talaði við bróður sinn Við skulum fara til Keldugnúps og drepa þá Helga og Gunnar fyrir sín illvirki
+IP-MAT	sag	15	0.21	nar	gunnar	19590	Nú er þar til að taka að Þorbjörn var heima og Helgi son hans
+IP-MAT	sag	15	0.21	nar	gunnar	20174	Það er af Helga að segja að hann fékk fæð mikla
+IP-MAT	sag	15	0.35	nar	gunnar2	20559	Nú er þar frá að segja að Gunnar ríður heiman einn dag að finna Þórdísi til að bjóða henni bætur eftir Örn bónda
+IP-MAT	sag	15	0.2	nar	viglundur	20938	Nú er þar til að taka sem þeir bræður Jökull og Einar gerðust mjög óspakir í héraðinu
+IP-MAT	sag	15	0.2	nar	viglundur	21058	Nú er þar til að taka er þeir bræður Víglundur og Trausti gengu einn dag til hrossa sinna
+IP-MAT	sag	15	0.21	nar	bandamenn	21936	Þá var hann beðinn af vinum sínum að staðfestast hér
+IP-MAT	sag	15	0.21	nar	bandamenn	22139	Það er að segja um haustið er menn fóru á fjall af Mel að mjög skaut í tvö horn um heimtur Odds sem verið hafði
+IP-MAT	sag	15	0.2	nar	ectorssaga	23204	Þar er nú til að taka að Florenkíus ríður fram á einn skóg myrkvan og þrögvan
+IP-MAT	sag	15	0.2	nar	ectorssaga	23416	Nú er frá því að segja að hinn frækni Fennakíus skilur við sína lagsmenn ríðandi svo marga daga um þykkvar merkur og þröngva skóga þar til sem að kveldi eins dags kemur hann fram að einu rjóðri Sjáandi í einum stað í rjóðrinu nokkurn ókyrrleika ríðandi þangað
+IP-MAT	sag	15	0.2	nar	ectorssaga	23601	Er nú þar til að taka að fram á skóginn ríður riddari Alanus ríðandi svo vii-7 daga ii samt hugleiðandi um sitt efni og hvílandi sinn hest að hann skyldi eigi springa af mæði Rétt þar til sem árla um einn morgun kemur hann í eitt rjóður
+IP-MAT	sag	15	0.2	nar	ectorssaga	23608	og eru nú að klæðast og vopnast
+IP-MAT	sag	15	0.2	nar	ectorssaga	23737	En nú er þar til að taka að Lukíus vaknar ei með góðan hug er hann finnur Alanus í burtu en sængin köld er hann hafði legið
+IP-MAT	sag	15	0.2	nar	ectorssaga	24313	Var eigi langt að bíða áður en Alvernus féll af sínum hesti
+IP-SUB	sag	15	0.2	nar	ectorssaga	24347	Lofuðu allir hreysti þessa manns við svo mikið ofurefli sem var að eiga nema kóngs son og hans faðir voru svo reiðir að þeir geymdu eigi samviskunnar
+IP-MAT	sag	15	0.2	nar	ectorssaga	24469	er þar að ríða í milli einna braut fagra
+IP-SUB	sag	15	0.2	nar	ectorssaga	24488	Hann hafði stöng svo langa og digra að varla var manna megn að þola hans atreið
+IP-SUB	sag	15	0.2	nar	ectorssaga	24669	og hugsar með sér að það væri drengiligt að vinna bót kastalanum
+IP-MAT	sag	15	0.2	nar	ectorssaga	24818	En frá Jamunth er það að segja að hann sneri mót Estomaro
+IP-SUB	bib	15	0.29	rel	judit	25037	En er þaðan liðu tuttugu dagar þá var þrotið vatn allt í borginni svo að þá var eigi meir en dag að deila
+IP-MAT	sag	15	0.18	nar	vilhjalmur	25558	og hvaðan sem þú leist á hann var að sjá sem x menn gengi að að berjast
+IP-MAT	sag	15	0.18	nar	vilhjalmur	26033	Það er nú af Vilhjálmi að segja hann leiðir hest sinn af skipunum og fylgir dýrið honum
+IP-MAT	sag	15	0.18	nar	vilhjalmur	26236	og var eigi langt að bíða áður þeir kenndu niður
+IP-MAT	sag	15	0.18	nar	vilhjalmur	26464	Er nú oftast að eiga náttból út undir berum himni og grimmum dýrum
+IP-MAT	sag	15	0.18	nar	vilhjalmur	26627	og var honum gefið að drekka
+IP-MAT	sag	15	0.18	nar	vilhjalmur	26963	Nú er að segja frá Reginbald að hann lætur bera sitt merki í mót Erkúles
+IP-MAT	sag	15	0.18	nar	vilhjalmur	27179	Nú er að segja af Vilhjálmi og Menon kóngi að þeir fara þar til að þeir komu til Makdóníam í ríki Menons
+IP-MAT	sag	15	0.18	nar	vilhjalmur	27469	Nú er að segja frá Sjóð að hann er nú kominn nærri bardaganum og skynjar hversu fylkingar standa
+IP-MAT	sag	15	0.18	nar	vilhjalmur	27560	og var sá maður til fenginn að bera það er Nikaron hét
+IP-SUB	rel	15	0.19	nar	aevintyri	27768	Hér megi þér sjá hver voði það er að ræna annars manns góssi
+IP-MAT	rel	15	0.19	nar	aevintyri	27994	og var að eta draf og ónnur óhreinindi
+IP-SUB	rel	15	0.19	nar	aevintyri	28152	og þar fyrir var þeim settur dagur að hinn ríki maður skyldi eið sverja Því að allir sögðu að hann mundi eigi falskan eið sverja eftir því sem hann var beðinn satt að segja eigi fyrir gott eigi fyrir illt utan trúliga sverja sinn eið
+IP-SUB	rel	15	0.19	nar	aevintyri	28157	Í þessu ævintýri er yður sýnt hversu það er sverja ranga eiða sérliga við vorn herra eða hans helga dómna Því að hver maður er sver rangan eið fyrirlætur guð og hans vegu því að hver er sver falskan eið fyrirlætur fimm sæt þing guð almáttigan fyrst og allan hans félags skap
+IP-MAT	rel	15	0.19	nar	aevintyri	28384	Þá var og farið að kalla saman alla bræður þeirrar reglu sem siður er til að þeir skulu yfir standa þar sem einn hver deyr því að öllum sýnist hans dauði ráðinn þeim sem þar voru viðstaddir
+IP-SUB	rel	15	0.19	nar	aevintyri	28403	Sem svo hefir lengi fram farið kom svo til einn dag að hennar móðir kom þar inn gangandi sem þau voru að vinna sinn glæp
+IP-SUB	rel	15	0.19	nar	aevintyri	28510	Og sem hann er úti fara bræður allir til sinnar sængur utan einn varð eftir og gekk fyrir þá kapellu er bræður voru vanir að lúta
+IP-MAT	rel	15	0.19	nar	aevintyri	28600	En nú er þar til að taka sem keisarinn er í sinni pílagríms ferð
+IP-SUB	rel	15	0.19	nar	aevintyri	28859	Sem svo hafði áfram farið bar svo til einn dag að hennar móðir bar þar að sem þau voru að vinna sinn glæp
+IP-SUB	sag	15	0.22	nar	jarlmann	29545	og sagði að henni væri best að forvitnast
+IP-MAT	sag	15	0.22	nar	jarlmann	29958	og var þá Þorbjörg beðin að kveða
+IP-MAT	sag	16	0.24	nar	erasmus	30287	En á sjánna hans var að líta nálega sem á engla sakir prýðilegrar fegurðar er til hans var að líta
+IP-SUB	sag	16	0.24	nar	erasmus	30287	En á sjánna hans var að líta nálega sem á engla sakir prýðilegrar fegurðar er til hans var að líta
+IP-MAT	sag	16	0.24	nar	erasmus	30639	En frá keisaranum er það að segja
+IP-MAT	sag	16	0.24	nar	erasmus	30654	En í annan stað er að segja frá því að keisarinn lætur þegar um morguninn vitja myrkvastofunnar er Erasmus átti í vera
+IP-MAT	rel	16	0.17	nar	georgius	30792	Nú í annan stað er frá því og að segja að þeir bræður heilags Gergíi fá nú að fregna hvað tíðinda er
+IP-MAT	rel	16	0.17	nar	georgius	31446	Og í þeirri þokunni var að líta sem eitt skært ljós brynni
+IP-MAT	rel	16	0.17	nar	georgius	31716	og er sendimenn keisarans komu til hans. Þá var hann að mæla þessi orð Herra Jesús Cristus þér kann ég aldrei né heldur má full þakka fyrir það að þú hefur mér óverðugum hjálpað í mínum vandkvæðum Fyrst þá sem ég yfirvann Appollo afguð keisarans og nú í öðru sinni að ég varð ekki líflátinn af þeim vij. sverðum er minn líkama áttu að sníða í sundur
+IP-SUB	bib	16	0.24	rel	ntacts	32221	Og sjáðu að blálenskur maður geldingur og vildarmenni drottningarinnar Kandakes af Blálandi hver eð yfir var settur allar hennar fjárhirslur hann var farinn til Jerúsalem að tilbiðja
+IP-SUB	bib	16	0.24	rel	ntacts	32227	og heyrði að hann var að lesa Esaiam spámann
+IP-SUB	bib	16	0.24	rel	ntacts	32378	En á meðan þeir voru að búa til leið yfir hann brjósthöfgi VS:X_11P
+IP-MAT	bib	16	0.24	rel	ntacts	32757	VS:XVI_6P Og þá þeir gengu um Frýgiam og Galitíuríki var þeim forboðið af helgum anda að tala Guðs orð í Asía
+IP-SUB	bib	16	0.18	rel	ntjohn	34491	VS:XIX_40J Þá tóku þeir líkama Jesú og sveipuðu í líni með ilmandi smyrslum svo sem siður er til Gyðinga að greftra
+IP-SUB	oth	16	0.19	rel	eintal	34923	Og þó þeirra ásetningur væri að láta þetta ekki ske um páskahátíðina svo að ei yrði upphlaup með fólkinu þá var það þó áður fyrr ásett í ráði heilagrar þrenningar að þeirra ranglæti við þig skyldi á þeirri fjölmennu hátíð fram koma
+IP-SUB	oth	16	0.19	rel	eintal	35014	Hvör einn hópur í Ísrael skal slátra þessu lambi móti kvöldi og taka þess blóð og rýða því á dyrustafina og á efsta dyratréð hússins þar þeir inni eru að neyta lambsins
+IP-SUB	oth	16	0.19	rel	eintal	35113	Vakta þig einnin mín sál svo að þitt páskalamb sé í öngvan máta í vatni soðið Því þú skalt hvörki vana það sem drottinn þinn bauð þér og ei þar við auka Því að til ónýtis er það að vilja þjóna Guði með þeim kenningum sem ei eru nema mannanna boð og setningar
+IP-MAT	oth	16	0.19	rel	eintal	35536	En hann sagði til hans Herra reiðubúinn er eg með þér í fjötur og dauða að ganga
+IP-SUB	oth	16	0.19	rel	eintal	36095	Stolt er það á meðan vel gengur því það er ekki hægt að temja eða stilla
+IP-MAT	oth	17	0.3	rel	okur	36193	um hina er ekki að tala
+IP-MAT	oth	17	0.3	rel	okur	36211	Þess vegna er það hræðilegt og skelfilegt fyrir mannskepnuna að falla í reiðihendur lifanda guðs
+IP-MAT	oth	17	0.3	rel	okur	36266	og allmörgum af þeim er svo þvers um geð kristilega að lýsa sem einum soltnum hundi að fasta
+IP-SUB	oth	17	0.3	rel	okur	36390	Einn af þeim heiðnu lagði það að jöfnu að plága náungann með okri og drepa hann því meðan þeir eru að útokra sínu við þann þurfanda þá er hjarta þeirra svo langt frá tungunni sem himininn er frá jörðunni
+IP-SUB	oth	17	0.3	rel	okur	36441	og svo fá þó samt ugglaust eins og allt sé hreint og klárt og á allar síður viturlega og vel gjört og stofnað svo sem sá ríki bóndi meinti um sig sem allar sínar kornhlöður var búinn að fylla
+IP-SUB	oth	17	0.3	rel	okur	36523	En þá hún var nú að telja peningana datt þessi skarfur niður fyrir henni
+IP-MAT	oth	17	0.3	rel	okur	36552	Eins segir spámaðurinn eru þeir með sínum veiðibrellum útbúnir að leggja upp og niður aftur og fram snörur fyrir fólkið
+IP-MAT	oth	17	0.3	rel	okur	36577	Hinum heilaga Davíð var stór forvitni forðum þegar hann tók við ríkinu eftir Sál kóng að vita það hvör fá mundi að búa í herrans tjaldbúð og hvílast á hans heilaga fjalli Hvörsu að væri hér í heimi réttur pílagrímur í þeirra andlegu herrans tjaldbúð kristilegri kirkju
+IP-MAT	oth	17	0.3	rel	okur	36687	Nú af því vér erum settir af guði hvör í sinni sókn að vaka yfir hjörð drottins og framfylgja því öfluga spádómsorði sem ekki líður nökkra forfalskan svo ekki neitt orð undan falli af þeim orðum sem drottinn hefur oss í hendur fengið til þess að uppslíta sundurbrjóta eyðileggja og fordjarfa djöfulsins verk en uppbyggja og gróðursetja verk vors guðs Ef ske mætti þeir sem annarlegum guðum okursyndinni hafa sér til ábata um stundir ótérlega eftirfylgt vildi það heyra og snúa sér í burt frá sínu vondu athæfi þess og annars vér verðum sjálfir í vorum sóknum og oftar en skyldi innan vorra dyragátta varir við djöflanna frágang Ekki einasta í því að svíkja mannlegt hold og blóð og upphvetja það til alls konar synda heldur og líka spyrjum vér að sjálfir djöflarnir hafa sýnilega á gangi verið í voru föðurlandi svo sem rigtið út af því efni hefur allvíða á þessum árum of hátt gengið og ýmislegar skráveifur gjört bæði mönnum og peningum manna Þá er oss segi ég mál að vakna og með hvellum guðsorðabásúnum þann lámskranda úlf djöfulinn og svo hans hvolpa meðal hvörra okurmennirnir eru tannhvassastir og hjörðinni skæðastir frá vorri hjörð að fæla svo sá gullkaleikur sem upp er settur sérdeilis í Neshrepp fullur á barma af okri og öðrum óhreinindum gjöri ekki vorar sóknir öldungis fordrukknar svo sem hann hefur um stundir þá allmarga velglaða gjört og gjörir enn nú
+IP-SUB	tra	17	0.23	bio	olafuregils	36870	og ætlaði þar inn því þeir vissu þá var þar ekki neitt að óttast
+IP-MAT	tra	17	0.23	bio	olafuregils	36889	og í móti snörpum austanvindi var þeim Íslenzku skipað að róa
+IP-MAT	tra	17	0.23	bio	olafuregils	36953	Og nær því og jafnlega var það að minnast á það sem það hafði áður heyrt um þá sem herleiddir voru þó sumir væru um þetta þegjandi
+IP-SUB	tra	17	0.23	bio	olafuregils	37168	En þeirra vinskap er svo háttað Vallenzku og Tyrkjanna að nær þeir eru búnir að kaupast við og eru komnir eina mílu út frá þeim illvirkjastað þá slá hvorir aðra í hel vægðarlaust
+IP-MAT	tra	17	0.23	bio	olafuregils	37310	og þau eru svo að sjá sem þeir allra stærstu uxar svo að allri sköpun sem þeir furðanlega feit að sjá
+IP-SUB	tra	17	0.23	bio	olafuregils	37390	og þá eg er að fá mat þá spyr mig einn af þeim skipherrum sá helzti hvað fyrir mann eg væri hvaðan eg væri að kominn og hvert eg ætlaði
+IP-MAT	tra	17	0.23	bio	olafuregils	37463	Um þann stað Marsilien er það að segja að hann er byggður utan í kringum einn fjörð kringlóttan sem er svo mjór framan að eg meina hann ekki fulla 40 faðma yfir um fjarðarkjaftinn
+IP-MAT	tra	17	0.23	bio	olafuregils	37470	Um klæðnað manna og kvenna í þeim stað er það að segja að það er með sama klæðadrakt og þeir í Italia
+IP-SUB	tra	17	0.23	bio	olafuregils	37598	Þann 8. Aprilis fékk eg að sjá þann heyborna vorn allranáðugasta herra kóng Kristján Danmerkur og Noregs þann 4a með því nafni með því heiðursnafni og herratitli hver hjartans herra að er til að sjá lítillátur og hýr við sína undirgefna
+IP-MAT	tra	17	0.23	bio	olafuregils	37620	Minn elskulegi lesari og góði vin það er mín sanninda meðkenning að eg vegna míns missis á kvinnu og börnum hvern að sjálfur guð græði þá kann ekki svo til þrautar um vorn náðuga herra kónginn prinsinn kóngsins son staðinn Kaupinhafn herrans þar prédikarana eður hvað annað sem mér þar fyrir augu og eyru kom svo að tala og skrifa sem eg vildi eður skyldi því að þann tíð sem eg kom í Danmörk og eg fékk að vita hversu hryggilega að til var gengið um stríð og orlog og svo þann missi sem kóngleg majestæt fengið hafði á krúnunnar eignum þá jukust að nýju mínir sorgardagar því að þá var sú mín von úti sem var að eg mundi þar nokkurn styrk fá að eg gæti keypt aftur konuna og börnin laus um hvað eg var þó í góðri von þangað til hvað og vel hefði mátt ske hefði allt vel til gengið fyrir vorum náðuga herra kóngi
+IP-MAT	oth	17	0.23	rel	gerhard	37894	Þar af er að merkja að þær hafa áður verið uppskrifaðar í þeirri himnesku ráðstofunni það fyrst þær verða útdregnar eður að nýju útskafnar
+IP-MAT	oth	17	0.23	rel	gerhard	37896	Þar af er að merkja að Guð lítur til syndanna og gefur gaum að þeim svo að hann straffi þær fyrir sínu augliti
+IP-MAT	oth	17	0.23	rel	gerhard	37898	Þar af er að merkja að syndirnar snúa Guði frá mönnunum og skilja svo að Guð og menn
+IP-MAT	oth	17	0.23	rel	gerhard	37906	Hér af er að merkja að vegna syndarinnar verða menn útskafnir af lífsbókinni
+IP-MAT	oth	17	0.23	rel	gerhard	38259	en það straff er Guð búinn allareiðu að leggja upp á sinn hjartans son
+IP-SUB	oth	17	0.23	rel	gerhard	38270	Sá sem nú lét sér vera umhugað um þig þegar þú varst enginn skyldi honum nú ekki vera um þig hugað þar hann er búinn að skapa þig eftir sinni eigin mynd ?
+IP-SUB	oth	17	0.23	rel	gerhard	38302	Hvað er það að faðirinn skyldi ekki veita syninum þar hann er búinn að meðtaka af honum svo mikið verð fyrir vora sáluhjálp svo sem faðirinn hefur látið sér vel lynda og líka ?
+IP-SUB	sag	17	0.21	nar	illugi	38454	En er menn voru um þetta að ræða var hurðar kvatt og þó heldur mikilfengliga
+IP-MAT	sag	17	0.21	nar	illugi	38682	En frá útferð þeirra er það að segja að þá þeir lögðu út og voru komnir í haf um það skeið er þeir misstu sýn af landi fengu þeir þokur óþrotligar er eigi þvarr á mörgum dægrum
+IP-MAT	sag	17	0.21	nar	illugi	39069	En það er frá Tjösni að segja að hann kvaðst fara mundu að eyðileggja kvikendi þau er komið hefðu þar á land með Illuga
+IP-MAT	sag	17	0.21	nar	illugi	39125	En það er frá Illuga að segja að þegar hann kemur inn tvíhendir hann atgeirinn á Tjösni miðjan
+IP-MAT	sag	17	0.21	nar	illugi	39167	Nú er að segja af Illuga að hann sækir að Skrýmni með mikilli hugprýði
+IP-MAT	sag	17	0.21	nar	illugi	39384	Það er frá Hjaranda að segja að hann litast um á landið upp
+IP-MAT	sag	17	0.21	nar	illugi	39399	Nú er að segja af Hjaranda að hann heldur að landi með fimmtigi manna
+IP-SUB	sag	17	0.21	nar	illugi	39431	Þegar Illugi sér að engi kostur var að ná skipi Hjaranda og eigi varð þaðan komist sjóleið á brott segir hann þann einn kost fyrir höndum liggja að leggja á Hlymrekaheiðar
+IP-MAT	sag	17	0.21	nar	illugi	39442	Var hún eigi látin bera
+IP-MAT	sag	17	0.21	nar	illugi	39455	Var svo að heyra sem tjaldið félli af höggi
+IP-MAT	sag	17	0.21	nar	illugi	39585	Nú er frá því að segja að þann sjötta morgun er þau vakna í tjaldi sínu varp Kaðlín mæðiliga öndinni og mælti við Illuga Þungliga hafa mér draumar fallið í nótt
+IP-MAT	sag	17	0.21	nar	illugi	39805	og eru þar að sundra þýfið
+IP-SUB	sag	17	0.21	nar	illugi	40059	En það var á þann hátt að tekið er að grafa í jörð niður inn undir virkið
+IP-MAT	sag	17	0.21	nar	illugi	40142	Það var áform þeirra að komast austur yfir Hlymrekaheiðar til aðseturs Konáls konungs föður Kaðlínar
+IP-MAT	sag	17	0.21	nar	illugi	40259	Nú er að segja frá þeim Ara og Ótrygg að lið þeirra barðist harðfengiliga
+IP-MAT	sag	17	0.21	nar	illugi	40268	En af Ara er það að segja að hann var óvígur af mæði og fellur þar eftir í óvit
+IP-SUB	aut	17	0.28	bio	pislarsaga	40365	En er ég var til sængur kominn og sofnaður kom eftir miðnætti yfir mig í rúminu einn djöfuls andi sem plagaði mig líkavel vakandi og var að finna ofan á fótunum á mér eins og mús eða valska svo ég mátti með öngvu móti svefns njóta eins og mig hafði skeð fyrir sjö eða átta árum fyrri hver djöfulskapur mig þvingaði þá ekki utan á næturnar og þó eigi hverja nótt heldur öðru hverju
+IP-SUB	aut	17	0.28	bio	pislarsaga	40402	Þegar ég var nú búinn að tala við Jón yngra úti kom ég inn aftur í kirkjuna
+IP-SUB	aut	17	0.28	bio	pislarsaga	40423	Jafnsnart sem ég var nú tekinn til að snúa mínu hjarta til Guðs með bænakallinu stökk eins og hundur upp í rúmið og fyrst ofan á fæturnar og síðan yfir allan minn líkama með grimmilegri ógn og skelfing
+IP-SUB	aut	17	0.28	bio	pislarsaga	40483	Og ekki varð mönnum að ráði hverki á sjóinn að róa né þeirrar bjargar sér að leita því rænuleysi og svo sem fásinna lá á flestum af slíkri kynngi svo að ég sá að hvert mannsbarn mundi héðan fara því að um líf og velferð var að tefla sem komin voru í mesta háska
+IP-SUB	aut	17	0.28	bio	pislarsaga	40509	En sem ég stóð í prédikunarstólnum að tala Guðs orð fyrir söfnuðinum formerkti ég að til var ætlað að svipta mig rænu og forstandi sem kallaður er æðigaldur svo ég skyldi aldeilis vitið missa
+IP-SUB	aut	17	0.28	bio	pislarsaga	40540	En er þeir voru að beita lóðir við naustið urðu þeir varir við stóran óhreinleik
+IP-SUB	aut	17	0.28	bio	pislarsaga	40559	Þar um mun sá frómi mann Jón Ólafsson sem kenndur er við þá austindíansku reisu ennnú að ég vona minnast og til ranka sem með mínu heimafólki lá upp yfir mér þá mér gagnaðist ekki í rúminu að liggja sem ég var vanur þá að láta fyrirberast
+IP-SUB	aut	17	0.28	bio	pislarsaga	40590	Við soddan eið og hræðileg formæli blygðuðust velflestir því það var ofbjóðlegt uppá að heyra
+IP-SUB	aut	17	0.28	bio	pislarsaga	40600	Ekki fornam ég heldur að nokkur maður tæki eftir því né bannaði hönum soddan kapp og fylgi í svo vondu máli né heldur meinaði þeim feðgum við neinn mann að tala hverki hátt né í hljóði svo sem mér var fyrirboðið að tala við Björn í Engidal
+IP-SUB	tra	17	0.23	bio	indiafari	40721	og hrósaði því mjög og Týhússins yfirvöldum einkum meistara Hannesi sá eð var í þann tíma týmeistari og kóngsins byssuskyttur yfir settur ásamt týjunkurnum sem Adolph Fridericus Grabov hét og þá var nýlega kominn frá landi Holsten og stóð þar nálægt er við Rasmus vorum um greint efni að samræða
+IP-MAT	tra	17	0.23	bio	indiafari	40815	og voru að spássera þar um grundirnar sem bændurnir skyldu fram um fara þeir eð áttu heima uppá landsbyggðinni og tvisvar í hverri viku komu í borgina upp á torgið með allra handa sem af bóndabyggðinni plagast að flytja í kaupstaðina sem er rúg maltrúg bygg þríslags grjón hveiti humal hunang smjör ost svín gæsir andir og margslags fisk úr ferskum vötnum
+IP-SUB	tra	17	0.23	bio	indiafari	40828	Item bar svo við einn tíma að smápiltar þeir eð gengu í þann danska skóla voru að leika sér við ráðhúsmúrinn með sínum pungum um það bil að klukkan var fjögur það er stund af nóni og voru nýkomnir út af skólaherberginum að tveimur af þessum unglingum bar til þrætu
+IP-SUB	tra	17	0.23	bio	indiafari	40944	Kóngur kvað honum annað nauðsynlegra vera en um það að biðja sem væri að biðja Guð um það að henti aldrei slík ólukka sem hans bróðir
+IP-MAT	tra	17	0.23	bio	indiafari	40974	Um kvöldið var við lokið að flytja til skips hvað við þurfti
+IP-SUB	tra	17	0.23	bio	indiafari	40982	Hann sjálfur kóngurinn ásamt öllum honum þénandi sem var kapteinar skipherrar byssuskyttur bátsmenn timburmenn og hofþénarar sem þar daglega við voru í hálfan mánað skipið aftur að viðrétta hvað og skeði með stórum erfiðismunum
+IP-MAT	tra	17	0.23	bio	indiafari	41084	Þessi Jón sem silfrinu hafði úthellt var upphvattur þenna leik að hefja
+IP-MAT	tra	17	0.23	bio	indiafari	41178	og var þeim tilsagt mér að undirvísa í einu og öðru sem stykkjunum og Týhússins höndlan við kæmi
+IP-SUB	tra	17	0.23	bio	indiafari	41195	Svo bar til einn tíma er ég var nýlega skrifaður við Týhúsið vakt að halda og ég var genginn vestur yfir brúna frá portinu af minni vakt að einn maður og einn byssuskytter að nafni Pétur Drageyri bauð mér í þann kjallara sem var gagnvart brúnni og kallaðist Kristínar Doktors kjallari að drekka eitt glas öls
+IP-MAT	tra	17	0.23	bio	indiafari	41263	Nú er að víkja aftur til Péturs Drageyrar er mér á deginum fyrir bauð í kjallarann til veislu
+IP-SUB	tra	17	0.23	bio	indiafari	41282	Með því að þessi maður var stundum glettinn hafði hann einn tíma með kerskni gripið sinni hendi upp undir hennar klæði ofarlega þar hún var að sauma
+IP-SUB	tra	17	0.23	bio	indiafari	41326	En skömmu seinna kom hann mér óvitanlega er ég var að uppljúka dyrum þar nálægt
+IP-SUB	tra	17	0.23	bio	indiafari	41369	Item einn tíma eitt kvöld er ég sat í húsi þess manns er Sveinn hét og þrír menn aðrir og vorum að spila varð slegið með steini á þann fjalarhlemm er um nætur til hlífðar við glergluggana verður uppdreginn svo glerið fauk um vor andlit þar vér sátum við borðið
+IP-MAT	tra	17	0.23	bio	indiafari	41396	Nú er þar frá að segja að skútumaðurinn vaknar sem lá aftur í sinni káhyttu
+IP-MAT	tra	17	0.23	bio	indiafari	41505	Nú er ég að tala um höndlan og háttalag Týhússins og hvað þar við bar hið sérlegasta af mörgu
+IP-MAT	tra	17	0.23	bio	indiafari	41524	Nú er það til máls að taka að þessir tveir vínsveinar tóku þennan skútumann ofan í þann vínkjallara er í garðinum var hvar þeir daglega voru í tveggja tunnu föt það vín að inntappa er til þeirrar fyrstu reisu að Indíen var ætlað og þá var í búningi 1618-1618
+IP-SUB	tra	17	0.23	bio	indiafari	41524	Nú er það til máls að taka að þessir tveir vínsveinar tóku þennan skútumann ofan í þann vínkjallara er í garðinum var hvar þeir daglega voru í tveggja tunnu föt það vín að inntappa er til þeirrar fyrstu reisu að Indíen var ætlað og þá var í búningi 1618-1618
+IP-MAT	tra	17	0.23	bio	indiafari	41589	En kopar eða það sem til formsins var ætlað var í deigluketilinn sem var innmúraður um kvöldið fyrir miðjan aftan í látið að smeltast og undir eldur kveiktur
+IP-MAT	tra	17	0.23	bio	indiafari	41636	Það var að líta sem hann væri að krumla með klóm og hrífa að sér
+IP-MAT	tra	17	0.23	bio	indiafari	41872	og var ég í þá bók að horfa sem Sá andlegi herradagur nefndist
+IP-MAT	tra	17	0.23	bio	indiafari	41913	Nú er þar aftur til að víkja er ég nú frá veik þar öll vaktin við Rauðuport á tilsettum tíma er fyrr var greint saman safnast í því vakthúsi er þar stóð biðu þess tíma er vaktin skyldi uppþrekkjast
+IP-SUB	tra	17	0.23	bio	indiafari	41978	Svo bar við einn tíma er mér féll sú fyrsta vakt til um kvöldið sem voru tvær klukkustundir í senn að vaktmeistarinn Kaspar sendi boð til mín eftir það hann var búinn að læsa slotsportinu að ég gengi af skildbekknum heim til hans hvað þó ei plagaðist tíðum og setti þann í staðinn í mína vakt sem sendur var
+IP-MAT	fic	17	0.26	nar	armann	42294	og er ekki vinningur því aftur að ná
+IP-SUB	fic	17	0.26	nar	armann	42342	og stóð föllin af sér þar til um síðir að Flórsokka gat mætt hann so hönum var búið að springa
+IP-MAT	oth	17	0.39	bio	magnus	43085	og það var siðvenja presta í þær mundir að geyma í altari kirkjunnar sínar aðkvæðabækur
+IP-MAT	fic	17	0.34	nar	modars	43372	Nú er að segja frá Depilrössu og hennar jólahaldi
+IP-MAT	fic	17	0.34	nar	modars	43429	En það er af henni að segja að í þessu fjúki hitti hún fyrir sér einn klett
+IP-MAT	fic	17	0.34	nar	modars	43523	og er þær komu að Glaumbæ var verið að syngja útgöngusálminn
+IP-MAT	fic	17	0.34	nar	modars	43600	Síðan var gesturinn látinn innkoma
+IP-SUB	rel	17	0.26	nar	skalholt	43747	Þá búið var að að brenna féll í ösku
+IP-MAT	rel	17	0.26	nar	skalholt	43756	Þar er fyrst til að taka í þessum kapítula að Bessastaður var langan tíma einstæðings jörð utan kirkjan þar átti tvö kot Bárugseyri lögbýlis jörð og Lambhús heimaland þar í túninu
+IP-SUB	rel	17	0.26	nar	skalholt	44292	En í vikunni eftir Pálsmessu um veturinn þá höfuðsmaður reið suður um Nes og var búinn að skipa niður fólki og hann var kominn heim í veg inn til Kirkjubóls á Miðnesi og hann hafði verið þar nótt og um morguninn eftir þá hann sat undir borði þá komu xxx norðlenskir menn öllum ókunnugum því þeir höfðu hettur og stytt upp
+IP-SUB	ser	18	0.21	rel	vidalin	44581	Og eru þó vesælingar að reikna hjá Nikodemo eg voga að segja
+IP-SUB	ser	18	0.21	rel	vidalin	44861	Já svoddan auðlegð er hverju volæði argari svo það er kóngdómur að fara á vonar<dash/>völ alla ævi sína hjá svoddan ríkdómi
+IP-SUB	ser	18	0.21	rel	vidalin	44896	það er ósiðsemi og ranglæti því það er að taka sinn rétt frá þeim sem æðri eru að svo miklu leyti sem þessum hégóma nemur
+IP-MAT	ser	18	0.21	rel	vidalin	44918	Nú er það hér að segja að drottinn hefur ekki bannað að hafa indæli af sínum skepnum í réttan tíma og með hófi og siðsemi
+IP-SUB	ser	18	0.21	rel	vidalin	45207	Orsökin til þessarar dýrmætu eftirlíkingar sem Jesús framsetur í þessu heilaga evangelio var sú að þegar hann var að heimboði með einum af fariseanna höfðingjum brauðs að neyta á þvottdegi þá var þar einn af borðgestunum er sagði Sæll er sá maður sem etur brauð í guðs ríki
+IP-MAT	ser	18	0.21	rel	vidalin	45305	en ekki er að furða börn mín þótt drottinn hryggðist í anda og talaði svo skorin ort til lærisveinanna hér um er hann sá þenna vesæling aðkomin himnaríkis dyrum falla þaðan aftur í satans net
+IP-MAT	ser	18	0.21	rel	vidalin	45442	Það er dásamlegt að horfa á hina alvitru guðs ráðstöfun í sínu náðar ríki
+IP-MAT	ser	18	0.21	rel	vidalin	45509	svo og er að óttast fyrir á þessum verstu og síðustu dögum að kristnin hverja guðs sonur hefur með sínu blóði afrekað hún megi verða kölluð lo rukhama eður náðarlaus og að margir hennar sýnilegir limir muni verða konungi myrkranna að bráð nema menn bæti sinn kristindóm og taki sér annað háttalag heldur en almennilega tíðkast
+IP-SUB	ser	18	0.21	rel	vidalin	45635	Sjái nú þeir til sem ásetja að temja sér þvílíkt hugarfar allt fram í dauðann hvert þeir muni eiga hlut í þessari guðs gæsku um hverja eg læt nú að svo stöddu úttalað vera jafnvel þótt hún aldrei úttöluð verði eður nógliga prísuð um alla eilífð og vil svo koma til hins síðara er eg hér um að ræða
+IP-MAT	rel	18	0.26	nar	biskupasogur	45640	Sá vitri maður Páll Jónsson Vídalín lögmaður var og að samanskrifa lífssögu forföður síns Guðbrands biskups
+IP-MAT	rel	18	0.26	nar	biskupasogur	45799	og er vert að hrósa hans áræði og framkvæmd samt lærdómi og hugviti að hann ofan á aðra embættisfjölskyldu sína og margfalda mæðu tók fyrir sig þetta mikla og vandasama útleggingarverk að yfirskoða og endurbæta annara útleggingar samanbera og lesa sér hvað við þá þýsku biblíunnar útleggingu Doctoris Martini Lutheri hverri hann eftirfylgdi
+IP-MAT	rel	18	0.26	nar	biskupasogur	45803	Og þó honum hafi hér og hvar svo miklu verki á stuttum tíma yfirsést svo sem einmana manni er ekki að undra þar hann braut fyrstur ísinn í þessu hafði ei heldur á þeim tímum og einna síst hér í landi þá commentarios eða hálærðra manna útleggingar og bækur yfir biblíuna sem nú eru útgengnar í öllum tungumálum
+IP-MAT	rel	18	0.26	nar	biskupasogur	45853	Siðvani biskups var að halda árlega veislu heima á Hólum átta dag jóla
+IP-MAT	rel	18	0.26	nar	biskupasogur	45911	Var honum tilsagt af regerandi herrunum að gefa sína undirrétting og vitnisburð um eitt og annað í þessum ágreinungum
+IP-MAT	rel	18	0.26	nar	biskupasogur	46051	helsta iðja hans og yndi var að sjá um prentverk sitt að bæði væri það vandað og gengi vel fram
+IP-SUB	rel	18	0.26	nar	biskupasogur	46068	Þó segir hann í formála fyrir framan fyrri sálmabók sína sér sé ei að eigna í henni nema mest tvo eður þrjá sálma
+IP-MAT	rel	18	0.26	nar	biskupasogur	46310	en engelskum var fyrir$ boðið nærri landinu að liggja
+IP-SUB	rel	18	0.26	nar	biskupasogur	46375	Anno 1649-1649 kom snemma um vorið hingað í Seyluna danskt skip með kongs Friederiks 3. bréfi sem á fyrirfarandi ári varð kongur í stað síns föður þess háloflega kongs Christians 4. sem og með bréf höfuðsmannsins yfir Íslandi Henrichs Bjelkes þess innihalds að allir landsins innbyggjendur skyldu á næstkomandi alþingi sverja konginum trúskapseið og voru sérdeilis þangað skikkaðir að koma báðir biskuparnir allir prófastar 12 prestar úr Skálholtsstifti og 6 prestar úr Hólastifti lögmennirnir báðir sýslumenn allir 2 lögréttumenn og 2 lögskilabændur úr hverri sýslu og einn úr Vestmannaeyjum
+IP-MAT	rel	18	0.26	nar	biskupasogur	46582	því var öllum skikkað að koma suður til Bessastaða á þann 26. Julii
+IP-SUB	rel	18	0.26	nar	biskupasogur	46594	en telja á stór vandkvæði landsins stóru fáttækt og upp á fallin harðindi með öðru fleira því sjái þeir til engin meðul því varla finnist hér í öllu landinu 10 eða 12 persónur hverra eign og formegun kunni að ná til 5000-5000 eður 6000-6000 dala af hverra ágóða allt sé að taka til forsorgunnar kostnaðar og útgifta svo þó þeir gangi sér hið næsta samt kunni tillagið lítið hlaupa yfir 1000-1000 ríxdali
+IP-SUB	fic	18	0.26	nar	klim	46762	En þá ég var að bera mig að því gaf þetta tré hljóð af sér sem að sönnu var lágt en þó gegnumþrengjandi líkt sem raust reiðrar konu
+IP-MAT	fic	18	0.26	nar	klim	46767	Og er ekki af að segia hvað fyrir fugl og trufl allt þetta orsakaði í mínu geði og hversu ég varð frá mér numinn við þetta kukl
+IP-MAT	fic	18	0.26	nar	klim	46786	Þar voru ei alleina forkostulegar byggingar að sjá
+IP-SUB	fic	18	0.26	nar	klim	46852	Þá hún var þannin búin að útrétta sitt erindi og hafði skoðað blóðið þegjandi og forundrandi gekk hún aftur sinn veg í burt
+IP-SUB	fic	18	0.26	nar	klim	46854	En eftir það ég var búinn að læra undirjarðarmálið og allt var búið að segja mér þá snerist allt mitt forakt í forundran
+IP-SUB	fic	18	0.26	nar	klim	46854	En eftir það ég var búinn að læra undirjarðarmálið og allt var búið að segja mér þá snerist allt mitt forakt í forundran
+IP-SUB	fic	18	0.26	nar	klim	46882	Þá furstinn hefur fengið þessa uppteiknan þá skipar hann altíð að skrifa nöfn kandídatanna í eina sérdeilis bók til þess að hann eigi gleymi heldur altíð líkt sem fyrir augum hafi þá sem verðugir séu að setjast á þá liðugu tignarstóla
+IP-MAT	fic	18	0.26	nar	klim	46899	og væri vant að senda hann sem annan útlaga til firmamentisins þar eð öllum er viðtaka veitt án greinarmunar
+IP-SUB	fic	18	0.26	nar	klim	46902	Allt þetta reyndi ég og aðgætti hið grandvarlegasta eftir það ég var búinn að nema undirheimamálið
+IP-SUB	fic	18	0.26	nar	klim	46904	Og þó mér í fyrstunni virtust tré þessi yfrið heimsk og dárleg samt merkti ég þó brátt að hjá þeim var að finna nokkurn mannúðleika og þess vegna þyrfti ég ekkert hræddur að vera um líf mitt
+IP-SUB	fic	18	0.26	nar	klim	46913	Eftir það ég var búinn að afleggja barnaskóna sem svo er kallað eður var orðinn fullnuma í undirheimamálinu kom ný skipan frá konungsgarðinum að mér skyldi meir kenna og inntaka mig í staðarins seminarium eður háskóla til ýmislegra kúnsta og embætta svo að þarverandi Karatti gætu rannsakað mínar sinnisgáfur og úrskurðað til hvers ég mundi best hæfur vera
+IP-SUB	fic	18	0.26	nar	klim	46929	og lét allan rangan misþanka til mín fara þegar hún vissi þá réttu orsök var fyrir ég var dreginn undir dóm og það mig hafði prettað líking eikarinnar upp á hverjar vér erum vanir að klifrast á vorri jörðu
+IP-SUB	fic	18	0.26	nar	klim	46977	Ég ansaði að þær væri yfir höfuð að segja stofnaðar um sérdeilis lærdómsríka athugaverða og nýstárlega hluti en sér í lagi þá sem höndluðu um dyggðir tungumál klæðaburð hjá þeim tveimur elstu þjóðum sem í norðurálfunni hefðu mest blómgast og því<dash/>um<dash/>líkt annað
+IP-SUB	fic	18	0.26	nar	klim	46986	Já ein ráðsherra frú sem annars var vön að hlæja að hverjum hégómanum hló svo yfirmáta mikið að þessu þá hún það heyrði að öllum þörmum í hennar búk lá við spreng
+IP-MAT	fic	18	0.26	nar	klim	46995	og er það þeirra verk að athuga hvert mælskumaðurinn hrósar allt of mikið þeim andvana eður þvert á móti niðrar honum of mikið
+IP-SUB	fic	18	0.26	nar	klim	47035	Þá ég var búinn að lesa hann í gegnum gat ég alls engu orkað fyrir reiði og efasemd
+IP-SUB	fic	18	0.26	nar	klim	47052	Ég skyldi nú athuga hversu öfundin væri vön að steypa þeim af stóli sem lukkan hefði upphafið á þann hæsta tignarinnar tind því öll tign væri hégómleg og forgengileg Því þess hærra sem maður klifraðist þess dýpra dytti hann niður og því meiri auðæfum og ríkdómi sem safnað væri því sárara tæki mann þeirra töpun á eftir einkum ef það skeði skjótt og voveiflega
+IP-SUB	fic	18	0.26	nar	klim	47065	en fyrir því hann orkaði ei að ganga sökum elliburða þá reið hann uxa Því hér er ei venja að ferðast á vagni
+IP-SUB	fic	18	0.26	nar	klim	47079	Meðan reisan varaði sá ég að innbyggjendur þessa átthaga voru svo ákafir í sinni vinnu að enginn hætti við hana eður leit út af sökum þeirra er fram hjá gengu þó það væri þar nokkuð óvenjulegt að sjá einn mann
+IP-SUB	fic	18	0.26	nar	klim	47109	Vegvísarinn vor eður Karattinn sem hingað hafði fært oss bauð að vér skyldum dvelja hér um kyrrt inn til þess hann væri búinn að láta furstann vita að vér komnir værum
+IP-MAT	fic	18	0.26	nar	klim	47182	en svo lengi var hann að skilja hvern einn hlut að hann bað sér um hálfs mánaðar frest í það minnsta til að gjöra þann lítilvægasta úrskurð
+IP-SUB	fic	18	0.26	nar	klim	47184	en þá hann var búinn sem grandvarlegast að yfirvega það sem honum hafði einu sinni skilist og úrskurðaði ekkert fyrr en hann hafði sem fyllilegast yfirvegað það þá mátti með öllum rétti um hann segja að hann hefði meira sýslað en tíu aðrir sem útrétta sín verkefni fljótt og hratt og almennt plaga að kallast þeir miklu andar
+IP-SUB	fic	18	0.26	nar	klim	47201	og þá hann var búinn að lesa hann sá hann mig til fótanna
+IP-SUB	fic	18	0.26	nar	klim	47221	Þá nú búið var að tilkynna mér allt þetta var kallað á einhvern kiva eður sekretera sem mig skyldi teikna ásamt öðrum nýkomnum candidatis í þá bók sem í voru rituð nöfn þeirra sem verðugir voru að setjast til embætta
+IP-SUB	fic	18	0.26	nar	klim	47233	og þó ég væri gjörsamlega þreyttur gat ég þó ei sofið mest alla þá nótt því ég gat ei slitið úr mínum þanka það hið ósæmilega embætti sem mér var búið að veita
+IP-MAT	fic	18	0.26	nar	klim	47274	En þenna kátlega vitnisburð var svo að skilja
+IP-MAT	fic	18	0.26	nar	klim	47275	Meðal þeirra dyggða sem mest prýða hvern skólakennanda er helst að telja þolinmæðina því sé hann ei gæddur með stálhörðu þollyndi þá útréttir hann alllítið með öllum sínum lærdómi í sínu skólaembætti sem forstandast á fyrir utan of mikla freku heift harðúð og stríðlyndi að það ei upperti geðsmuni lærisveinanna með óvægri barsmíði
+IP-SUB	fic	18	0.26	nar	klim	47414	Er það svo þeirra meining að það er ei einasta óþarft heldur og mjög skaðlegt að þvinga þá lötu í guðsþjónustunni til að vera frómir og góðir
+IP-SUB	fic	18	0.26	nar	klim	47471	og lét leggja sér band um hálsinn á meðan var verið að ráðslaga um þetta
+IP-MAT	fic	18	0.26	nar	klim	47508	Þar fyrir er nú ei fremur að finna nokkra röð á virðingarsætum né titlum í því heila furstadæmi
+IP-MAT	fic	18	0.26	nar	klim	47537	Þó er hér þess að gæta að ei orkar getnaður margra barna alleina að nokkur fái þann tignartitil að heita mikill heldur heyrir þar til að börnin séu uppalinn ærlega og heiðarlega
+IP-SUB	fic	18	0.26	nar	klim	47549	En það er sér í lagi athuga vert að engum manni er lofað að búa í nokkurri borg eður þorpi ef hann getur ei framvísað vitnisburð um góða hegðan sína frá þeim stað sem hann hefur áður þangað til í lifað oc setur borgun að hann ætli einnin að lifa hér framvegis ærlega og dándimannlega
+IP-SUB	fic	18	0.26	nar	klim	47550	Enginn má undir lífsstraff voga að gjöra útleggingar yfir það lögmál sem einu sinni er opinberlega búið að staðfesta svo sjálfræðinu eru meiri skorður settar í veraldlegum efnum en í þeim andlegu
+IP-SUB	fic	18	0.26	nar	klim	47584	heldur á maður að láta sinn úrskurð bíða þangað til að maður er fyrst búinn að gegnumskoða og rannsaka hlutinn rétt innvirðulega
+IP-MAT	fic	18	0.26	nar	klim	47612	11. Engum sé liðið að ganga fram í iðjuleysi því letingjar eru föðurlandinu til þyngsla
+IP-MAT	sag	18	0.22	nar	fimmbraedra	47828	Nú er að segja af Desilíusi
+IP-SUB	sag	18	0.22	nar	fimmbraedra	48421	Gyðingar sóttu og mikið eftir að plægja þá í öllum kaupum og sölum svo þá þeir voru búnir að dvelja þar hálft annað ár var uppgenginn mesti partur þeirra fjármuna því kennsla þeirra og forsorgun varð þeim mjög dýr svo jarlsson tók nú að iðrast eftir að hann hafði gefið sig á þeirra vald því hann þóttist sjá að nær þeir væru félausir orðnir mundu gyðingar selja þá í þrældóm því þó þeir tækju þeirra trú mundu þeir aldrei taka þá í þeirra kynkvíslatölu og yrðu þeir því að vera sem útlendingar meðal þeirra alla ævi
+IP-SUB	sag	18	0.22	nar	fimmbraedra	48640	Innti hann honum síðan allt samtal þeirra bræðra og þar með skipun föður síns og að hver þeirra bræðra væru nú að reyna hversu lukkudrjúg honum yrðu þau trúarbrögð sem hann hafði sér útvalið
+IP-SUB	sag	18	0.22	nar	fimmbraedra	48654	Kom hann þá þar að er tólf menn voru að byggja einn stólpa af múr og marmara
+IP-SUB	aut	18	0.24	bio	jonsteingrims	49443	og lá við um heyið sjálft er búið var að hirða
+IP-SUB	aut	18	0.24	bio	jonsteingrims	49609	Sváfum við ei mikið um nóttina síst fylgjari minn sem allt var úr að telja að fara lengra
+IP-SUB	aut	18	0.24	bio	jonsteingrims	49676	og settum þá á þann besta haga og afdrep sem þar var að fá
+IP-SUB	aut	18	0.24	bio	jonsteingrims	49677	Blanda og öll vatnsföll er yfir höfðum farið urðu svo ófær og uppstífluð að nú var enginn vegur aftur að snúa
+IP-SUB	aut	18	0.24	bio	jonsteingrims	49775	Sést nú að ei veit þar fyrir hvörjum gjört er og að illt verk sé að úthýsa þurfandi ferðamanni
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50029	og voru því að spá fyrir mér eg hætti ei fyrr en dræpi mig í sjónum
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50041	En allan þann kostnað var eg búinn að uppvinna og betur til á 4 árum þar eftir
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50120	Var síra Daði skikkaður að dæma í því máli er svo féll út að klerkur var dæmdur frá kalli og kjól
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50137	Sýslumaður Lýður var þar og að halda einslags þing
+IP-SUB	aut	18	0.24	bio	jonsteingrims	50187	og hefðum ei svo fljótt rammað á hann ef ei hefðum séð hvar lærin voru að sprikla í hvítu skinnbuxunum
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50194	og var að krassa sandinn út því hann var að deila við sýslumann áður
+IP-SUB	aut	18	0.24	bio	jonsteingrims	50194	og var að krassa sandinn út því hann var að deila við sýslumann áður
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50219	Var þó búinn svo að forbetra og byggja jörðina Hellur að ei ætlaði þaðan auðveldlega að fara
+IP-SUB	aut	18	0.24	bio	jonsteingrims	50434	og segir mér nú hvorsu menn hafi hneykslast á mér og séu að taka ráð sín saman
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50479	Eitt sinn var eg einsamall að húsvitja
+IP-SUB	aut	18	0.24	bio	jonsteingrims	50480	Voru þar bændur tveir sem voru að deila í heygarði sem þeir áttu saman
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50656	Mr. Jón MS:Schevng Scheving bróðir hans var þá og búinn að gefa sig í soldátastétt svo hér bættist eitt á annað
+IP-SUB	aut	18	0.24	bio	jonsteingrims	50664	Eitt áþreifanlegt dæmi hvorsu guði var umhugað að blessa mig af sjónum var þetta
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50671	Er það ei að orðlengja að guð gaf oss þar af enum besta fiski og flyðri 60-60 fiska hlut á þessum tveimur dögum
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50710	en var þó raunar að fá sér peninga
+IP-MAT	aut	18	0.24	bio	jonsteingrims	50730	Eg var þá að taka ofan Reynirskirkju
+IP-MAT	sag	19	0.23	nar	hellismenn	50960	En á Karlastöðum er það að segja að konur fundu bónda veginn
+IP-MAT	sag	19	0.23	nar	hellismenn	51280	og var það af ráðið að biðja sér liðs til þingreiðar
+IP-SUB	sag	19	0.23	nar	hellismenn	51512	og það sagði Finnvarður skipverjum sínum að feigur myndi Þórarinn og væri eigi hægt örlögum að bella
+IP-MAT	sag	19	0.23	nar	hellismenn	51515	En það er frá Þórarni að segja að hann ríður við þriðja mann frá skipi Eyvind skósvein sinn og Rauð Austmann er til fylgdar hafði ráðist með Þórarni víkverskur maður
+IP-SUB	sag	19	0.23	nar	hellismenn	51520	En nú víkur sögunni til Hellismanna að það var ráð þeirra Smiðkelssona og Bölverks að leita sér vináttu og trausts norður til héraða
+IP-MAT	sag	19	0.23	nar	hellismenn	51847	En það er frá Teiti að segja að hann komst út um laundyr nokkurar
+IP-MAT	sag	19	0.23	nar	hellismenn	51900	En það er frá þeim Borgfirðingum að segja að þeir riðu allir höfðingjarnir Sturla Torfi og Illugi með allan flokkinn á Fitjarnar og höfðu þar fyrirsát í lág nokkurri er síðan er kölluð Vopnalág
+IP-MAT	sag	19	0.23	nar	hellismenn	52022	En það er frá Þormóði strendli að segja þá hann flýði af Hellisfitjum að hann hljóp ofan í Borgarfjörð
+IP-SUB	nat	19	0.42	sci	jonasedli	52151	og fylgir á því föstum og órjúfandi lögum sem mannlegri skynsemi hefur auðnast að þýða svo hægt er að tilgreina afstöðu hennar frá sólinni og öðrum himintunglum með stund og stað á hvurri ókominni öld á meðan fyrirkomulag sólkerfis vors haggast ekki af nýjum og stórkostlegum viðburðum
+IP-MAT	nat	19	0.42	sci	jonasedli	52166	Að vísu er það ekki alltént svo hægt að færa inar fornu sagnir úr skáldahjúpnum til að sjá hvaða hugmynd um skapnað og eðli hlutanna hafi hvarflað þeim fyrir sjónum í hvurt skipti
+IP-MAT	nat	19	0.42	sci	jonasedli	52226	Enn þá er eftir að fylla hafið og jörðina og loftið af innbúum svo heimurinn sé algjör
+IP-SUB	nat	19	0.42	sci	jonasedli	52286	og verður það samt styttra en skyldi einkum vegna þess að það er margt hér að lútandi sem ekki verður frá skýrt nema lesendunum væri kunnug heimspeki og helstu greinir úr efnafræðinni Kemi sem það væri ósanngjarnt að ætlast til alþýða hefði numið
+IP-SUB	nat	19	0.42	sci	jonasedli	52288	Áður en lengra er farið verð ég samt að svara einni mótsögn sem ég er hræddur um mörgum skynsömum manni muni detta í hug að gjöra mér því ég býst við menn segi það sé ekki varlegt að tala um hvað jörðin sé furðulega gömul
+IP-SUB	fic	19	0.22	nar	piltur	52332	sá sem stendur um morgunstund við dalbotninn í björtu sumarveðri við upprás sólar þegar skuggamyndirnar eru að þokast undan sólarbirtunni og lítur yfir dalinn endilangan mun ekki geta bundist þeirra orða
+IP-MAT	fic	19	0.22	nar	piltur	52380	og var farið að slá að kerlingu þegar komið var út til hennar
+IP-SUB	fic	19	0.22	nar	piltur	52381	sagði Bjarni hreppstjóri að best væri að velgja dálítinn mjólksopa ofan í hana áður en farið væri með hana aftur
+IP-MAT	fic	19	0.22	nar	piltur	52444	Það er nú þessu næst að segja að þetta sumar var það ætlunarverk Indriða á Hóli að hann skyldi smala á morgnana en sitja hjá á daginn
+IP-MAT	fic	19	0.22	nar	piltur	52487	--- Guðrún vinnukona var látin fara með henni til þess að sýna henni hvar hún ætti að halda fénu til haga
+IP-SUB	fic	19	0.22	nar	piltur	52534	eða hafði ekki ráðrúm til að vinna á hana því hún var nú að hugsa um það sem hana hafði dreymt
+IP-MAT	fic	19	0.22	nar	piltur	52566	og var Sigríði orðið svo kært að sitja hjá að hún nær því kunni hvergi við sig annars staðar en á dalnum
+IP-MAT	fic	19	0.22	nar	piltur	52580	og sumarið eftir var Sigríður ekki látin sitja hjá
+IP-MAT	fic	19	0.22	nar	piltur	52611	og voru farnir að tala um að leita hans
+IP-SUB	fic	19	0.22	nar	piltur	52655	og tóku til þess hvern pilt sem farinn var að stálpast
+IP-MAT	fic	19	0.22	nar	piltur	52739	og kæmi einhvern tíma nokkur ágreiningur milli manna um mörk var hann látinn skera úr þrætunni því menn vissu að Ásbirni bar saman við markabækurnar
+IP-SUB	fic	19	0.22	nar	piltur	52787	Rétt í þessu kom Sigríður litla frá Tungu hlaupandi þar að sem þeir voru að þrefa um tvævetluna
+IP-SUB	fic	19	0.22	nar	piltur	52880	Eftir að búið var að kveikja og borða minntist Sigríður á hvort ekki ætti að fara að spila
+IP-MAT	fic	19	0.22	nar	piltur	52891	Er þá tekið til að spila
+IP-MAT	fic	19	0.22	nar	piltur	52923	enda var þá farið að líða á vökuna
+IP-MAT	fic	19	0.22	nar	piltur	53115	Vinátta sú og ylur sem verið hafði með þeim á meðan þau voru börn var nú búinn að taka aðra stefnu í hjörtum þeirra og snúinn í heita og einlæga ást er þau báru hvort til annars
+IP-MAT	fic	19	0.22	nar	piltur	53176	eru þær Sigríður og Grána þá búnar að færa leikinn út í mitt túnið
+IP-MAT	fic	19	0.22	nar	piltur	53181	og voru menn farnir að búast til kirkjugöngu
+IP-SUB	fic	19	0.22	nar	piltur	53263	Í þessu varð Gróu litið til Ingibjargar þar sem hún var að laga faldinn á höfðinu á prestsdóttur
+IP-MAT	fic	19	0.22	nar	piltur	53391	en öðru máli var að gegna um skökuna því henni varð hún að skila manni sínum afdráttarlaust í hvert sinn sem hún strokkaði
+IP-SUB	fic	19	0.22	nar	piltur	53452	Það var einhvern dag næsta sumar eftir það að Indriði beiddi Sigríðar í Tungu eins og áður er um getið að Bárður karl var eitthvað að bauka sér út í skemmulofti og hafði lokið upp smjörkistunni miklu og sat nú réttum beinum á loftinu og raðaði kringum sig smjörbelgjum
+IP-SUB	fic	19	0.22	nar	piltur	53453	Honum sýndist að umbúðirnar á einum bögglinum væri farnar að bresta
+IP-SUB	fic	19	0.22	nar	piltur	53456	og raulaði eitthvað fyrir munni sér eins og hann jafnan var vanur þegar hann var að fara með smjör eða peninga
+IP-SUB	fic	19	0.22	nar	piltur	53496	Ég vildi helst að þú værir búinn að taka við því öllu saman og ég mætti hírast hérna í kofunum hafa skemmugreyið mitt út af fyrir mig nokkrar kindur í heyjum og afgjaldið af þessum fáu jarðaskikum
+IP-SUB	fic	19	0.22	nar	piltur	53554	og fjögur ríxort fóru til prestsins því ekki er að bjóða þeim körlum annað en smjör ull og peninga
+IP-SUB	fic	19	0.22	nar	piltur	53580	en svo óheppilega hafði til tekist einhvern tíma í kaupstaðarferð þegar Guðmundur var að láta upp bagga að nokkrar tölurnar höfðu hrunið af öðrum barminum
+IP-SUB	fic	19	0.22	nar	piltur	53662	Um það leyti sem Guðmundur var búinn að drekka kaffið víkur Ingveldur talinu til Bárðar
+IP-MAT	ser	19	0.2	rel	hugvekjur	53761	Jesús var nú búinn að skipa hið heilaga kvöldmáltíðar<dash/>sakrament og búinn að kveðja lærisveina sína með þeirri guðdómlegu skilnaðarræðu sem lesa má hjá Jóhannesi guðspjallamanni í 15.<dash/>17. kapít.
+IP-SUB	ser	19	0.2	rel	hugvekjur	53980	Jafnsnart sem Jesús var enn að tala um þetta sjá
+IP-MAT	ser	19	0.2	rel	hugvekjur	53995	hann var nú búinn að vekja lærisveina sína með þessum orðum
+IP-MAT	ser	19	0.2	rel	hugvekjur	54114	Það var vissulega mikið fljótræði af Pétri að ætla sér að beita vopnum til að verja lausnara sinn
+IP-SUB	ser	19	0.2	rel	hugvekjur	54182	En þegar hann er búinn að reka Jesú úr hjarta sínu þá brýst þar inn flokkur óhreinna anda og syndsamlegra girnda sem hrekja manninn á lastanna veg þangað til myrkranna vald hefir algjörlega fengið yfirráð yfir honum og hann verður syndarinnar þræll
+IP-SUB	ser	19	0.2	rel	hugvekjur	54345	hann sá að nú var fyrir alvöru reynt til að ráða meistara hans af dögum
+IP-SUB	ser	19	0.2	rel	hugvekjur	54353	Enn fremur var það oftraust á sjálfum sér sem kom Pétri til að fylgja Jesú eftir að búið var að handataka hann jafnvel þó Jesús væri nýbúinn að vara hann með þessum orðum
+IP-MAT	ser	19	0.2	rel	hugvekjur	54361	og fyrr en þig varir ert þú búinn að draga dám af þínum óguðlegu sessunautum
+IP-SUB	ser	19	0.2	rel	hugvekjur	54601	eins og það sé mögulegt að lifa ráðvandlega í kristilegum skilningi án sannrar og lifandi trúar
+IP-MAT	ser	19	0.2	rel	hugvekjur	54639	En eins og við var að búast var ekki hjá þeim huggunar að leita
+IP-SUB	ser	19	0.2	rel	hugvekjur	54639	En eins og við var að búast var ekki hjá þeim huggunar að leita
+IP-MAT	ser	19	0.2	rel	hugvekjur	54662	Þó er þetta ekki svo að skilja að ágirndin sé sú einasta rót hins illa því aðrir lestir geta líka verið það
+IP-MAT	ser	19	0.2	rel	hugvekjur	54722	hér er oss einungis ætlað að dvelja litla stund sem á að vera undirbúningur undir annað og eilíft líf
+IP-SUB	ser	19	0.2	rel	hugvekjur	54771	Er það ekki að ásaka Krist fyrir afvegaleiðslu þegar þessir menn kalla hann lærimeistara sinn og Drottinn höfund og fullkomnara trúar sinnar ?
+IP-MAT	ser	19	0.2	rel	hugvekjur	54804	Það er slægðarbragð af Gyðingum að ákæra Jesúm fyrir uppreist og að hann hefði viljað gjöra sjálfan sig að konungi Gyðinga
+IP-SUB	ser	19	0.2	rel	hugvekjur	54805	Þessa ásökun gat Pílatus ekki leitt hjá sér því það var embættisskylda hans að vaka yfir því að keisaranum væri sýnd trú og hollusta
+IP-SUB	ser	19	0.2	rel	hugvekjur	54817	Ó ! hversu hátignarfullt er það ekki að sjá Jesúm þennan sannleikans heilaga vott mitt í sinni djúpu niðurlægingu með himneskri rósemi og stillingu bera vitni um sinn eilífa og andlega konungdóm
+IP-SUB	ser	19	0.2	rel	hugvekjur	54818	og hvílík huggun er það ekki fyrir oss kristna menn að vita að vér erum þegnar í Krists himneska ríki að vér stöndum undir hans guðlegu stjórn og verndan ef vér hlýðum hans röddu og megum þá eiga von á við endi þessara vorra hérvistardaga að fá inntöku í hans dýrðarríki á himnum
+IP-MAT	fic	19	0.25	nar	orrusta	55109	En þá var Marmier búinn að lóga hrútnum fyrir löngu því að hann gaf Lamartine hrútinn í sumargjöf
+IP-SUB	fic	19	0.25	nar	orrusta	55205	Napóleon hafði gefið henni alla þessa hringi á meðan hann var að ná henni
+IP-SUB	fic	19	0.25	nar	orrusta	55451	og fer yður sem sumum þeim er alltaf lifa í fjárkláða og saltfiski svo að þegar þeim verður illt þá hugsa þeir að nú sé þeir búnir að fá fjárkláðann eður ef þeir tapa túmarki þá dettur þeim í hug að slíkt muni hafa áhrif á saltfiskinn
+IP-MAT	fic	19	0.25	nar	orrusta	55460	og er of langt að telja hér allt það er menn héldu á með því að borðið var alsett öllum veraldarinnar gæðum og nóg var til að grípa
+IP-MAT	fic	19	0.25	nar	orrusta	55714	og var keisarinn að taka litla skattinn
+IP-MAT	fic	19	0.25	nar	orrusta	55879	en ég er búinn að drepa drauginn
+IP-MAT	fic	19	0.25	nar	orrusta	55881	og ég er að blása það upp
+IP-SUB	fic	19	0.25	nar	orrusta	55894	Gekk nú keisarinn um í hauginum á meðan dólgurinn var að brenna
+IP-MAT	fic	19	0.25	nar	orrusta	55924	Nú er að víkja sögunni aptur til Napóleons
+IP-MAT	fic	19	0.25	nar	orrusta	56154	En það er af Djúnka að segja að hann bergði á Heiðrúnardropa eins mikið og Þór drakk af horninu hjá Útgarðaloka
+IP-MAT	fic	19	0.25	nar	orrusta	56206	og var að lesa bænir yfir kúnni
+IP-MAT	fic	19	0.25	nar	orrusta	56222	Nú er að segja frá Austurríkiskeisara að honum berast þau tíðindi að Napóleon er kominn í tengdir við Sardiníu<dash/>konung og að hann hefir fengið óvígan her enn að nýju frá Frakklandi
+IP-MAT	fic	19	0.25	nar	orrusta	56274	En það er frá Tartaría að segja að konungur sá er þar réði lét skera upp herör um allt sitt ríki
+IP-SUB	fic	19	0.25	nar	orrusta	56439	Stóð þar svo á að Gudda ráðskona var úti á túni að berja
+IP-SUB	fic	19	0.25	nar	orrusta	56512	Létti Metternich eigi fyrr en hann var búinn að ná upp úr Hjörleifi hverju einasta beini
+IP-MAT	fic	19	0.25	nar	orrusta	56538	En það er af Metternich að segja að hann vaknaði viður illan draum er stafurinn var horfinn
+IP-SUB	fic	19	0.24	nar	torfhildur	56667	Það var því engin furða þó að almúginn sem sjaldan sá nýjungar girntist að líta skrúðgöngu innlendra og útlendra höfðingja með korða við hlið upp á gamla Lögberg girntist að heyra margar trumbur og útlend hljóðfæri sameina margbreyttar raddir sínar við söngva hinna rómsterku landsins sona sem nú voru farnir að lesa úr storknuðu rúnaletri hraungjánna orðið frelsi er þó að vísu hlaut að fela sig í djúpi hjartnanna því að landið var háð útlendu valdi sem ekkert frelsisorð vildi heyra
+IP-SUB	fic	19	0.24	nar	torfhildur	56807	Hallgrímur leit niður á sig eins og hann væri að aðgæta hvort sauðsvarta duggarabands<dash/>peysan og gráu vaðmálsbuxurnar sómdu sér svo illa
+IP-MAT	fic	19	0.24	nar	torfhildur	56901	en brosið var einlægt að fæðast og deyja á vörum Kristínar
+IP-MAT	fic	19	0.24	nar	torfhildur	56927	Frá þeim Þórði presti og systur hans er það að segja að þau voru engan veginn svo ánægð með þessa heimsókn sem þau létu
+IP-MAT	fic	19	0.24	nar	torfhildur	56933	Nú var ekki að búast við betra þareð Þorsteinn prestur var miklu magnaðri í galdrakukli og vonzku
+IP-MAT	fic	19	0.24	nar	torfhildur	56936	og fyrst trúin væri hér annars vegar þá væri ekki að vita hverju hún orkaði
+IP-MAT	fic	19	0.24	nar	torfhildur	56975	Að baka til var að sjá há fjöll og foss mikinn sem blasti fagurlega við
+IP-MAT	fic	19	0.24	nar	torfhildur	57161	Úr því sem komið er hugsaði biskup er bezt að láta sem ekkert sé um að vera
+IP-MAT	fic	19	0.24	nar	torfhildur	57499	Sólin var að hverfa bak við hnúkana
+IP-SUB	fic	19	0.24	nar	torfhildur	57553	Þér er vissulega ekki trúandi fyrir kvenmanni afglapinn þinn sagði hann um leið og hann stökk af baki og fór að girða hjá Vilborgu því að söðullinn var farinn að hallast fram
+IP-SUB	fic	19	0.24	nar	torfhildur	57559	Frá því að Daði kom í hópinn bolaði hann nær gjörsamlega Ólafi út því að jafnskjótt sem eitthvað var að reiðtygjum Vilborgar var Daði búinn að koma því í lag áður en Ólafur svo knár sem hann var var kominn af baki
+IP-MAT	fic	19	0.24	nar	torfhildur	57622	Var oft búið að segja þeim að flytja inn
+IP-MAT	fic	19	0.24	nar	torfhildur	57820	og var farinn að búast við heimsókn af Hinrik Bjelke höfuðsmanni sem ennþá einu sinni hafði farið norður kynnisför til Þorláks Hólabiskups
+IP-SUB	fic	19	0.24	nar	torfhildur	57829	Sá er hann átti tal við var Jón sá er var að gifta sig er biskup hélt innreið sína í Skálholt
+IP-MAT	fic	19	0.24	nar	torfhildur	57833	og þann hluta var nú biskup að fala
+IP-MAT	fic	19	0.24	nar	torfhildur	57899	Það var nú unun hans að búa vel í haginn fyrir þessi börn sín
+IP-MAT	fic	19	0.24	nar	torfhildur	57991	Nú er ég búinn að ná knettinum fjórum sinnum hvað eftir annað en þú aldrei sagði drengurinn við systur sína um leið og hann kastaði honum til hennar í fimmta skipti
+IP-SUB	fic	19	0.24	nar	torfhildur	58031	Jafnvel þótt Brynjólfur biskup væri fastlyndur maður og lítt sveigjanlegur þegar því var að skipta komst hann þó við í hjarta sínu við bæn barnsins
+IP-SUB	fic	19	0.24	nar	torfhildur	58064	og nam staðar frammi fyrir Daða sem alls enga hræðslu var að sjá á
+IP-MAT	fic	19	0.24	nar	torfhildur	58394	Nú var slík trú farin að falla í fyrnsku
+IP-MAT	fic	19	0.24	nar	torfhildur	58399	og því er ekki að búast við að snillingar fyrri tíma standi frammi fyrir samtíðar<dash/> og seinni tíma mönnum sem alfullkomnar verur
+IP-MAT	fic	19	0.24	nar	torfhildur	58433	hjónaefnin voru látin setjast á hann og þau svo gefin saman
+IP-SUB	fic	19	0.24	nar	torfhildur	58561	og kryddaði hana ekki allsjaldan með latínu eins og þá tíðkaðist þegar um vísindaleg málefni var að ræða
+IP-SUB	fic	19	0.24	nar	torfhildur	58582	En þó að allar veizlur séu í raun og veru hver annarri líkar að því leyti sem tilgangurinn er að gleðja sig og aðra og að njóta sem bezt þeirra fáu augnablika sem veizlugleðin lætur í té þá skulum vér þó renna ímyndunaraugum vorum yfir þennan forna veizlusal sem nú er fyrir löngu hruninn niður í grunn þegar borð voru tekin burtu og hver var farinn að skemmta sér eftir eigin geðþótta
+IP-SUB	fic	19	0.4	nar	voggur	58662	Og jafnlengi hafði hann raulað sömu vísuna með sama vísnalaginu fyrir munni sér þegar hann var búinn að pósta vatnið upp í föturnar sínar úr póstinum í Aðalstræti og var kominn á stað
+IP-MAT	fic	19	0.4	nar	voggur	58668	Það er eigi gott að vita hvort vísan var gerð um Hans Vögg eða hún var gamall húsgangur
+IP-MAT	fic	19	0.4	nar	voggur	58704	Það er sorgleg sjón að sjá útigangshestana í Reykjavík á veturna
+IP-SUB	fic	19	0.4	nar	voggur	58765	Maddama Sigríður sagði að það væri ætíð leiðinlegt að byrja við slík tækifæri
+IP-MAT	fic	19	0.27	nar	grimur	58801	hann var fyrir löngu hættur að telja daga sína og ár
+IP-SUB	fic	19	0.27	nar	grimur	58813	Það var því engin furða þó sveitunum í kring væri alltaf að hnigna með velmegun
+IP-SUB	fic	19	0.27	nar	grimur	58843	Best kunni hann við sig þegar hann var að vega vörur bænda ull tólg og þess konar
+IP-MAT	fic	19	0.27	nar	grimur	58864	hann var svo að flækjast í Eyrarkaupstað nokkur ár
+IP-MAT	fic	19	0.27	nar	grimur	58881	Þegar Grímur giftist henni var honum mikið farið að förla og enda farið að ganga af honum
+IP-MAT	fic	19	0.27	nar	grimur	58912	hitt var látið standa ógert
+IP-SUB	fic	19	0.27	nar	grimur	58955	og inni í stofunni sem Grímur gamli sat í á daginn þegar hann var ekki að rangla úti í búðinni ægði einhvernveginn saman ódaun af úldnu keti og morkinni skötu svo að þar inni var lítt verandi fyrir þá sem ekki voru slíku vanir
+IP-SUB	fic	19	0.27	nar	grimur	58972	Embættisbústaður hans var á verslunarstaðnum Eyri svo það var ekki langt að vitja hans
+IP-SUB	fic	19	0.27	nar	grimur	58986	hann var líka afllaus í munninum öðrumegin svo það var örðugt að skilja hann þó hann talaði ekki nema einstöku orð og hálfar setningar á stangli og með hvíldum
+IP-SUB	fic	19	0.27	nar	grimur	58994	Og auðmýktin og hræðslan $n við Grím gamla sem horfði á hana byrstum augum og iðrunin eftir að hafa hitt á þennan lestrarkafla um helvíti lagðist svo þungt á hana að hún beygðist saman og varð eins og hrúga á stólnum fram við gluggann þar sem hún sat og var að prjóna sokk sem hún hafði gripið í fátinu sem á hana kom þegar Grímur skipaði henni að hætta að lesa
+IP-SUB	fic	19	0.27	nar	grimur	59016	en í þetta sinn varð biðin svo löng að hún gat ekki ráðið við sig og var rétt að festa svefninn þegar Grímur sagði Marja Marja
+IP-MAT	fic	19	0.27	nar	grimur	59035	en var alltaf að skrúfa upp í lampanum
+IP-SUB	fic	19	0.27	nar	grimur	59125	horfði á lækninn dálitla stund einhverjum vandræða augum eins og hann væri að fálma eftir einhverri hugsun sem hann gæti ekki fundið og ætlaðist til að læknirinn hjálpaði sér
+IP-SUB	fic	19	0.27	nar	grimur	59128	Það var eins og hann langaði til að lesa á þessu andliti sem ekkert gat dulið fremur heldur en barnið hvern einasta snefil af hugsun sem enn þá væri að villast þar inni á bak við þessi þoku<dash/>augu
+IP-MAT	fic	19	0.27	nar	grimur	59192	Hann var farinn að læra undir skóla
+IP-MAT	fic	19	0.27	nar	grimur	59193	og var að kúgast yfir latínsku grammatíkinni sem presturinn á Eyri hlýddi honum yfir annanhvorn dag
+IP-SUB	fic	19	0.27	nar	grimur	59221	og talaði ekki við nokkurn mann nema hvað hann stundum tautaði í sífellu Minna minna þó ekkert væri verið að vega eða mæla
+IP-MAT	fic	19	0.27	nar	grimur	59229	en stundum var hann að tauta við sjálfan sig nærri því í hálfum hljóðum Með rentum og renturentum rentum og renturentum
+IP-MAT	fic	19	0.27	nar	grimur	59317	og var alltaf öðru hvoru að tauta við sjálfan sig
+IP-MAT	fic	19	0.27	nar	grimur	59340	og var að taka þar til
+IP-MAT	fic	19	0.27	nar	grimur	59373	Hún var lengi að opna skúffurnar
+IP-MAT	fic	19	0.27	nar	grimur	59383	Hún var lengi að finna lykilinn að henni því riða var töluverð á höndunum
+IP-MAT	fic	19	0.26	nar	vordraumur	59427	þar voru hvítleit ský að læðast fram og aftur í hægðum sínum eins og einhver vorkyrrð væri komin yfir þau
+IP-MAT	fic	19	0.26	nar	vordraumur	59434	þeir voru að hugsa um litlar heybirgðir og margar skepnur
+IP-SUB	fic	19	0.26	nar	vordraumur	59455	Á þetta féllust líka flestir nema Ingvar í Vík bróðir síra Þorvalds í Ási sem búinn var að sækja um Stað
+IP-MAT	fic	19	0.26	nar	vordraumur	59460	Það er ekki gott að vita hvort það var þetta bænaskjal til biskups eða andlegt atgervi Bjarna sem olli því að hann varð einn af þremur sem söfnuðurinn í Staðarprestakalli fékk að kjósa um af þeim sjö umsækjendum sem um brauðið höfðu sótt
+IP-MAT	fic	19	0.26	nar	vordraumur	59467	Fréttin um ánægju prófastsins var ekki lengi að berast út úr stofunni
+IP-MAT	fic	19	0.26	nar	vordraumur	59475	og var að spjalla saman
+IP-SUB	fic	19	0.26	nar	vordraumur	59477	Þegar hann var búinn að spyrja almæltra tíðinda úr höfuðstaðnum fór hann að ganga um gólf og tala um hvað veðráttan hefði lengst af verið köld um vorið og hvað lífshagur hér á landi væri kaldranalega eintrjáningslegur
+IP-SUB	fic	19	0.26	nar	vordraumur	59481	Bjarni vildi ekki aðhyllast þá skoðun tengdaföður síns tilvonandi að það væri loftslaginu að kenna að menn hér á landi væru svona
+IP-SUB	fic	19	0.26	nar	vordraumur	59482	hann sagði að þessi stirðleiki og framkvæmdardeyfð væri engu öðru að kenna en óánægjunni með allt og alla sem væri orðin eðli manna hér og væri komin af því að menntunin og menningin væri ekki búin að ryðja sér hér til rúms nema að hálfu leyti
+IP-SUB	fic	19	0.26	nar	vordraumur	59482	hann sagði að þessi stirðleiki og framkvæmdardeyfð væri engu öðru að kenna en óánægjunni með allt og alla sem væri orðin eðli manna hér og væri komin af því að menntunin og menningin væri ekki búin að ryðja sér hér til rúms nema að hálfu leyti
+IP-SUB	fic	19	0.26	nar	vordraumur	59538	og þegar hún var búin að syngja nokkur lög hætti hún að syngja
+IP-MAT	fic	19	0.26	nar	vordraumur	59572	hann var að hugsa fram og aftur um það sem fyrir hann hafði borið um kvöldið
+IP-SUB	fic	19	0.26	nar	vordraumur	59595	Þegar hún var búin að láta rennigluggatjaldið niður fór hún að afklæða sig
+IP-MAT	fic	19	0.26	nar	vordraumur	59638	það væri ógnarhægt að tala um skyldurækt þegar aðrir væru búnir að búa manni lífshreiður svo maður þyrfti ekkert annað en að sitja þar eins og fugl á eggjum alla sína ævi og garga svo til vargsins fyrir utan sem annað hvort ætti ill hreiður eða engin Skyldurækt skyldurækt !
+IP-SUB	fic	19	0.26	nar	vordraumur	59638	það væri ógnarhægt að tala um skyldurækt þegar aðrir væru búnir að búa manni lífshreiður svo maður þyrfti ekkert annað en að sitja þar eins og fugl á eggjum alla sína ævi og garga svo til vargsins fyrir utan sem annað hvort ætti ill hreiður eða engin Skyldurækt skyldurækt !
+IP-SUB	fic	19	0.26	nar	vordraumur	59647	og einblíndi á Önnu meðan hún var að tala
+IP-MAT	fic	19	0.26	nar	vordraumur	59691	og var að hugsa um hverju hann hefði svarað prófastinum og unnustunni við kvöldverðinn
+IP-SUB	fic	19	0.26	nar	vordraumur	59746	og hélt henni fastri milli beggja litlu handanna sinna meðan hún var að tala
+IP-SUB	fic	19	0.26	nar	vordraumur	59763	Bjarni einblíndi á hana meðan hún var að tala
+IP-MAT	fic	19	0.26	nar	vordraumur	59785	og var að rifja upp fyrir sér allt sem gerst hafði um nóttina og daginn áður
+IP-SUB	fic	19	0.26	nar	vordraumur	59831	En hverjum var allt þetta að kenna ?
+IP-MAT	fic	19	0.26	nar	vordraumur	59835	Allt þetta var engum að kenna nema honum
+IP-MAT	fic	19	0.26	nar	vordraumur	59839	Hann var búinn að klæða sig
+IP-SUB	fic	19	0.26	nar	vordraumur	59874	En því var nú prófasturinn að dæma ?
+IP-MAT	fic	19	0.26	nar	vordraumur	59875	Honum var nær að hugsa um sínar eigin gerðir
+IP-MAT	fic	19	0.26	nar	vordraumur	59941	Skelfileg gæfa væri það að stíga sín fyrstu spor á sálusorgaraveginum undir hans handleiðslu
+IP-SUB	fic	19	0.26	nar	vordraumur	59957	Hvað það var ókvenlegt af Önnu að taka karlmanni svona fljótt svona alveg skilmálalaust
+IP-MAT	fic	19	0.26	nar	vordraumur	59964	og var að hugsa um það á leiðinni hvað ættingjaelskan væri fögur og hvað mikla gæfu hún færði mönnunum
+IP-SUB	fic	19	0.26	nar	vordraumur	59973	Hvað honum var rótt innanbrjósts eftir að hann var búinn að finna friðinn við sjálfan sig
+IP-SUB	fic	19	0.26	nar	vordraumur	59974	Honum fannst allt gott og göfugt í sál sinni vakna til nýs lífs þegar hann var búinn að sigra allar þessar óhreinu æsingar sem hann hafði verið í seinasta sólarhringinn
+IP-SUB	fic	19	0.26	nar	vordraumur	59979	Ég býst ekki við að njóta þeirrar ánægju að sjá yður hvorki heima hjá yður eða hér fyrst um sinn því ef forsjónin ætlar mér þá náð að verða kosinn hér sálusorgari á morgun þá hefi ég svo mikið að hugsa og hér verður svo mikið umstang að ekki er að búast við að nokkur tími verði afgangs til annars
+IP-MAT	fic	19	0.26	nar	vordraumur	60008	Hann var að blaða í dálítilli aflangri bók í blárri kápu
+IP-SUB	fic	19	0.26	nar	vordraumur	60009	og hélt á bláum blýanti sem hann var að leika sér að
+IP-SUB	fic	19	0.26	nar	vordraumur	60014	og prófasturinn lét bláa blýantinn fylgja með tölunum í dálkinum eins og hann væri í hugsunarleysi eða sér til dægrastyttingar að leika sér að því að leggja þessar tölur saman
+IP-SUB	fic	19	0.26	nar	vordraumur	60015	Og þegar kjósandinn var búinn að kjósa Bjarna Sveinsson þá sló prófasturinn tvö strik í kross með bláa blýantinum yfir alla blaðsíðuna
+IP-SUB	fic	19	0.26	nar	vordraumur	60023	Það var eins og hann væri farinn að hugsa um allt annað en töludægrastyttinguna
+IP-MAT	fic	19	0.26	nar	vordraumur	60113	Þegar frú Anna kom heim á stöðulinn var verið að mjólka
+IP-SUB	fic	19	0.26	nar	vordraumur	60127	en húsrúmið var þó heldur þröngt þó húsakynnin væru stór meðan verið var að borða
+IP-SUB	fic	19	0.26	nar	vordraumur	60128	Þegar farið var að drekka toddý á eftir fundu menn minna til slíks
+IP-SUB	fic	19	0.26	nar	vordraumur	60133	Honum fannst að forsjónin hefði nú sýnt sér svo mikla náð að það væri skylda sín að reyna að prófa sjálfan sig
+IP-SUB	fic	19	0.26	nar	vordraumur	60134	Það var einkum þetta æðisfát sem aldrei skyldi verið hafa við hana frú Önnu sem hann var að leita að rótum til
+IP-MAT	fic	19	0.26	nar	vordraumur	60135	Eiginlega var þetta allt henni að kenna eins og við var að búast af trúarlitlu eða trúarlausu heimsbarni
+IP-SUB	fic	19	0.26	nar	vordraumur	60135	Eiginlega var þetta allt henni að kenna eins og við var að búast af trúarlitlu eða trúarlausu heimsbarni
+IP-MAT	fic	19	0.26	nar	vordraumur	60150	Unnustan var að leita hans
+IP-MAT	fic	19	0.26	nar	vordraumur	60157	og var að velta fyrir sér hvort hann ætti að drekka flóaða mjólk á morgnana og nýmjólk á kvöldin eða nýmjólk á morgnana og flóaða mjólk á kvöldin
+IP-SUB	fic	20	0.24	nar	fossar	60207	En hún fann líka að það var örðugt að hvíla í faðmi Brands á Fossi eins ástlaus og köld og hún var gagnvart honum
+IP-MAT	fic	20	0.24	nar	fossar	60259	Og vanalega ráð Gróu var þegar svona barátta var í brjósti hennar að snúa sér með blíðu að blessaða litla barninu sínu
+IP-SUB	fic	20	0.24	nar	fossar	60287	Þegar Brandur var búinn að borða fór Gróa líka að hjálpa Gunnari að koma erindinu fram
+IP-SUB	fic	20	0.24	nar	fossar	60352	Gróa fann aðeins það að ef um sekt var að ræða þá var Brandur alls ekki sekari en hún sjálf
+IP-SUB	fic	20	0.24	nar	fossar	60355	Hvað honum mundi hafa þótt miklu vænna um Gróu ef fólkið hennar væri ekki að troðast á milli þeirra og alveg óstjórnlega vænt um hana ef hún hefði svipaðar skoðanir og hann sjálfur ef hún væri nokkuð hlýrri og innilegri
+IP-SUB	fic	20	0.24	nar	fossar	60364	Það mátti heita að Gróa væri hætt að biðja um nokkuð hagræði þó fólkið hennar kæmi að Fossi
+IP-SUB	fic	20	0.24	nar	fossar	60374	Gróa var vön að hafa eina vinnukonu í vitorði með sér þá sem hún trúði best þegar hún var að gefa svona að baki bónda síns
+IP-MAT	fic	20	0.24	nar	fossar	60376	Gróu var farið að þykja kaffi svo einstaklega gott og hressandi
+IP-MAT	fic	20	0.24	nar	fossar	60386	Gróa var vön að víkja að Einari einhverju fyrir þessa smáverslun
+IP-MAT	fic	20	0.24	nar	fossar	60410	þau eru búin að reyna hjúskapinn og búskapinn
+IP-MAT	fic	20	0.24	nar	fossar	60439	Það var raunar hægt að vinna Brand með lagi
+IP-MAT	fic	20	0.24	nar	fossar	60443	Hún var búin að læra að taka réttum tökum á honum þegar hún þurfti þess ef henni sýndist að koma sínu fram
+IP-MAT	fic	20	0.24	nar	fossar	60461	Það var þægilegt að ganga í sömu fötunum dag eftir dag
+IP-MAT	fic	20	0.24	nar	fossar	60466	Þegar hann kom út aftur var Brandur að tinda hrífu
+IP-SUB	fic	20	0.24	nar	fossar	60479	Hvaða meining var í að karl væri að flökta með hann ?
+IP-MAT	fic	20	0.24	nar	fossar	60482	Hann er að snuða þetta út flaug Brandi í hug
+IP-SUB	fic	20	0.24	nar	fossar	60498	Hvað var Einar að flækjast með fullan belg ?
+IP-MAT	fic	20	0.24	nar	fossar	60592	þá var ekki við öðru en ógeðfelldu að búast gæfulausu hjónabandi
+IP-MAT	fic	20	0.24	nar	fossar	60647	Fólkið var búið að borða miðdegismatinn og farið að ýta flekkjunum heim að lambhúsahlöðunni
+IP-MAT	fic	20	0.24	nar	fossar	60668	Steinn og Helgi voru að veltast við að bera inn tuggur reyna að hjálpa pabba að koma fyrir heyinu sem nú var komið upp á móts við baggagatið
+IP-MAT	fic	20	0.24	nar	fossar	60696	það er ekki nóg að masa og monta sagði Sigga
+IP-MAT	fic	20	0.24	nar	fossar	60837	Eitt kvöld í skammdeginu var verið að lesa sögu Gísla Súrssonar
+IP-MAT	fic	20	0.24	nar	fossar	60903	og þá var farið að spila Vist Jón vinnumaður og Brandur Gróa og Geirmundur
+IP-SUB	fic	20	0.24	nar	fossar	61003	það var eins og klerkurinn væri að hirta þá fyrir mannvonsku þeirra
+IP-SUB	fic	20	0.24	nar	fossar	61010	Stundum datt samt unga fólkinu í hug að gaman væri að vita hvort ræðan væri ekki langt komin
+IP-SUB	fic	20	0.24	nar	fossar	61174	Nú voru foreldrar hennar dánir svo enginn ágreiningur gat risið af því hvernig þeim var hjálpað hvort þau væru að smávinna upp það sem þau einu sinni höfðu gefið upp að Fossi
+IP-SUB	fic	20	0.24	nar	fossar	61185	en hann var hvorki nógu þrásækinn né lagsæll til að brjóta venjuna sem búin var að taka sér sæti á bak aftur eða ráð konu sem þekkti hann svo vel og kunni að taka tökunum á honum til þess að sigurinn yrði sér viss en hann tapaði
+IP-MAT	fic	20	0.24	nar	fossar	61247	helst var það í skapi hans að óska þess að hann andaðist á sóttarsæng
+IP-MAT	fic	20	0.24	nar	fossar	61250	annaðhvort var að skilja
+IP-SUB	fic	20	0.24	nar	fossar	61286	og dansaði því þá var dansinn að færast frá kaupstöðunum til sveitanna
+IP-SUB	fic	20	0.24	nar	fossar	61441	Það var líkast því að hún væri að flýja einhverja harða hugsun sem hún þó ekki gæti losnað við
+IP-MAT	fic	20	0.24	nar	fossar	61447	Það var að henda sér út í stjórnleysi og opinn mannorðsdauða
+IP-MAT	fic	20	0.24	nar	fossar	61465	það var ekki ónýtt að fá hana fyrir vinkonu
+IP-SUB	fic	20	0.24	nar	fossar	61534	hann var eins og flekkóttur kláðasauður innan um hvíta mjallfilda sauði líkur ref í lambahóp þeim sem rétt er búið að reka á afrétt
+IP-SUB	fic	20	0.24	nar	fossar	61706	og Brandur var miklu lengur að koma honum á fætur en Gróa var að vekja Geirmund
+IP-MAT	fic	20	0.24	nar	fossar	61720	Þegar þeir voru komnir spölkorn suðureftir var vínið búið að vekja þá Brand og Geirmund
+IP-MAT	fic	20	0.24	nar	fossar	61734	Þeir Brandur voru búnir að láta upp á einn hestinn sem hafði velt af sér þegar hin komu
+IP-SUB	fic	20	0.24	nar	fossar	61766	Var hún að vara hann við ?
+IP-MAT	fic	20	0.24	nar	fossar	61780	það var eðlilegt fyrir hann og þau að harma
+IP-MAT	fic	20	0.24	nar	fossar	61793	Geirmund var farið að dreyma yfir pokunum í skemmunni
+IP-SUB	fic	20	0.25	nar	leysing	61850	Fram undan ytri kaupstaðnum lá gufuskip sem verið var að afferma
+IP-MAT	fic	20	0.25	nar	leysing	61853	Skipið var farið að léttast og orðið hátt á sjónum að framan svo breiður bekkur af rauðum botninum speglaði sig í vatninu
+IP-SUB	fic	20	0.25	nar	leysing	61858	Það hleypti því óneitanlega miklu lífi í þessa steingervings<dash/>kaupstaðarkyrð þegar gamli bókarinn sem er úr sögunni var að staulast heim til sín hóstandi svo undir tók í húsunum og blótandi í hálfum hljóðum
+IP-SUB	fic	20	0.25	nar	leysing	61871	Og búðarsveinarnir sárbölvuðu bókaranum meðan þeir voru að hreinsa af sér litinn
+IP-MAT	fic	20	0.25	nar	leysing	61956	en henni var gjarnt að ýfast þegar hann skifti skapi jafnvel þótt hinar andlitsæðarnar létu lítið á sér bæra
+IP-SUB	fic	20	0.25	nar	leysing	61968	En væri um eitthvað alvarlegt að ræða þar sem Þorgeir þurfti að beita sér brást það ekki að hann lagði frá sér gleraugun og horfði á þann sem hann átti við með berum augum
+IP-MAT	fic	20	0.25	nar	leysing	61978	og var nú farinn að hærast
+IP-SUB	fic	20	0.25	nar	leysing	62036	Hann svaraði orðum Sigurðar hægt og dræmt en með kuldabrosi svo hægt var að skilja að honum kom það ekkert við sem hann var að segja frá
+IP-MAT	fic	20	0.25	nar	leysing	62101	Það var sýnilega ómögulegt að hleypa honum upp að þessu sinni
+IP-MAT	fic	20	0.25	nar	leysing	62115	hann var að leita að því í huganum
+IP-MAT	fic	20	0.25	nar	leysing	62145	Víst var það rangnefni að kalla Vogabúðir kaupstað enda ekki gert í lagamálinu
+IP-SUB	fic	20	0.25	nar	leysing	62147	og þessi litla bygð sem risin var upp fram með voginum var í daglegu tali nefnd kaupstaðurinn en sjaldan verzlunarstaður og aldrei kauptún eins og lögin eru þó svo nærgætin að ætlast til
+IP-MAT	fic	20	0.25	nar	leysing	62179	Nú var hún búin að koma sér upp ofurlítilli eyri fram í voginn
+IP-MAT	fic	20	0.25	nar	leysing	62184	Nú var farið að tala um að leggja við hana og láta hana vinna eitthvert þarft vik
+IP-MAT	fic	20	0.25	nar	leysing	62186	Það var ekki búið að tala um það nema í fimmtíu ár !
+IP-MAT	fic	20	0.25	nar	leysing	62292	Eins og áður er um getið var verið að afferma gufuskip fram undan ytri kaupstaðnum
+IP-SUB	fic	20	0.25	nar	leysing	62301	Það var því bókstaflega satt sem Sigurður sagði að varla var auðið að fá krakka til sendiferða
+IP-SUB	fic	20	0.25	nar	leysing	62344	Þegar verið er að ferma eða afferma skip á höfnum sem skipstjórinn af einhverjum ástæðum hefir ekki velþóknun á gerir hann sig umsvifalaust að yfirmanni allrar vinnunnar
+IP-MAT	fic	20	0.25	nar	leysing	62371	og var verið að losa hann
+IP-SUB	fic	20	0.25	nar	leysing	62389	Hann heyrði að verið var að skella aftur hlerunum
+IP-MAT	fic	20	0.25	nar	leysing	62435	Nú var farið að fyrnast yfir þá sögu
+IP-SUB	fic	20	0.25	nar	leysing	62458	Auk þess var geymsluhúsið sama sem opið því ekki var enn búið að ganga svo frá kjallaradyrunum að hægt væri að læsa þeim
+IP-MAT	fic	20	0.25	nar	leysing	62463	Nú voru allir búnir að fá nóg af deginum
+IP-SUB	fic	20	0.25	nar	leysing	62464	Var því hvorttveggja vel skiljanlegt bæði að verkið var látið bíða næsta dags og eins hitt að vaka þyrfti yfir vörunum um nóttina
+IP-MAT	fic	20	0.25	nar	leysing	62476	en nú voru þeir farnir að veita mörgum stöðuga atvinnu
+IP-MAT	fic	20	0.25	nar	leysing	62492	Var þar verið að afgreiða marga af þeim sem verið höfðu í vinnunni um daginn
+IP-MAT	fic	20	0.25	nar	leysing	62499	og var að skrifa í hana
+IP-SUB	fic	20	0.25	nar	leysing	62530	Þér eruð orðinn þreyttur karltetur svo það er gustuk að hlífa yður við því
+IP-MAT	fic	20	0.25	nar	leysing	62539	Brennivíns<dash/> pödduna var auðvitað árangurslaust að nefna oftar
+IP-MAT	fic	20	0.25	nar	leysing	62637	Heila áratugi voru þeir að átta sig á þessari stórbreytingu á verzlunarlöggjöfinni
+IP-MAT	fic	20	0.25	nar	leysing	62658	Það var óvanalegt að sjá jafnungan verzlunarstjóra við þá verzlun
+IP-MAT	fic	20	0.25	nar	leysing	62734	Ætti hún drengskap og skilvísi að mæta væri það ótvíræð skylda hennar að bjóða viðskiftamönnum sínum svo góð kjör sem framast væri unt án þess að henni væri þröngvað til þess af samkepni
+IP-SUB	fic	20	0.25	nar	leysing	62738	Hann sjálfur og verzlun hans runnu saman í eitt fyrir honum þegar um framkomuna út á við var að ræða
+IP-MAT	fic	20	0.25	nar	leysing	62916	Eigi að síður var svo að sjá sem ekki skorti hann hylli og vinfengi helztu manna héraðsins
+IP-MAT	fic	20	0.25	nar	leysing	62952	En það var tilkomumikið að fá gufuskip eitthvað sem vert var að státa af
+IP-MAT	fic	20	0.25	nar	leysing	62959	Þó var alvarlega brýnt fyrir kaupfélagsmönnum að panta ekki meiri vörur en þeir væru vissir um að geta borgað árlega
+IP-MAT	fic	20	0.25	nar	leysing	62973	og var búinn að frétta af henni út í yztu æsar jafnvel áður en hún komst á laggirnar
+IP-MAT	fic	20	0.25	nar	leysing	63012	En nú var það hætt að hrífa
+IP-SUB	fic	20	0.25	nar	leysing	63087	En svo var þeim talin trú um að nú væru þeir að bera sigur úr býtum í samkepninni og þá mundi hagur þeirra batna
+IP-MAT	fic	20	0.25	nar	leysing	63143	og þá þá væri réttast að láta kné fylgja kviði
+IP-SUB	fic	20	0.25	nar	leysing	63225	En þau voru borin fram með meiri frekju því þá var um ótvíræða sök að tala
+IP-MAT	fic	20	0.25	nar	leysing	63232	En það var þó betra að koma heim ófullur
+IP-MAT	fic	20	0.25	nar	leysing	63252	Þar var fátt til þess fallið að gleðja eða hressa
+IP-SUB	fic	20	0.25	nar	leysing	63262	En meðan hún var að venjast því hafði hinn slæmi eiginleiki hennar jögunarsýkin þroskast
+IP-MAT	fic	20	0.25	nar	leysing	63273	Um þetta var Einar að hugsa meðan hann reikaði þar um á milli húsanna
+IP-MAT	fic	20	0.25	nar	leysing	63275	Hann var búinn að semja í huganum stutt og glögt yfirlit yfir hjúskaparsögu þeirra sem hann jafnan kunni og jafnan var reiðubúinn að skýra í einstökum atriðum
+IP-SUB	fic	20	0.25	nar	leysing	63299	Hann fann sáran þreytuverk í spjaldhryggnum sem nú var þó heldur að líða frá
+IP-MAT	fic	20	0.25	nar	leysing	63306	Um þetta var hann að brjóta heilann
+IP-MAT	fic	20	0.25	nar	leysing	63345	Nú var Þorgeir búinn að komast að nógu miklu að sinni
+IP-MAT	fic	20	0.22	nar	ofurefli	63374	Þorbjörn var að tala
+IP-MAT	fic	20	0.22	nar	ofurefli	63392	Þorbjörn var farinn að eta standandi
+IP-MAT	fic	20	0.22	nar	ofurefli	63435	Og nú var hann farinn að dæma honum alveg óþektan mann Byrjaður á því fyrstu nóttina
+IP-SUB	fic	20	0.22	nar	ofurefli	63460	Hvernig stóð á því að hann var alt af að efast um eitthvað sem aðrir menn taka gilt ?
+IP-SUB	fic	20	0.22	nar	ofurefli	63465	Hugur hans hvarf aftur í tímann þegar guðfræðin hafði ætlað að verða trú hans ofurefli þegar honum hafði orðið það ljóst að allur þorri þess sem hann var að læra var ekkert annað en heilaspuni afar ófullkomnar tilraunir manna til þess að gera sér grein fyrir ráðgátum tilverunnar tilraunir sem óvitrir og drotnunargjarnir menn höfðu sett í hásæti sannleikans og gert að harðstjórum heilvita mannsandans
+IP-MAT	fic	20	0.22	nar	ofurefli	63481	og var að lesa frásagnir frá Sálarrannsóknarfélaginu brezka
+IP-SUB	fic	20	0.22	nar	ofurefli	63482	En honum veitti örðugt að festa hugann við það sem hann var að lesa
+IP-MAT	fic	20	0.22	nar	ofurefli	63544	Hann var að leika sér með fóstursystkinum sínum um vetur frammi í bæjardyrum
+IP-SUB	fic	20	0.22	nar	ofurefli	63614	og lagði út í bylinn ef því var að skifta
+IP-MAT	fic	20	0.22	nar	ofurefli	63624	En Esjan og Hengillinn voru farin að hærast
+IP-SUB	fic	20	0.22	nar	ofurefli	63637	Og var ekki nægur vandi að gæta sinnar eigin sálar ?
+IP-MAT	fic	20	0.22	nar	ofurefli	63640	Hann var líka að hressa sig í góðviðrinu
+IP-MAT	fic	20	0.22	nar	ofurefli	63736	— Hann er búinn að biðja um þetta nokkuð oft hérna í kirkjunni
+IP-MAT	fic	20	0.22	nar	ofurefli	63750	Svo var að heyra sem allur söfnuðurinn væri hóstandi
+IP-SUB	fic	20	0.22	nar	ofurefli	63768	Og latinusöngurinn var hátíðlegur í eyrum manna fram af því að fæstir skildu nokkurt orð í honum né gerðu sér neina hugmynd um hvað verið var að syngja
+IP-SUB	fic	20	0.22	nar	ofurefli	63786	Eins og hann væri að horfa inn í annan heim
+IP-SUB	fic	20	0.22	nar	ofurefli	63789	Hann talaði svo blátt áfram að mörgum fanst þetta ekki eiginleg prédikun líkara því sem presturinn væri að rabba við vini sína í fámenni
+IP-SUB	fic	20	0.22	nar	ofurefli	63928	Hana langaði til að senda Grímsa eitthvað þegar búið væri að borða
+IP-SUB	fic	20	0.22	nar	ofurefli	63943	Það var presturinn sem var að fara inn í kotið
+IP-SUB	fic	20	0.22	nar	ofurefli	64125	Hann hljóp eins og hann væri að flýja illviður
+IP-MAT	fic	20	0.22	nar	ofurefli	64244	Jæja lítið er ungs manns gaman að koma hingað til þess að setjast við að brenna tusku fyrir fátækri konu
+IP-MAT	fic	20	0.22	nar	ofurefli	64246	Ofsinn var farinn að sefast
+IP-SUB	fic	20	0.22	nar	ofurefli	64255	Síðast heyrði hann það til móður sinnar að hún var að tauta við sjálfa sig með fullan munninn
+IP-MAT	fic	20	0.22	nar	ofurefli	64269	Prestur var kominn að heimsækja fjölskylduna
+IP-SUB	fic	20	0.22	nar	ofurefli	64294	Hann var heldur lágvaxinn maður holdskarpur munnfriður með þykt hár sem farið var að grána og kinnskegg
+IP-MAT	fic	20	0.22	nar	ofurefli	64410	Hér inni er mér ekki leyft að tala
+IP-SUB	fic	20	0.22	nar	ofurefli	64469	og prestur gat ekki áttað sig á því hvort yfirdómari var eða hvort hann var ekki að spottast að honum
+IP-MAT	fic	20	0.22	nar	ofurefli	64571	Og var ekki óhætt að ganga að því vísu að hún yrði honum einhvern tíma ósamdóma ?
+IP-MAT	fic	20	0.22	nar	ofurefli	64670	Ásgrímur var farinn að dökna til muna í framan
+IP-SUB	fic	20	0.22	nar	ofurefli	64784	En ekki varð prestur þess fullvís hvort Grímsi tæki nokkuð verulega eftir því sem hann var að segja honum
+IP-SUB	fic	20	0.22	nar	ofurefli	64796	Nú var enginn vafi á því að Grímsi var farinn að hlusta
+IP-MAT	fic	20	0.22	nar	ofurefli	64847	Nú var þá farið að svívirða hann Og sjálfsagt mikið mikið í vændum
+IP-SUB	fic	20	0.22	nar	ofurefli	64851	Var ekki hamingjan í því fólgin að standa við hlið hans í örvadrífunni hvað sem sjálfri henni leið ?
+IP-MAT	fic	20	0.22	nar	ofurefli	64863	og var að búa sig undir sunnudagsræðuna
+IP-SUB	fic	20	0.22	nar	ofurefli	64879	Samt var hún einhvern veginn svo undarlega varfær Eins og hún væri að dyljast Eins og hún væri að gæta þess vandlega að breiða fyrir gluggana láta ekki sjá of miklu bregða fyrir innan við
+IP-SUB	fic	20	0.22	nar	ofurefli	64946	Nú skildi prestur hvað hún var að fara
+IP-SUB	fic	20	0.22	nar	ofurefli	65071	Þorbjörn leit upp hvatskeytlega Ekki ólíkt hesti sem er að fælast
+IP-SUB	ser	20	0.23	rel	arin	65102	Í raun og veru er enginn tími til nema stundin sem er að líða
+IP-MAT	ser	20	0.23	rel	arin	65111	Þegar vér tölum um vorn eigin aldur og um þá tilfinning að vér færumst af bernskualdur yfir á æskuárin og að æskan líði fljótt og efri árin færist yfir oss fyrr en varir þá er sama um það að segja
+IP-MAT	ser	20	0.23	rel	arin	65125	Þetta er því einkennilegra þegar þess er gætt að hann fann ekki til þeirrar ábyrgðar er vér berum á árunum og ævi vorri gagnvart sjálfum oss í eiginlegasta skilningi því að hann gerði ekki ráð fyrir öðru lífi en þessum sjötíu eða áttatíu árum er vér lifum hér á jörð það er að segja þeir sem lengst lifa
+IP-SUB	ser	20	0.23	rel	arin	65155	En enginn af oss er enn fær að dæma um atburði þá sem nú eru að gerast
+IP-MAT	ser	20	0.23	rel	arin	65210	Á leiðinni gegnum skuggann ert þú ef til vill að læra það sem þér reið mest á
+IP-SUB	ser	20	0.23	rel	arin	65216	Og ýmislegt bendir á að sú trú frumkristninnar sé að eflast á vorum dögum
+IP-SUB	ser	20	0.23	rel	arin	65233	En á slíkum degi sem þessi er lítum vér eigi síður fram en aftur fram til hins óborna tíma eða þess sem er að fæðast
+IP-MAT	ser	20	0.23	rel	arin	65401	Allt af eru þeir að leita síns eigin vilja
+IP-MAT	ser	20	0.23	rel	arin	65419	Að minnsta kosti er hugsunin um það látin sitja á hakanum
+IP-MAT	ser	20	0.23	rel	arin	65447	og hvar sem þú starfar ert þú að vinna honum og með honum
+IP-MAT	ser	20	0.23	rel	arin	65467	Hún var að vinna að einhverju
+IP-SUB	ser	20	0.23	rel	arin	65470	Allur hugurinn var fastbundinn við það sem hún var að fást við
+IP-MAT	ser	20	0.23	rel	arin	65474	hún er að hugsa um einhvern forystumann mannkynsins
+IP-MAT	ser	20	0.23	rel	arin	65494	Það er ósannur mælikvarði að ætla að staðan geri manninn veglegan eða göfugan
+IP-SUB	ser	20	0.23	rel	arin	65525	Það er því sjálfsagt að þeir hugsa um að draga að sér athygli þeirra sem einhvers eru megnugir og einhver hagnaðarvon er að eiga viðskipti við
+IP-SUB	ser	20	0.23	rel	arin	65531	Til hverra er hann að kalla ? Ekki til þeirra sem eiga alls nægtir Ekki til þeirra sem finnst allt leika í lyndi Ekki til þeirra sem finnst allri þrá hjarta síns vera svalað öllum þekkingarþorsta sálar sinnar fullnægt allt hungur sitt eftir réttlæti vera mettað
+IP-SUB	ser	20	0.23	rel	arin	65552	Hann talaði aldrei út í bláinn sem væri hann að beina orðum til ókominna kynslóða
+IP-MAT	ser	20	0.23	rel	arin	65567	Slík kenning var eigi vel til þess löguð að veita þeim hvíld fyrir sálina er þráðu að gjöra Guðs vilja og langaði heitt eftir samfélagi við hann
+IP-SUB	ser	20	0.23	rel	arin	65583	Sjálfsagt hefir Jesús oft horft á er menn voru að plægja þar eystra um hans daga og beittu hestum múlösnum eða nautum fyrir plóginn
+IP-MAT	ser	20	0.23	rel	arin	65614	Með yfirlýsingunni er þá Jesús að mæla fram með sjálfum sér
+IP-MAT	ser	20	0.23	rel	arin	65615	heldur er hann að benda á hvað menn geti af honum lært
+IP-MAT	ser	20	0.23	rel	arin	65624	Engin byrði er ef til vill enn farin að leggjast á herðar þér
+IP-SUB	ser	20	0.23	rel	arin	65660	hversu fúsir eru flestir að hlýða á þau orð af því að þeir eru vanir að skoða þau sem tilboð um huggun
+IP-SUB	ser	20	0.23	rel	arin	65663	en gæta þess ekki að hann er að bjóða það sem er enn meira aðferð til þess að eignast varanlegan frið
+IP-MAT	ser	20	0.23	rel	arin	65668	Og hér er hann að kenna oss hvernig því lögmáli er háttað sem tryggir oss sálarfriðinn
+IP-MAT	ser	20	0.23	rel	arin	65713	Sólin var að setjast
+IP-MAT	ser	20	0.23	rel	arin	65722	Það er vert að setja á sig þessi orð hans
+IP-MAT	ser	20	0.23	rel	arin	65739	Þegar ég reið burt var ég og samferðamenn mínir að smálíta aftur
+IP-MAT	ser	20	0.23	rel	arin	65750	Það er hlutverk mitt að auglýsa Krist fyrir þeim af yður sem hættir við að gleyma honum
+IP-MAT	ser	20	0.23	rel	arin	65765	og voru þeir að tala við hann
+IP-SUB	ser	20	0.23	rel	arin	65769	Meðan hann var enn að tala sjá þá skyggði bjart ský yfir þá
+IP-SUB	ser	20	0.23	rel	arin	65822	Eftirtektarvert er það að þegar fyrir Krists daga er orðið guðsríki látið tákna hinn æðra heim
+IP-SUB	ser	20	0.23	rel	arin	65849	Hafið þér eigi svo hleypidómalausan og opinn hug að þér fáið séð að hvar sem menn leita eftir því sambandi með gagnrýnandi gætni af sannleiksþrá og löngun eftir fullkomnari þekking á tilverunni og af elsku til þeirra sem þeir hafa misst og með lotningarfullri trú á mátt Guðs og gæsku og innilegri bæn til Guðs um meira ljós þar er verið að feta sig áfram á þeirri sömu leið sem Jesús sjálfur gekk á undan oss þá er hann tók þá Pétur og-og-og Jóhannes og-og-og Jakob með sér og fór upp á fjallið til að biðjast fyrir ?
+IP-SUB	ser	20	0.23	rel	arin	65851	En það er annað sem hér er að athuga
+IP-MAT	ser	20	0.23	rel	arin	65852	Fjöldi manns í sjálfri kristninni er hættur að trúa því að þessi atburður á fjallinu hafi nokkurn tíma gerst með þeim hætti sem guðspjöllin skýra frá
+IP-SUB	ser	20	0.23	rel	arin	65894	Sá Jesús sem aðeins er einn af oss maður með mönnum og eigi meira sem er að reyna að geta gátu tilverunnar eins og vér verðum að gera en veit ekki neitt með vissu um ákvörðun sína né vora hann gæti verið mikill fræðari
+IP-SUB	ser	20	0.23	rel	arin	65909	og guðdómseðlið girti eigi fyrir það að stundum var sem hann sæi eigi hvert faðir hans væri að leiða hann
+IP-MAT	ser	20	0.23	rel	arin	65920	Það er dásamlegt að vita það
+IP-SUB	ser	20	0.23	rel	arin	65931	og hvergi varð jafn mild birtan er skein af dýrð siðferðilegrar fullkomnunar hans og þegar hann talaði um syndarann og við þá sem jafnvel höfðu fallið djúpt og svo að segja bræddi af þeim fjötrana með himneskri ástúð sinni af því hann sá í þeim fræið sem eitt sinn er ætlað að ná þroska blómjurtarinnar ætlað að vaxa upp í dýrð ummyndunarljómans
+IP-MAT	ser	20	0.23	rel	arin	65945	Einmitt þegar hann hefir verið að tala við fram$ framliðna menn sem birst hafa honum úr eilífðinni þá er lærisveinunum boðið að fara eftir fyrirsögn hans boðið það af hinni himnesku rödd
+IP-SUB	ser	20	0.23	rel	arin	65991	Trúin sem þar er um að ræða er traustið á vaxtarlögmálinu traustið á þeim öflum í náttúrunni sjálfri sem maðurinn er í samvinnu við
+IP-MAT	ser	20	0.23	rel	arin	66010	Allt af er oss að skiljast betur að hið innilegasta samband er milli vors eigin andlega lífs og náttúrunnar
+IP-SUB	ser	20	0.23	rel	arin	66011	Og aldrei verður það of vandlega brýnt fyrir oss að með því einu móti fáum vér náð þeirri fullkomnun sem bæði líkama vorum og sál er ætlað að ná að vér lútum með lotning og guðræknum hug þeim háleitu og réttlátu lögum sem umlykja oss á allar hliðar
+IP-MAT	ser	20	0.23	rel	arin	66024	Með henni var hann að lýsa þroskalögmáli guðsríkis
+IP-SUB	ser	20	0.23	rel	arin	66040	Það er ekki langt síðan tekið var að sá sæði þeirra hugsjóna í íslenskan þjóðakur og því vissulega ekki að búast við meiru en að tekið sé að móta fyrir stráinu
+IP-SUB	ser	20	0.23	rel	arin	66040	Það er ekki langt síðan tekið var að sá sæði þeirra hugsjóna í íslenskan þjóðakur og því vissulega ekki að búast við meiru en að tekið sé að móta fyrir stráinu
+IP-SUB	ser	20	0.23	rel	arin	66089	og fyrir því hefir hún heldur ekki átt kost á að þroska með sér hátóna hinnar æðstu hrifningar og gleði sem mannlegri sál er unnt að eignast hér í heimi
+IP-MAT	ser	20	0.23	rel	arin	66096	En það er oft erfitt að halda þeirri vissu fastri einkum þegar allur árangur af margra ára sáning virðist skyndilega að engu gerður
+IP-MAT	ser	20	0.23	rel	arin	66170	Og fyrir þann heim erum vér stöðugt að sá hér í tímanum
+IP-SUB	ser	20	0.23	rel	arin	66234	Og að Jóhannes var að hefja mikilvæga hreyfing þess er hann fullvís
+IP-MAT	fic	20	0.25	nar	margsaga	66249	Aðalverkefnið var að rakka
+IP-MAT	fic	20	0.25	nar	margsaga	66270	en voru að rölta hver fyrir sig í rólegheitum með eina-einn-einn og eina-einn-einn spýtu jafnt og þétt daginn út og inn alveg frá fyrstu mínútu á morgnana og þar til yfir lauk
+IP-SUB	fic	20	0.25	nar	margsaga	66283	sumir útbjuggu haganlega rönd sem hægt var að soga að sér í einni striklotu
+IP-SUB	fic	20	0.25	nar	margsaga	66290	og dreymdi svo alla nóttina að hann væri að rakka viðstöðulaust þar til hann vaknaði um morguninn og gat drifið sig oneftir að rakka
+IP-MAT	fic	20	0.25	nar	margsaga	66302	Það var furðuleg tilhugsun að ímynda sér pólskan verkamann sem dæsir eftir erfiði dagsins tyllir sér á planka og fær sér eina karamellu
+IP-SUB	fic	20	0.25	nar	margsaga	66314	Nei það sem ég er að meina er bara þetta að öll mæling er afstæð ekki að nýr dagur risi án þess hinum hefði lokið
+IP-SUB	fic	20	0.25	nar	margsaga	66315	Þú veist hvað ég er að meina
+IP-MAT	fic	20	0.25	nar	margsaga	66318	Það er illt að þurfa að viðurkenna þetta
+IP-SUB	fic	20	0.25	nar	margsaga	66321	Ekkert við að vera allt lokað svo það var ekki einu sinni hægt að láta sér leiðast með öðrum
+IP-SUB	fic	20	0.25	nar	margsaga	66334	Það er aðalvandamálið með karlmenn sagði hún að það er ekki hægt að vera vingjarnlegur við þá án þess þeir haldi að maður sé að meina eitthvað með því Og ekki bara eitthvað heldur hitt
+IP-MAT	fic	20	0.25	nar	margsaga	66340	Stundum var ég svo sem að hugsa hvort aðrir kæmust eitthvað
+IP-SUB	fic	20	0.25	nar	margsaga	66344	Ef maður leit hlutlægt á málin alveg yfirvegaður þá sagði það sig náttúrlega sjálft að auðvitað voru þeir eitthvað að digga við hana Stundum
+IP-MAT	fic	20	0.25	nar	margsaga	66359	Núna var hún að þvo þvott til að hafa allt hreint þegar hún færi norður á morgun
+IP-SUB	fic	20	0.25	nar	margsaga	66383	Svo heyrði ég að hún var að koma
+IP-MAT	fic	20	0.25	nar	margsaga	66395	og var farinn að leita að villum áður en ég vissi af
+IP-SUB	fic	20	0.25	nar	margsaga	66405	En hvernig var annars hægt að finna upp hjúkrun þegar komið var langt fram á nítjándu öld ?
+IP-SUB	fic	20	0.25	nar	margsaga	66411	Hvað ertu að lesa spurði hún
+IP-MAT	fic	20	0.25	nar	margsaga	66420	Þar með var ég farinn að tala um starfið Svo vitlaus að halda að hún hefði einhvern áhuga á próförkum
+IP-SUB	fic	20	0.25	nar	margsaga	66441	Ég veit eiginlega ekki hvað ég var að hugsa hvort þetta átti að heilla hana alveg lárétta eða hvað það var
+IP-MAT	fic	20	0.25	nar	margsaga	66446	Mér var farið að finnast þetta verulega óþægilegt svo ég byrjaði enn einu sinni með gömlu rulluna mína um að ég hataði allt sem heitir kerfi og gæti ekki unnið við slíkar kringumstæður
+IP-MAT	fic	20	0.25	nar	margsaga	66487	og var að strjúka á mér ennið með köldum þvottapoka
+IP-SUB	fic	20	0.25	nar	margsaga	66539	og einhvern veginn tókst mér að stynja því upp að ég væri að spekúlera í svona buxum
+IP-SUB	fic	20	0.25	nar	margsaga	66562	og fékk þar staðfestingu á því sem mig var farið að gruna
+IP-MAT	fic	20	0.25	nar	margsaga	66570	Það var því úr vöndu að ráða fyrir mig þegar Rósa ekkjan hans afhenti mér kompurnar og bað mig að annast útgáfu á ljóðum Gunnars
+IP-MAT	fic	20	0.25	nar	margsaga	66574	Það var því ekkert auðvelt fyrir mig að neita þessu
+IP-SUB	fic	20	0.25	nar	margsaga	66576	En strax þegar ég var búinn að líta lauslega yfir yrkingar Gunnars varð mér ljóst að ef eitthvað var hægt að gera til að sverta og vanhelga minningu míns kæra vinar þá var það einmitt það að koma á framfæri þessum ömurlegu hugarfóstrum hans
+IP-MAT	fic	20	0.25	nar	margsaga	66577	Ýmist var hér um að ræða gjörsamlega mislukkaðar og rangt kveðnar hagyrðingavísur marflöt spakmæli og hundavéfréttir eða heimspekilegar hugleiðingar og lífsvisku á Norman Vincent Peale<dash/>plani
+IP-SUB	fic	20	0.25	nar	margsaga	66586	henni fannst eins og hún væri að bregðast Gunnari ef hún yndi ekki bráðan bug að útgáfu ljóðanna
+IP-SUB	fic	20	0.25	nar	margsaga	66608	enda var ég viss um að ég væri að vinna þarft verk
+IP-SUB	fic	20	0.25	nar	margsaga	66668	Skáldið fann að það var að komast að kjötkötlunum
+IP-MAT	fic	20	0.25	nar	margsaga	66669	Stóru spurningarnar voru farnar að leita á það úti á götu
+IP-SUB	fic	20	0.25	nar	margsaga	66688	en þá kom strax í ljós önnur skoðun sem líka var byrjuð að losna af því að efnið var svo sterkt
+IP-SUB	fic	20	0.25	nar	margsaga	66689	Nei þú hér ? sagði fyrsta skoðunin undrandi þegar hún sá hina sem nú var farin að losna svo mikið að það skein í þriðju skoðunina undir henni
+IP-MAT	fic	20	0.25	nar	margsaga	66691	Á meðan var farið að glitta í fjórðu skoðunina
+IP-SUB	fic	20	0.25	nar	margsaga	66710	Hann fann að þeir voru skoðun sem hann var að komast á
+IP-SUB	fic	20	0.25	nar	margsaga	66771	Þar sem hér væri um sjúkdóm að ræða og hann sjálfur væri bundinn af Hippókratesareiðinum um þögn þar að lútandi hlyti að vera einfaldast að hann tæki þetta að sér
+IP-SUB	fic	20	0.25	nar	margsaga	66781	Og stundum get ég hreinlega ekki varist brosi þegar Hermann er að auglýsa
+IP-SUB	fic	20	0.25	nar	margsaga	66786	Hann hélt hendinni þannig að hann var alveg greinilega að tala í síma
+IP-MAT	fic	20	0.25	nar	margsaga	66794	maðurinn var alls ekki að tala í síma
+IP-MAT	fic	20	0.25	nar	margsaga	66795	heldur var hann að klóra sér í eyranu
+IP-MAT	fic	20	0.25	nar	margsaga	66822	Um daginn var ég að láta renna úr baðinu heima hjá mér
+IP-SUB	fic	20	0.25	nar	margsaga	66857	Verst var þegar um var að ræða fólk sem manni líkaði vel við að öðru leyti og vildi ekki særa með því að hafa heyrt brandarana áður
+IP-SUB	fic	20	0.25	nar	margsaga	66859	um daginn heyrði ég Gróu Jónsdóttur lýsa því hversu erfitt hefði oft verið að sitja í grasafræðitímum þegar kennarinn var að fara yfir plöntur sem fjölga sér með gróum
+IP-MAT	fic	20	0.25	nar	margsaga	66899	Á sama tíma voru vesælir dópistar að innbyrða sín efni í kjallaranum undir öllu saman
+IP-MAT	fic	20	0.25	nar	margsaga	66900	Hér var ekki verið að fara í felur með lagskiptingu þjóðfélagsins fannst mér
+IP-SUB	fic	20	0.25	nar	margsaga	66904	Þá sá ég lítinn dreng sem var að skarkalast eitthvað með öskutunnur í garðshorni rétt við gangstéttina
+IP-MAT	fic	20	0.25	nar	margsaga	66940	og var satt að segja þegar byrjaður að leita að ástæðu í huganum fyrir því að skynsamlegt væri að eiga rauðrófu
+IP-MAT	fic	20	0.25	nar	margsaga	66956	og er að virða fyrir mér myndina af þér sem birtist allt í einu í blaðinu einn morguninn
+IP-MAT	fic	20	0.25	nar	margsaga	66984	Þar er held ég ekki eingöngu um að ræða þetta venjulega allt að því klassíska föðurmorð sem allir meiriháttar höfundar og listamenn mega þola einhverntíma á ferli sínum þó þeir rísi jafnan upp úr slíkum morðum óskaddir sprækari en afturgengnir meiri og betri feður en áður þegar holubörnin þyrpast að þeim á ný úr hverri smugu og biðja um hlýju og eftirtekt
+IP-MAT	fic	20	0.25	nar	margsaga	66986	Það er hreinlega orðin einhverskonar tíska eða faraldur meðal yngra bókmenntafólks að fletta ofan af Skúla W. Skíðdal
+IP-SUB	fic	20	0.25	nar	margsaga	66988	Ekki þarf langan lestur í ritsmíðum umræddra fræðimanna til að sjá að ævinlega er það sama atriðið sem menn eru að setja fyrir sig
+IP-MAT	fic	20	0.25	nar	margsaga	66996	Hér er engu ofan af neinum að fletta
+IP-MAT	fic	20	0.25	nar	margsaga	67033	Sjálfur var ég þá farinn að fást við skriftir staðráðinn í að verða rithöfundur og búinn að gefa út eina bók
+IP-MAT	fic	20	0.25	nar	margsaga	67056	og áður en ég vissi til var ég búinn að teygja mig í bókina
+IP-MAT	fic	20	0.25	nar	margsaga	67139	Það var unaðslegt að hlusta á frásagnir hans úr löngu menningarlífi
+IP-MAT	fic	20	0.25	nar	margsaga	67148	Ég var næstum farinn að halda að ég hefði sært hann svo ég stamaði Annars er þetta auðvitað algjört smáatriði
+IP-MAT	fic	20	0.25	nar	margsaga	67188	enda væri ég að bregðast trúnaði höfundarins ef ég reyndi slíkt
+IP-MAT	fic	20	0.25	nar	margsaga	67193	og eftir fimm ára baráttu við sjálfan mig var ég hættur að skrifa
+IP-MAT	fic	20	0.25	nar	margsaga	67203	og eru stundum að fjalla um hana á ákaflega ósanngjarnan hátt
+IP-SUB	fic	20	0.25	nar	margsaga	67207	En ekki þar fyrir auðvitað hlýt ég að viðurkenna að það var framúrskarandi heimskulegt af mér að gefa út þessa bók
+IP-MAT	fic	20	0.25	nar	margsaga	67215	Með þessari útgáfu var ég auðvitað að setja ljós mitt undir mæliker
+IP-SUB	fic	20	0.25	nar	margsaga	67219	Nú þegar gammarnir eru farnir að hnita hringa marga yfir höfundskap hins látna snillings finnst mér rétt að þetta komi fram
+IP-SUB	fic	20	0.25	nar	margsaga	67226	Ég man eftir því úr bernsku að fólk var stundum að tala um drauma sína
+IP-SUB	fic	20	0.25	nar	margsaga	67229	Svo mikið skildist mér þó að hér var um að ræða einhverskonar ókeypis bíó sem sumir áttu kost á allar nætur
+IP-SUB	fic	20	0.25	nar	margsaga	67275	og fannst eins og flugmaðurinn væri að kalla til mín
+IP-MAT	fic	20	0.25	nar	margsaga	67323	Á endanum var ég búinn að missa allar áttir
+IP-SUB	fic	20	0.25	nar	margsaga	67326	og alltaf þegar eitthvað var að byrja að rofa til var ég strax farinn að gramsa á ný og skemma skyggnið
+IP-SUB	fic	20	0.25	nar	margsaga	67335	Blóðsugurnar í tjörninni höfðu haldið veislu meðan ég var að leita
+IP-MAT	fic	20	0.25	nar	margsaga	67338	Á tjaldinu var eldflaugin að hefja sig til flugs
+IP-SUB	fic	20	0.25	nar	margsaga	67343	Vinalegt skrjáf í poppkorni fyllti salinn eins og samstilltur kór væri að hvísla í sífellu Velkomnir velkomnir
+IP-SUB	fic	20	0.25	nar	margsaga	67368	Loks gæti ég svarað játandi þeirri spurningu sem brann á allra vörum Ertu búinn að sjá Pískó ?
+IP-MAT	fic	20	0.25	nar	margsaga	67626	Því var alls ekki að leyna að einmitt slíkt hjól hafði mig lengi langað til að eignast
+IP-MAT	fic	20	0.25	nar	margsaga	67636	og ég var sífellt að gefa því gætur svo lítið bar á
+IP-MAT	fic	20	0.25	nar	margsaga	67641	Ryðbólur voru að myndast hér og hvar á krómflötum
+IP-SUB	fic	20	0.25	nar	margsaga	67656	Einhver hafði sagt mér að svo til ekkert af þeim óskilamunum sem lögreglunni bærust næði nokkurn tíma réttum eigendum sínum Yfirleitt endaði það með því að góssið væri selt á uppboði sem varla gæti þó verið nokkur lagaheimild fyrir og andvirðið rynni svo bara í kaffisjóðinn á varðstofunni eða til að standa undir hljómplötuútgáfu lögreglukórsins sem varla gæti nú talist mannúðlegt athæfi Slík sala á uppboði leiddi auk þess óhjákvæmilega til þess að hjólið fengi eiganda sem væri ekki á nokkurn hátt verðugri en til dæmis ég sem var þó að minnsta kosti búinn að hugsa um það í nokkra daga
+IP-MAT	fic	20	0.25	nar	margsaga	67690	og helvískur kötturinn var farinn að leika sér að hendinni á mér
+IP-MAT	fic	20	0.25	nar	margsaga	67703	Ég var búinn að ákveða að fara mér hægt um sumarið vinna svo að þessu í rólegheitum yfir veturinn en fara ekki að hjóla neitt fyrr en næsta vor
+IP-SUB	fic	20	0.25	nar	margsaga	67766	Ég fann að málið var að komast í höfn
+IP-MAT	fic	20	0.25	nar	margsaga	67795	Ég var lengi að safna kjarki
+IP-MAT	fic	20	0.25	nar	margsaga	67809	Sennilega var hann að fletta upp í einhverri spjaldskrá
+IP-MAT	fic	20	0.25	nar	margsaga	67816	en það væri leikur einn að panta hlutina að utan ef ég gæti haft þá biðlund
+IP-SUB	fic	20	0.25	nar	margsaga	67823	Sennilegast fannst mér að mál Gunnars Björnssonar reiðhjólaþjófs væri að fikra sig hægt og sígandi einhvers staðar eftir ranghölum réttarkerfisins
+IP-MAT	fic	20	0.25	nar	margsaga	67826	og var að borða döndul
+IP-MAT	fic	20	0.25	nar	margsaga	67858	Það var ekki erfitt verk að koma þessu fyrir á hjólinu
+IP-MAT	fic	20	0.25	nar	margsaga	67864	Konan mín var að horfa á sjónvarpið
+IP-MAT	fic	20	0.25	nar	margsaga	67874	Daginn eftir var enn meir tekið að vora
+IP-SUB	fic	20	0.25	nar	margsaga	67950	Hvað var maðurinn að gefa í skyn ?
+IP-SUB	fic	20	0.31	nar	sagan	67953	umræðuefnin flögruðu á meðan menn voru að koma sér fyrir í lágum hægindum og sessum
+IP-MAT	fic	20	0.31	nar	sagan	67975	Eftir kerfisbundna ruglun allra skilningarvita var hann farinn að sjá system í öllu
+IP-SUB	fic	20	0.31	nar	sagan	68024	og sýndi fram á hve borgaralegt það væri að tengja fatagerðarhefð frumbyggja Ameríku þessu imperíalisma afstyrmi sem maðurinn nefndi
+IP-MAT	fic	20	0.31	nar	sagan	68031	Þau voru að koma frá því að sjá Rauðu kvenliðasveitina fyrstu kínversku kvikmyndina sem Vesturlandabúar fengu að skoða frá því í Menningarbyltingu
+IP-MAT	fic	20	0.31	nar	sagan	68221	Sem betur fer var bara verið að tékka á konunum þannig að þessar örfáu kallhræður voru stikkfrí
+IP-SUB	fic	20	0.31	nar	sagan	68248	Var einhver að kalla á mig ?
+IP-MAT	fic	20	0.31	nar	sagan	68277	Rétt í þessu var ég að uppgötva að ég er búinn að gleyma fornbókasalnum
+IP-SUB	fic	20	0.31	nar	sagan	68277	Rétt í þessu var ég að uppgötva að ég er búinn að gleyma fornbókasalnum
+IP-MAT	fic	20	0.31	nar	sagan	68302	og nú rétt í þessu var að bætast við röddin
+IP-MAT	fic	20	0.31	nar	sagan	68342	En ef hann fer að hreyfa vind er ekki að spyrja að því
+IP-MAT	fic	20	0.31	nar	sagan	68358	Hérna Albert er ekki voð voð voðalega erfitt að keyra úti núna ?
+IP-MAT	fic	20	0.31	nar	sagan	68363	Við erum að stanga úr tönnunum þegar Erna birtist
+IP-SUB	fic	20	0.31	nar	sagan	68400	Mamma kontrólerar reglulega að allir séu að borða
+IP-SUB	fic	20	0.31	nar	sagan	68413	hann bara talar svo lágt drengurinn að það er ómögulegt að heyra hvað hann er að segja
+IP-SUB	fic	20	0.31	nar	sagan	68413	hann bara talar svo lágt drengurinn að það er ómögulegt að heyra hvað hann er að segja
+IP-SUB	fic	20	0.31	nar	sagan	68488	Eins og annar maður sé að reyna að brjótast út á næturnar
+IP-SUB	fic	20	0.31	nar	sagan	68504	Mér verður litið út um gluggann eins og til að öðlast samband við það sem ég var að lesa
+IP-MAT	fic	20	0.31	nar	sagan	68606	og er ekkert að hirða um að botna setningarnar
+IP-SUB	fic	20	0.31	nar	sagan	68693	Hugsa meðan ég klæði hann í sokkana hvað það er gaman að klæða hann í sokkana
+IP-MAT	fic	20	0.31	nar	sagan	68790	rétti maður þeim enda eru þau fyrr en varir búin að rekja upp alla trossuna
+IP-SUB	fic	20	0.31	nar	sagan	68796	og tekur strikið inn í leikskólaveröldina þar sem áþekk gúmmídýr eru að athafna sig á vélskóflu rólu og vegasöltum
+IP-SUB	fic	20	0.31	nar	sagan	68807	Rifjaðist upp fyrir mér að börnum var í gamla dag kennt að prjóna til þess að þau þyrftu ekki að sitja aðgerðarlaus ef þau misstu sjónina
+IP-MAT	fic	20	0.31	nar	sagan	68834	og í augnablikinu er ég að vélrita skáldsögu
+IP-SUB	fic	20	0.31	nar	sagan	68874	Svo þegar konan í Útvarpinu er búin að segja þeim hvernig veðrið verði rísa þeir upp
+IP-SUB	fic	20	0.31	nar	sagan	68900	Pabbar á rúmstokknum ef mömmur voru að þvo sér um hárið
+IP-SUB	fic	20	0.31	nar	sagan	69060	alltaf eins og hann væri að hisja upp um sig buxurnar með úlnliðunum
+IP-SUB	fic	20	0.31	nar	sagan	69117	Ég sé hann er að rugla saman við Lugga
+IP-SUB	fic	20	0.31	nar	sagan	69154	Ég er viss um að það væri hægt að skrifa skáldsögu um svona blokk
+IP-SUB	fic	20	0.31	nar	sagan	69162	Næstum hægt að hugsa sér aðra þjóð sem hefði vaktaskipti við þessa sem er fyrir og notaði íbúðarhúsnæðið á meðan hin er að vinna og ynni meðan hin hefði afnot af íbúðinni
+IP-MAT	fic	20	0.31	nar	sagan	69221	Bylgja er að átta sig á þessu þegar ég kem og leiði hana í allan sannleika
+IP-MAT	fic	20	0.31	nar	sagan	69223	Ég er ekkert að segja henni frá bölspám píparans
+IP-MAT	fic	20	0.31	nar	sagan	69242	allt er okkur að kenna
+IP-SUB	fic	20	0.31	nar	sagan	69269	Var ég búinn að segja frá draugalegu tungli uppi á veðurhimni þar sem ský streyma hraðbyri úti skefur snjó og hjúfrar sig í görðum
+IP-SUB	fic	20	0.31	nar	sagan	69428	Uml og ið á meðan við erum aftur að komast í þessa flóknu stellingu
+IP-MAT	fic	20	0.31	nar	sagan	69559	Dagurinn var að fjara út og akuryrkjufólk í óða önn að tína saman verkfærin og kvöldið byrjað að hafa til tungl stjörnur og annað sem nóttin þarf til að leggja undir sig himinhvolfið
+IP-SUB	fic	20	0.31	nar	sagan	69588	Bylgju varð svo hverft við að hún var næstum búin að velta um koll prímusnum
+IP-SUB	fic	20	0.31	nar	sagan	69601	Í rauðabítið morguninn eftir vaknaði Andri við að Bylgja var að mæla sig
+IP-MAT	fic	20	0.31	nar	sagan	69749	Síðustu vagnarnir voru að fara heim en enginn í Uppheimana hvað þá Kópavoginn
+IP-SUB	fic	20	0.31	nar	sagan	69758	og horfðu framan í mann sem var að reyna að ná sambandi við þau með pínulitlu vasaljósi og ennþá minni ensku
+IP-MAT	fic	20	0.31	nar	sagan	69780	Á áningarstöðum var honum uppálagt að hringja í skrifstofuna sem var alltaf að breyta fyrir honum áætluninni og flækja fyrir honum heimferðina
+IP-SUB	fic	20	0.31	nar	sagan	69804	Þorpsbúar flykktust að eins og þeir væru að taka á móti ömmu sinni
+IP-SUB	fic	20	0.31	nar	sagan	69817	og um leið og búið var að kveikja upp í deginum byrjuðu skorkvikindin nudd ískur og tíst
+IP-SUB	fic	20	0.31	nar	sagan	69884	Eða öllu heldur ég vil ekki ganga þangað sem mér er ætlað að fara
+IP-MAT	fic	20	0.31	nar	sagan	69891	Bylgja var byrjuð að hreyfa sig eftir einhverjum lagboða
+IP-MAT	fic	21	0.23	nar	mamma	69996	Klukkan tólf á miðnætti var hann að paufast um úti í garði að skjóta rakettum á meðan ég stóð álengdar og reyndi að gera skil öllu smádótinu barnið á heimilinu
+IP-MAT	fic	21	0.23	nar	mamma	70004	Svo var hann að skjóta upp rakettum fram eftir árinu þar til einhver nágranninn kom og kvartaði
+IP-SUB	fic	21	0.23	nar	mamma	70010	og gleymdi að njóta hennar þótt mér hefði fundist hún dálítið skemmtileg þegar ég var að setja hana saman
+IP-SUB	fic	21	0.23	nar	mamma	70016	Á meðan ég var að tala við Eirík tæknifræðing var eins og ég væri fullur gleði yfir þessu samtali eða fullur örvæntingar yfir því að honum líkaði kannski ekki við mig Eða bara fullur
+IP-MAT	fic	21	0.23	nar	mamma	70023	enda vorum við að tala um lagnir
+IP-MAT	fic	21	0.23	nar	mamma	70062	og var farinn að hlakka til að koma heim og viðra Pjatta þegar gemsinn minn hringdi skyndilega
+IP-SUB	fic	21	0.23	nar	mamma	70122	Og þó að við séum í rauninni meira og minna hættir að teikna saman tölum við oft um hugðarefni okkar b<dash>in fjögur bækur boltann börnin og bólfarirnar
+IP-SUB	fic	21	0.23	nar	mamma	70148	Þegar hann var að byrja að skrifa og það kom frá honum skáldsaga á hverju ári fyrir utan ljóðin og smásögurnar og blaðagreinarnar þá var snerpa í setningunum hans
+IP-SUB	fic	21	0.23	nar	mamma	70155	Mér fannst það reyndar nokkuð gott hjá honum þegar hann var búinn að útskýra það fyrir mér
+IP-MAT	fic	21	0.23	nar	mamma	70172	en áður en ég vissi af var ég búinn að smella á Netið og kominn á síðu Unu Maríu Páls að gá hvort hún hefði skrifað eitthvað um Óma eftir að hann bauð henni út að borða um daginn
+IP-SUB	fic	21	0.23	nar	mamma	70173	en rankaði við mér á síðu einhvers Rúnars sem var bloggvinur bloggvinkonu hennar og var að skrifa um hvað sér hefði fundist Sínalkó gott þegar hann var lítill
+IP-SUB	fic	21	0.23	nar	mamma	70177	Ég sá að Ómi var að horfa á mig
+IP-SUB	fic	21	0.23	nar	mamma	70180	en ég sá að hann var að hugsa Af hverju er hann alltaf að standa upp ?
+IP-SUB	fic	21	0.23	nar	mamma	70180	en ég sá að hann var að hugsa Af hverju er hann alltaf að standa upp ?
+IP-MAT	fic	21	0.23	nar	mamma	70209	Mitt starf er að hjálpa til við að varðveita það
+IP-SUB	fic	21	0.23	nar	mamma	70227	Sé eitthvert orð vel til þess fallið að lýsa henni þá er það einmitt orðið
+IP-SUB	fic	21	0.23	nar	mamma	70258	Ég finn feginleikann þegar hann hættir að gráta og hún er búin að hugga hann Ó þá fögru steina
+IP-MAT	fic	21	0.23	nar	mamma	70328	og var alltaf að lita á sér hárið
+IP-MAT	fic	21	0.23	nar	mamma	70335	og var lengi að finna gripin
+IP-SUB	fic	21	0.23	nar	mamma	70425	og við töluðum svolítið um það skólann hennar og hvernig það er að standa fyrir framan fullan bekk af krökkum sem hvert og eitt á sér mismunandi líf en mætast þarna á þessum stað og hún heldur á öllum þessum þráðum í höndum sér og finnur orkuna frá allri þessari æsku skella á sér af fullum krafti Hvernig það er að sjá nemendur sína nokkrum árum síðar Hvernig það er að sjá hugmynd kvikna í litlum kolli þegar manni hefur tekist að útskýra eitthvað hvernig það er þegar ljós vaknar í augunum og svo kemur hátt og skært jaaaá !
+IP-SUB	fic	21	0.23	nar	mamma	70425	og við töluðum svolítið um það skólann hennar og hvernig það er að standa fyrir framan fullan bekk af krökkum sem hvert og eitt á sér mismunandi líf en mætast þarna á þessum stað og hún heldur á öllum þessum þráðum í höndum sér og finnur orkuna frá allri þessari æsku skella á sér af fullum krafti Hvernig það er að sjá nemendur sína nokkrum árum síðar Hvernig það er að sjá hugmynd kvikna í litlum kolli þegar manni hefur tekist að útskýra eitthvað hvernig það er þegar ljós vaknar í augunum og svo kemur hátt og skært jaaaá !
+IP-SUB	fic	21	0.23	nar	mamma	70425	og við töluðum svolítið um það skólann hennar og hvernig það er að standa fyrir framan fullan bekk af krökkum sem hvert og eitt á sér mismunandi líf en mætast þarna á þessum stað og hún heldur á öllum þessum þráðum í höndum sér og finnur orkuna frá allri þessari æsku skella á sér af fullum krafti Hvernig það er að sjá nemendur sína nokkrum árum síðar Hvernig það er að sjá hugmynd kvikna í litlum kolli þegar manni hefur tekist að útskýra eitthvað hvernig það er þegar ljós vaknar í augunum og svo kemur hátt og skært jaaaá !
+IP-SUB	fic	21	0.23	nar	mamma	70499	Ég klæddi mig á meðan hún skipti um rúmfötin sem ég var búinn að frjóvga
+IP-SUB	fic	21	0.23	nar	mamma	70522	og stundum spiluðum við badminton í hádeginu eins og þennan dag sem ég er að reyna að skrifa um þegar ég kom hjólandi úr vinnunni með badmintontöskuna á bakinu og poka með silungi í körfunni framan á stýrinu
+IP-SUB	fic	21	0.23	nar	mamma	70550	Þú varst ekki einu sinni með í bítlaæðinu þótt þú værir að spila á þeim árum
+IP-MAT	fic	21	0.23	nar	mamma	70556	Þú ert að horfa á leik
+IP-MAT	fic	21	0.23	nar	mamma	70559	eða kannski var þetta bara Pjatti að svara fyrir hann
+IP-SUB	fic	21	0.23	nar	mamma	70582	og fylgdist með mér eins og hann vildi minna mig kurteislega á að næsta mál á dagskrá væri satt að segja að fara með honum í gönguferð
+IP-SUB	fic	21	0.23	nar	mamma	70583	Hverjir eru að keppa ? kallaði ég úr eldhúsinu yfir vatnsniðinn á meðan ég hreinsaði silunginn í vaskinum
+IP-MAT	fic	21	0.23	nar	mamma	70608	Það er verið að hengja upp þvott
+IP-MAT	fic	21	0.23	nar	mamma	70609	og það er verið að æfa sig á píanóið og fiðluna og klarínettuna og öll þessi hljóðfæri venjulega fólksins
+IP-SUB	fic	21	0.23	nar	mamma	70643	Ég fer þangað stundum þegar ég er að ganga með Pjatta rétt eins og ég fer stundum á Hálogaland þegar ég er í vinnunni nema munurinn er sá að Stuðlasel er ekki til
+IP-SUB	fic	21	0.23	nar	mamma	70677	Hann sagði nei annars hugar eins og hann væri ekki að hlusta á mig
+IP-MAT	fic	21	0.23	nar	mamma	70721	en nú það var nú aldeilis ekki hlaupið að því að ráða í tal þitt þá um virki eða virkni og svo þetta andskotans rými
+IP-SUB	fic	21	0.23	nar	mamma	70732	Þegar hann var búinn að stinga upp í mig stakk hann upp í sig vandlega snyrtum bita
+IP-SUB	fic	21	0.23	nar	mamma	70772	Það var eins og hann væri alltaf að leita að raunveruleikanum sínum
+IP-SUB	fic	21	0.23	nar	mamma	70776	Ég vissi aldrei alveg hvað var að finna í því og því síður hvers hann leitaði
+IP-SUB	fic	21	0.23	nar	mamma	70791	en talaði sjálfur um að hann væri alveg hættur að smakka það eins og drykkjuferillinn hefði bara verið lítilsháttar fikt og vangaveltur um bragðtegundir
+IP-MAT	fic	21	0.23	nar	mamma	70815	Sölumennirnir voru farnir að þekkja hann
+IP-MAT	fic	21	0.23	nar	mamma	70821	Hann var bara að spjalla
+IP-MAT	fic	21	0.23	nar	mamma	70841	Hann var að múrísera
+IP-MAT	fic	21	0.23	nar	mamma	70859	Við vorum að bíða eftir einhverju Að veðrið batnaði að við yrðum fimmtug eftir nýrri ríkisstjórn nýrri sýn nýrri hugljómun Eftir afmarkaðri stund
+IP-MAT	fic	21	0.23	nar	mamma	70860	Við vorum að bíða eftir því að við yrðum ein
+IP-MAT	fic	21	0.23	nar	mamma	70872	Já já hann er úti í garði eins og venjulega að klippa hekkið
+IP-SUB	fic	21	0.23	nar	mamma	70902	og gekk til pabba sem var byrjaður að mála eitthvað sem ég áttaði mig ekki alveg á hvað yrði úr
+IP-SUB	fic	21	0.23	nar	mamma	71007	og fann ævinlega einhvern sting þó að hún væri kannski bara að borða epli
+IP-SUB	fic	21	0.23	nar	mamma	71010	ég man varla hvað við vorum að læra
+IP-MAT	fic	21	0.23	nar	mamma	71011	sennilega var ég að læra mannúðarmálfræði en hún í geimréttarhagfræði
+IP-SUB	fic	21	0.23	nar	mamma	71013	Við vorum ekki oft sammála þegar við töluðum saman um svokölluð þjóðmál sem ég hafði engan áhuga á og sneri bara út úr öllu sem hún sagði þegar hún var að reyna að koma mér í skilning um að óréttlætið í heiminum er rangt
+IP-MAT	fic	21	0.23	nar	mamma	71025	Það var að vora
+IP-MAT	fic	21	0.23	nar	mamma	71067	hún væri búin að ákveða þetta
+IP-SUB	fic	21	0.23	nar	mamma	71158	Ég segi ekki að það sé eins og hann sé að heimsækja Gísla á Uppsölum
+IP-SUB	fic	21	0.23	nar	mamma	71173	og hentum á milli okkar litlum bolta sem var með mynd af Bamba og hann var duglegur að grípa
+IP-MAT	fic	21	0.23	nar	mamma	71205	Þau voru bara öll undir þessu háa tré að vandræðast eitthvað
+IP-SUB	fic	21	0.23	nar	mamma	71254	Hann var hjá Gróu ömmu og Hólmkeli afa uppi í Hlíðum þegar Kata var að vinna
+IP-SUB	fic	21	0.23	nar	mamma	71307	og hann gerði engan greinarmun á því hvort um var að ræða Grettlu Enid Blydon eða Tolkien sem hann var farinn að lesa á ensku á ungum aldri Bítlana eða rapparann The Building teiknimyndasögur eða vatnslitamyndirnar sem Gróa amma málaði og sýndi honum alltaf þegar hann kom í heimsókn og spurði hvernig honum fyndist
+IP-SUB	fic	21	0.23	nar	mamma	71307	og hann gerði engan greinarmun á því hvort um var að ræða Grettlu Enid Blydon eða Tolkien sem hann var farinn að lesa á ensku á ungum aldri Bítlana eða rapparann The Building teiknimyndasögur eða vatnslitamyndirnar sem Gróa amma málaði og sýndi honum alltaf þegar hann kom í heimsókn og spurði hvernig honum fyndist
+IP-SUB	fic	21	0.23	nar	mamma	71363	Vinirnir segja nöfn sín skýrt og skilmerkilega eins og þeir séu að gefa sig fram í nýjum bekk
+IP-MAT	fic	21	0.23	nar	mamma	71401	Og á fjórða sopa er hann farinn að segja Tómasi og strákunum frá stjörnum himinsins The Building og Gollum herberginu sínu Gretti Ásmundarsyni og flóru Íslands mýrisnípu og Kristínu taðnös óðamála og allt í einum frásagnarvöndli
+IP-MAT	fic	21	0.23	nar	mamma	71529	Hún var hætt að biðja hann um að taka til í herberginu sínu
+IP-MAT	fic	21	0.23	nar	mamma	71531	Hún var hætt að biðja hann um að elda
+IP-SUB	fic	21	0.23	nar	mamma	71579	Hvernig fórstu að því að hætta ? spurði ég hann einu sinni þegar við Kata vorum í heimsókn fyrir norðan hjá þeim Ísabellu Ósk og börnin voru farin að sofa
+IP-MAT	fic	21	0.23	nar	mamma	71611	og við vorum að búast til farar þegar hann staðnæmdist snögglega spennti vöðvana leit á herbergishurðina hjá pabba sperrti eyrun og leit á mig
+IP-SUB	fic	21	0.23	nar	mamma	71653	og allt í einu vissi ég ekki fyrri til en ég var farinn að humma í hálfum hljóðum lagið úr Rúmfatalagersauglýsingunni Luddu ruddu duddu du
+IP-MAT	fic	21	0.23	nar	mamma	71673	og sé lítinn strák standa á gangstéttinni hinum megin götunnar
+IP-SUB	fic	21	0.23	nar	mamma	71756	og hélt um hálsólina á litlum hvolpi sem var sagður heita Lancelot
+IP-MAT	fic	21	0.23	nar	mamma	71777	Þegar ég kom inn var pabbi að setja á disk afganginn af fiskigratíninu sem við höfðum borðað
+IP-SUB	sag	21	0.23	nar	ofsi	71810	þegar ég var að alast upp í Hvammi í Vatnsdal var mitt fólk eins og flestir aðrir Húnvetningar í liði með Kolbeini unga Svo mjög að faðir minn var með Kolbeini og Gissuri í liði á Örlygsstaðafundi
+IP-SUB	sag	21	0.23	nar	ofsi	71822	Það voru reyndar gamanmál og rægitungur á sveimi um að hann væri fyrst og fremst að vingast við okkur Ásgrím til þess að komast þannig í mjúkinn hjá Kolfinnu systur okkar sem allir menn horfðu á löngunaraugum og Þórður átti reyndar síðar eftir að eignast dóttur með
+IP-MAT	sag	21	0.23	nar	ofsi	71824	Því er á hinn bóginn ekkert að leyna að hann kom því í kring að mér var gefin Þuríður Sturludóttir mín tígulega kona með sitt skap sem getur bæði verið grimmt og úfið eins og menn segja mér að úthafið sé
+IP-MAT	sag	21	0.23	nar	ofsi	71828	Sturla Þórðarson var stundum að ráðgast við aðra af leiðtogum þeirra
+IP-SUB	sag	21	0.23	nar	ofsi	71832	hugsaði að það væru hvort sem er vonlausar hugmyndir eða vanhugsaðar áætlanir sem þeir væru að brjóta heilann um
+IP-SUB	sag	21	0.23	nar	ofsi	71839	hvort sem var verið að leggja á ráðin um að koma Gissuri Þorvaldssyni fyrir kattarnef eða hvað ætti að gera með vandræðin sem gátu hlotist af Þorgilsi skarða þá voru það bara innfæddir Sturlungar sem stungu saman nefjum og svo Hrafn Oddsson
+IP-SUB	sag	21	0.23	nar	ofsi	71849	Mér fannst þeir alltaf horfa á mig eins og þeir væru að hugsa hvað er þessi huglausi Húnvetningur eiginlega að ybba sig ?
+IP-SUB	sag	21	0.23	nar	ofsi	71849	Mér fannst þeir alltaf horfa á mig eins og þeir væru að hugsa hvað er þessi huglausi Húnvetningur eiginlega að ybba sig ?
+IP-MAT	sag	21	0.23	nar	ofsi	71867	og Hákon var að reyna að bræða með sér hvor okkar Þórðar myndi heppilegri til að fara með völd á Íslandi og reka þar erindi hans sjálfs
+IP-MAT	sag	21	0.23	nar	ofsi	71870	Þórður var að tala við einhverja menn
+IP-MAT	sag	21	0.23	nar	ofsi	71883	það er búið að kjafta svo mikið og slúðra um samskipti mín við Sturlungana að það yrði hver sá maður vitlaus sem reyndi að komast til botns í hvað væri satt og logið
+IP-SUB	sag	21	0.23	nar	ofsi	71919	og hafði þó oft verið þrýst á mig að gera slíkt eins og í þau skipti sem Sturla Sighvatsson hafði farið með yfirgangi og ribbaldaskap yfir allt og alla á þingum og hinir skárri höfðingjar voru að reyna að fá góðgjarna menn til að standa saman gegn frekjunni og ruddaskapnum
+IP-MAT	sag	21	0.23	nar	ofsi	71926	Nú er búið að drepa nógu marga
+IP-SUB	sag	21	0.23	nar	ofsi	71939	og öll þau víðáttumiklu og-og-og hlýju og-og-og grösugu lönd sem urðu á leið minni og allur mannfjöldinn sem var samankominn í bæjunum og hinar tignarlegu byggingar borgarinnar eilífu og kirkjan mikla þar sem var sérstök annexía fyrir þá norræna menn sem voru komnir til að taka skriftir allt þetta styrkti þá hugmynd mína að það væri engu góðu þóknanlegt og skemmti einum saman skrattanum að við Íslendingar værum sífellt að vegast á í stað þess að reyna að lifa í friði í landi okkar
+IP-MAT	sag	21	0.23	nar	ofsi	71971	ég er búinn að eignast prinsessuna
+IP-SUB	sag	21	0.23	nar	ofsi	71976	og hvers vegna var verið að láta mig kvænast sjálfri prinsessunni ?
+IP-SUB	sag	21	0.23	nar	ofsi	71977	Og alltaf þegar mér líður hvað verst með þessar hugsanir og langar í rauninni helst til að liggja einn og í myrkri með hugarkvalirnar þá er hún Þuríður nógu ónærgætin til að fara að slá mig utanundir með svigurmælum alveg eins og Steinvör á Keldum er alltaf að húðstrýkja sinn mann
+IP-MAT	sag	21	0.23	nar	ofsi	72040	og þögnin í kringum hann var farin að seyra allt á bænum
+IP-SUB	sag	21	0.23	nar	ofsi	72059	Og er andlitið loks þagnar og ég get farið að bifa mér finn ég að það er farið að rigna
+IP-SUB	sag	21	0.23	nar	ofsi	72063	og það birtist alltaf sjónum mínum um það bil sem ég var loks að ná friði svefnsins í sálina
+IP-MAT	sag	21	0.23	nar	ofsi	72163	Hákon konungur var stundum að þýfga mig um það á hvern hátt hann gæti keypt okkur Íslendinga til þess að gerast hans þegnar
+IP-MAT	sag	21	0.23	nar	ofsi	72226	var sífelldlega að gefa fyrirmæli um vopnabúnað og varðhöld
+IP-SUB	sag	21	0.23	nar	ofsi	72236	og ég fann að hann meinti það sem hann var að segja
+IP-MAT	sag	21	0.23	nar	ofsi	72250	Svona var hann farinn að hugsa
+IP-SUB	sag	21	0.23	nar	ofsi	72264	og fór að Staðarhóli til fundar við skáldið og höfðingjann Sturlu Þórðarson til að ráðfæra mig við hann um hvað væri best til bragðs að taka
+IP-MAT	sag	21	0.23	nar	ofsi	72271	Og án þess við þyrftum að ræða það frekar var hann fljótt búinn að útlista fyrir mér hvernig málin litu út í hans augum að væri Gissur hingað kominn eins og allt benti til í því skyni að brjóta landið undir konung þá myndi hann auðvitað svo fljótt sem auðið væri ráðast til atlögu gegn helstu valdamönnum er í vegi hans gætu staðið
+IP-SUB	sag	21	0.23	nar	ofsi	72291	Hann sagði að í rauninni væri ekki eftir neinu að bíða
+IP-SUB	sag	21	0.23	nar	ofsi	72300	Viðraði samt efasemdir um hvort við ættum að flýta okkur jafn mikið og hann hvatti til hvort ekki væri réttara að fá til liðs við okkur bandamenn og félaga aðra þá sem Þórður hafði fengið til að gæta ríkis síns og var á meðal annars að hugsa um svila minn Eyjólf Þorsteinsson í Skagafirðinum
+IP-SUB	sag	21	0.23	nar	ofsi	72300	Viðraði samt efasemdir um hvort við ættum að flýta okkur jafn mikið og hann hvatti til hvort ekki væri réttara að fá til liðs við okkur bandamenn og félaga aðra þá sem Þórður hafði fengið til að gæta ríkis síns og var á meðal annars að hugsa um svila minn Eyjólf Þorsteinsson í Skagafirðinum
+IP-MAT	sag	21	0.23	nar	ofsi	72302	og ég var líka að hugsa um að trúlega væri betra að hafa slíka menn í ráðum frá upphafi en að eiga kannski á hættu að þeim mislíkaði að vera hafðir útundan og myndu því jafnvel tregari til aðgerða síðar þegar á reyndi
+IP-MAT	sag	21	0.23	nar	ofsi	72309	og var farið að skálma um gólfin
+IP-SUB	sag	21	0.23	nar	ofsi	72333	Er hann þó sannkallað heljarmenni eins og ég varð vitni að eftir frægan fund okkar Þórðar kakala hjá Hákoni konungi þegar Þórður mætti með skrifuðu rolluna sína og kóngur var að reyna að bræða með sér hvorum okkar hann treysti betur til að ráðskast með mál á Íslandi
+IP-SUB	sag	21	0.23	nar	ofsi	72338	Og var þar hvorki matur né drykkur klipinn við nögl frekar en við er að búast
+IP-MAT	sag	21	0.23	nar	ofsi	72357	Þórður var að fá sér drykk undir þessum orðum
+IP-MAT	sag	21	0.23	nar	ofsi	72364	Og hann var ekkert að láta ganga á eftir sér
+IP-MAT	sag	21	0.23	nar	ofsi	72386	en ólíkt var að sjá hve hann varð allur hermannlegri eftir þessa nótt er frændi Kakali lét dytta að andlitslýtum hans
+IP-SUB	sag	21	0.23	nar	ofsi	72391	og þar sem okkur báðum var falið að reka erindi konungs á Íslandi þá veit ég fyrir víst að hann mun ekkert gera sem hans hátign verndara og yfirboðara Hákoni Noregskonungi væri þvert um geð
+IP-MAT	sag	21	0.23	nar	ofsi	72393	þar er nefnilega við frændur hans Sturlungana að eiga
+IP-MAT	sag	21	0.23	nar	ofsi	72417	Ég var tilbúinn að þola veröldina eins og hún er og án þess að bifast
+IP-MAT	sag	21	0.23	nar	ofsi	72439	voru um hríð að snuddast hér á hlaðinu Í bland við mína vinnumenn og stráka
+IP-SUB	sag	21	0.23	nar	ofsi	72452	Ég veit alltaf hvenær eitthvað stórt er að brjótast um í honum því að þá hættir hann að vera í sambandi við annað fólk
+IP-MAT	sag	21	0.23	nar	ofsi	72456	og ég er að gefast upp á þessu
+IP-MAT	sag	21	0.23	nar	ofsi	72462	og sé svo þá er ég búin að gefast upp
+IP-SUB	sag	21	0.23	nar	ofsi	72464	Eins og það er gott að eiga mann þegar friður ríkir eða það hef ég í það minnsta alltaf ímyndað mér þá er ekkert jafn illt og eyðandi og að vita af öllu í báli og brandi hvert sem litið er
+IP-SUB	sag	21	0.23	nar	ofsi	72467	Og ef Gissur er að búa sig undir frekari styrjaldir og úr því honum finnst óþarft að tala við mig um slíkt þá ákvað ég að taka saman föggur mínar og flytjast héðan
+IP-MAT	sag	21	0.23	nar	ofsi	72470	Svona var ég að hugsa nú í morgun eftir erfiða nótt búin að gera þetta upp við mig
+IP-SUB	sag	21	0.23	nar	ofsi	72498	ef þessir menntuðu snillingar tveir voru að brjóta til mergjar eitthvert mikilsvert og flókið mál þá vildi Snorri gjarnan vita hvað ég hefði til málanna að leggja
+IP-MAT	sag	21	0.23	nar	ofsi	72524	Nákvæmlega þetta var ég að hugsa þegar þeir Hrafn Oddsson og Sturla skáld Þórðarson knúðu dyra hjá mér um miðja nótt á jólum og vildu fá mig með í leiðangur til að drepa Gissur Þorvaldsson þá nýsnúinn heim til landsins
+IP-SUB	sag	21	0.23	nar	ofsi	72538	og ég fékk brátt að heyra að það ætti að koma við í Stafholti í Borgarfirði því að þar væri sá orðlagði kappi Þorgils skarði búinn að koma sér fyrir og með marga fylgdarmenn ellefu vopnaða menn sagði einhver eða jafnvel fjórtán ef með væru taldir þrír strákar sem eru hafðir til að geyma hesta
+IP-SUB	sag	21	0.23	nar	ofsi	72561	Á endanum sættist Þorgils skarði á að slást í þessa herför með okkur þótt hann væri jafnframt að reyna að grátbæna Sturlu og Gissur um að fá að sleppa því vegna eiða sinna við Hákon konung
+IP-SUB	sag	21	0.23	nar	ofsi	72591	og það hvarflaði stundum að mér þegar ég var að reyna að koma honum til sjálfs sín til að geta ráðfært mig við hann að honum væri ekki lengur fyllilega ljóst í hverskonar leiðangri hann væri
+IP-MAT	sag	21	0.23	nar	ofsi	72604	en við vorum þá allir að missa móðinn
+IP-MAT	sag	21	0.23	nar	ofsi	72605	Það var ekki lokkandi tilhugsun að dragnast kannski með rennblautt og úrvinda lið að Kaldaðarnesi þar sem eins væri líklegt að menn hefðu spurt ferðir okkar og biðu með alvopnaða heri Svo við ákváðum í lok dags að láta fyrirberast aðra nótt þar í Ölfusi og snúa svo heimleiðis Í kraparegni
+IP-MAT	sag	21	0.23	nar	ofsi	72678	Um hinn hirðmann yðar og samferðamann minn hingað til lands Þorgils skarða Böðvarsson er aðra sögu að segja
+IP-MAT	sag	21	0.23	nar	ofsi	72697	En ég var að tala um Eyjólf Þorsteinsson
+IP-MAT	sag	21	0.23	nar	ofsi	72733	Hann var búinn að loka sig af úti í skemmu
+IP-SUB	sag	21	0.23	nar	ofsi	72738	enda var þarna enginn annar en djákni að sunnan fulltrúi og umboðsmaður Skálholtsbiskups með svo kurteisu fasi að það var eins og biskupinn sjálfur væri að heimsækja einhvern konungborinn
+IP-MAT	sag	21	0.23	nar	ofsi	72750	ég er ekkert að draga úr því
+IP-MAT	sag	21	0.23	nar	ofsi	72751	allur þessi endalausi ófriður og sú stöðuga ógn eða lífshætta sem honum fylgdi var fyrir löngu farið að slíta mínum manni út
+IP-SUB	sag	21	0.23	nar	ofsi	72766	Þannig að það var ekki að undra þótt honum væri mikið í mun að taka á móti fulltrúa biskups og sendimanni Haukdælagoðans eins og sá stórhöfðingi og mikilsháttar valdsmaður sem þeir virtust telja hann vera
+IP-SUB	sag	21	0.23	nar	ofsi	72771	Þetta sé ég alltaf á því að augnabliki síðar er Sturla búinn að taka upp sama sið
+IP-SUB	sag	21	0.23	nar	ofsi	72780	hefði ég ekki séð að það var örskammt liðið á samtalið þegar Sturla var farinn að haga sér nákvæmlega eins örlítið uppskrúfað
+IP-SUB	sag	21	0.23	nar	ofsi	72789	Ég fann að Sturlu létti við að heyra þetta að þessum orðum sögðum var eins og hann fengi allt í einu hjartans trú á að þetta væri í alvöru að gerast að Gissur vildi láta af styrjöldum og auka veg og virðingu gamalla fjandmanna og af því Sturla er manna hrifnæmastur
+IP-SUB	sag	21	0.23	nar	ofsi	72806	Hvernig á að vera hægt að taka mark á Gissuri Þorvaldssyni þegar hann er allt í einu farinn að tala eins og maður friðar og sátta ?
+IP-SUB	sag	21	0.23	nar	ofsi	72816	og fyrst og fremst vildi ég heyra álit Sturlu á því sem væri að gerast því að þann mann veit ég alvitrastan og hófsamastan
+IP-SUB	sag	21	0.23	nar	ofsi	72858	en okkur var öllum ljóst er við kvöddumst að nýr dagur væri að renna upp í landi voru tímar ótta og skelfingar senn að baki
+IP-MAT	sag	21	0.23	nar	ofsi	72873	en ég er búinn að sjá að Skagafjörðurinn er einmitt lykillinn að því að halda Sturlungum og allskyns lukkuriddurum í skefjum
+IP-MAT	sag	21	0.23	nar	ofsi	72883	enda var Þórður kakali ekki lengi að ryðja honum úr vegi eins og menn muna
+IP-SUB	sag	21	0.23	nar	ofsi	72884	Ég fór að hugsa að ef staða mála væri nú á hinn veginn að foringi Skagfirðinga væri að leita dugandi leiðtoga fyrir okkur Haukdæli þá væri úrvalið nóg þótt mín nyti ekki við
+IP-MAT	sag	21	0.23	nar	ofsi	72904	Ég var um það bil að detta niður á þá lausn að setja þá eða einhverja þeirra niður í Skagafirði
+IP-MAT	sag	21	0.23	nar	ofsi	72905	var búinn að kaupa hið gamla og glæsta stórbýli Kolbeins unga Flugumýrina
+IP-MAT	sag	21	0.23	nar	ofsi	72949	það er undarlegt að þurfa að hitta svarinn óvin til að mæta loks virðingu af því tagi sem sæmandi má kallast
+IP-MAT	sag	21	0.23	nar	ofsi	72969	Og var að vona að hún myndi virða mig þeirrar ákvörðunar Fylgja sínum manni Og skilja jafnvel að ég er að hugsa um hennar hag
+IP-SUB	sag	21	0.23	nar	ofsi	72969	Og var að vona að hún myndi virða mig þeirrar ákvörðunar Fylgja sínum manni Og skilja jafnvel að ég er að hugsa um hennar hag
+IP-MAT	sag	21	0.23	nar	ofsi	72970	hún er búin að þjást af heimþrá alveg frá því fyrst við fórum af hennar heimaslóðum
+IP-MAT	sag	21	0.23	nar	ofsi	72984	og ég var auðvitað ekkert búinn að gleyma því þótt það sé manni kannski ekki efst í huga alla daga hver vó hvern fyrir tveimur áratugum enda nóg til að æra óstöðugan að rifja upp öll vígaferli okkar blóðugu aldar
+IP-SUB	sag	21	0.23	nar	ofsi	72992	ég get allt Þegar svörtu hundarnir eru ekki að sækja á mig
+IP-SUB	sag	21	0.23	nar	ofsi	72998	Fyrsta hugsunin sem hvarflaði að mér er Gissur sagði eins og hann væri að tilkynna einhvern hversdagslegan hlut að hann væri að hugsa um að flytjast búferlum í Skagafjörð var sú að það yrði hann að eiga við sjálfan sig og sína samvisku
+IP-SUB	sag	21	0.23	nar	ofsi	72998	Fyrsta hugsunin sem hvarflaði að mér er Gissur sagði eins og hann væri að tilkynna einhvern hversdagslegan hlut að hann væri að hugsa um að flytjast búferlum í Skagafjörð var sú að það yrði hann að eiga við sjálfan sig og sína samvisku
+IP-SUB	sag	21	0.23	nar	ofsi	73004	Er við Gissur á sínum tíma tókum að hittast var hann enn í hjónabandi með Ingibjörgu heitinni dóttur Snorra Sturlusonar sem hann var látinn kvænast þegar hann var fimmtán ára og því meinbugir á okkar sambandi

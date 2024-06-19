@@ -1,0 +1,97 @@
+#Some plots to viridis from csv
+#buinn_tense
+
+buinn_tense <- read.csv(file = "buinn-mine-an.csv", sep = ",", header = TRUE)
+
+# Filter out rows with anterior = "yes" and derive century from YEAR
+buinn_tense_filtered <- buinn_tense %>%
+  filter(Anterior == "Yes") %>%
+  filter(Clause != "Relative") %>%
+  filter(!is.na(Clause)) %>%
+  filter(!is.na(Tense)) %>%
+  mutate(century = (YEAR - 1) %/% 100 + 1)
+
+# Write buinn_tense_filtered to a CSV file
+write.csv(buinn_tense_filtered, file = "buinn_tense_filtered.csv", row.names = FALSE)
+
+install.packages("readr")
+
+# Read the CSV file
+buinn_tense_filtered3 <- read_csv2("buinn_tense_filtered.csv")
+buinn_tense_filtered <- read.csv(file = "buinn_tense_filtered.csv", sep = ";", header = TRUE)
+
+
+# Aggregate the number of instances per textid
+buinn_tense_agg <- buinn_tense_filtered %>%
+  group_by(century, Clause, YEAR, GENRE, Tense) %>%
+  summarise(count = n())
+
+ggplot(buinn_tense_agg, aes(x = century, y = count, fill = Tense)) +
+  geom_col(position = "stack") +
+  facet_wrap(~Clause, nrow = 2) +
+  scale_fill_viridis_d() +
+  scale_x_continuous(limits = c(15, NA), breaks = seq(16, 20, by = 2)) +
+  labs(title = "BÚINN by Century in IcePAHC",
+       x = "Century",
+       y = "Count",
+       fill = "Tense") +
+  scale_color_viridis_d() +
+  theme_minimal() 
+
+# Update data and labels
+
+
+# Load packages
+library(dplyr)
+library(ggplot2)
+
+# Update data and labels
+# Update data and labels
+buinn_tense_agg <- buinn_tense_agg %>%
+  mutate(Tense = case_when(Tense == "INF" ~ "NF",
+                           Tense == "PRES" ~ "PRS",
+                           Tense == "PRES-SBJ" ~ "PRS-SBJ",
+                           Tense == "PST" ~ "PST",
+                           Tense == "PST-SBJ" ~ "PST",
+                           Tense == "FUT" ~ "FUT",
+                           Tense == "PART" ~ "PART",
+                           Tense == "Samsett" ~ "Compound"))
+
+
+# Create plot
+
+# Remove missing values from count column
+buinn_tense_agg <- na.omit(buinn_tense_agg)
+
+# Create plot
+ggplot(buinn_tense_agg, aes(x = century, y = count, fill = Tense)) +
+  geom_col(position = "stack") +
+  facet_wrap(~Clause, nrow = 2) +
+  scale_fill_viridis_d() +
+  scale_x_continuous(limits = c(17, NA), breaks = seq(17, 21, by = 2)) +
+  labs(title = "PROG by Century in IcePAHC",
+       x = "Century",
+       y = "Count",
+       fill = "Tense") +
+  scale_color_viridis_d() +
+  theme_minimal()
+
+
+# Remove rows with missing count values
+buinn_tense_agg <- na.omit(buinn_tense_agg)
+
+# Create plot with viridis color scale
+library(viridis)
+ggplot(buinn_tense_agg, aes(x = century, y = count, fill = Tense)) +
+  geom_col(position = "stack") +
+  facet_wrap(~Clause, nrow = 2) +
+  scale_fill_viridis_d(option = "viridis") +
+  scale_x_continuous(limits = c(16, NA), breaks = seq(17, 21, by = 2)) +
+  labs(title = "BÚINN by Century in IcePAHC",
+       x = "Century",
+       y = "Count",
+       fill = "Tense") +
+  theme_minimal()
+
+
+

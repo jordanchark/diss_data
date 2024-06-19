@@ -1,0 +1,384 @@
+---
+title: "LetterCorpusAnalysis"
+author: "Jordan Chark"
+date: "07/04/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load in data
+
+The dataset to be loaded in is entitled 'cleaned_df_complete.csv'. Set working directory to source file location. This is the full dataset for INDICATIVE items only.
+
+```{r readin}
+library(tidyverse)
+cleaned_df <- read_csv("cleaned_df_2504fix.csv")
+```
+
+
+## Levels and contrasts
+
+We start with the cleaned indicative dataset. First ensure that factors and contrasts are set properly. Reference level for GENDER is MALE and reference level for ORIGINREGION is SW (including Reykjavík).
+
+```{r levels}
+cleaned_df$RANKNR <- factor(cleaned_df$RANKNR)
+rank_levels <- levels(cleaned_df$RANKNR)
+print(rank_levels)
+cleaned_df$NAME <- as.factor(cleaned_df$NAME)
+levels(cleaned_df$NAME)
+
+cleaned_df$GENDER <- as.factor(cleaned_df$GENDER)
+levels(cleaned_df$GENDER)
+
+cleaned_df$ORIGINREGION <- as.factor(cleaned_df$ORIGINREGION)
+levels(cleaned_df$ORIGINREGION)
+```
+
+```{r relevel}
+cleaned_df$GENDER <- relevel(cleaned_df$GENDER, ref = "MALE")
+cleaned_df$ORIGINREGION <- relevel(cleaned_df$ORIGINREGION, ref = "SW")
+
+```
+
+## Models
+
+Fit maximal model with maximal random effects including slope per individual. Make sure to load lme4 first. Second random effect is a nested intercept for letter within individual author.
+
+```{r m1}
+library(lme4)
+m1 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1|NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m1)
+```
+Model converges, we compare it to a simpler model; first simplifying random effects; removing the slope for scaled_age.
+
+```{r m2}
+m2 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m2)
+
+
+anova(m1,m2)
+```
+
+More complex model wins out. We keep the complex random effects. What about a model with only a random effect for author and not for letter?
+
+```{r m3}
+m3 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m3)
+
+anova(m3,m1)
+```
+
+More complex model is better. Inclusion of full random effects structure is justified. We do not simplify the random effects any further. Now move on to simplifying fixed effects, starting with interaction terms.Downward stepwise in order of least to most theoretically justified; GENDER*RANK first.
+
+```{r m4}
+m4 <- glmer(response ~ Tensec * year_scaled + GENDER + RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m4)
+
+anova(m4,m1)
+```
+More complex model is justified. What about the Tense*year interaction?
+
+```{r m5}
+m5 <- glmer(response ~ Tensec + year_scaled + GENDER + RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) +  (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m5)
+
+anova(m5,m1)
+```
+More complex model is better. What about the inclusions of ORIGINREGION and age? We start by removing region.
+
+```{r m6}
+m6 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m6)
+
+anova(m6, m1)
+```
+m1 is not significantly better than m6; region is removed from the model. What about age more generally? I begin by removing it as a fixed effect.
+
+```{r m7}
+m7 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + ORIGINREGION + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m7)
+anova(m7,m1)
+```
+
+m1 is better; now removing ORIGINREGION we compare models with age included to without, i.e. model below and m6.
+
+```{r m8}
+m8 <- glmer(response ~ Tensec * year_scaled + GENDER * RANKNR + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df ,
+            control = glmerControl(optimizer = "bobyqa"))
+anova(m8,m6)
+```
+
+m6 (more complex) is significantly better even with the additional parameters; that is the final model.
+
+## Model diagnostics
+
+```{r dia1}
+library(DHARMa)
+diagnostics_output <- simulateResiduals(fittedModel = m6)
+plot(diagnostics_output)
+```
+Residuals are unconcerning, qqplot looks good and residual-predicted plot has no discernible pattern. As to the significant KS test; given the large sample size this is not surprising (higher sample size results in higher sensitivity of such tests).
+
+```{r dia2}
+testOutliers(diagnostics_output)
+testDispersion(diagnostics_output, alternative="greater")
+```
+Dispersion not an issue. Model performs 'better than expected' wrt outliers, i.e. too few: https://github.com/florianhartig/DHARMa/issues/197. Not a problem with specification. We can also test for zero inflation.
+```{r dia3}
+testZeroInflation(diagnostics_output)
+```
+
+Zero inflation also not an issue. Now we can look at performance measures, starting with pseudo R^2 using the MuMIn package, based on Nakagawa et al. (2017). We can look at the values for both the maximal model as well as the best model determined algorithmically.
+
+```{r performance}
+library(MuMIn)
+
+r2nakagawa_m6 <- r.squaredGLMM(m6)
+r2nakagawa_m1 <- r.squaredGLMM(m1)
+
+r2nakagawa_m1
+r2nakagawa_m6
+```
+
+Not surprisingly, the maximal model explains more of the variance in the fixed effects. Overall, these values indicate reasonable fit. We can also examine the C-index and Dxy measures.
+
+```{r}
+library(Hmisc)
+pred_probs <- predict(m6, type = "response")
+C_index <- rcorr.cens(pred_probs, cleaned_df$response)
+C_index
+```
+These values indicate reasonable discriminative ability.
+
+## Plots
+
+We can now plot the results. Beginning with an interaction plot for GENDER*RANK stratified by Tense. year_scaled [all] allows for smoothing. The correspondence to scaled year is such that -2 is 1785, -1,5 is 1800, -0,7 is 1825, 0 is 1850; 1900 is 1,75.
+
+```{r plots1}
+library(ggeffects)
+
+effects <- ggpredict(m6 , terms = c("year_scaled [all]", "GENDER", "RANKNR", "Tensec"))
+plot(effects) + theme_minimal()
+
+```
+Next we plot the two way interactions, i.e GENDER * RANK and YEAR * TENSE.
+
+```{r plots2}
+gender_rank <- ggpredict(m6 , terms = c("GENDER", "RANKNR")) 
+plot(gender_rank) + theme_minimal()
+ 
+gender_rank_bytense <- ggpredict(m6 , terms = c("GENDER", "RANKNR", "Tensec")) 
+plot(gender_rank_bytense) + theme_minimal()
+
+year_tense <- ggpredict(m6 , terms = c( "year_scaled [all]", "Tensec")) 
+plot(year_tense) + theme_minimal()
+```
+A standard effect plot is useful as well; for this I use the package sjPlot.
+
+```{r effectsplot}
+library(sjPlot)
+model_plot <- plot_model(m6, sort.est = TRUE, show.values = TRUE, value.offset = .3)
+model_plot + theme_minimal()
+```
+
+Finally we can look at partial dependence plots. These show the effect of a single predictor accounting for 'average' effects of others. Useful for seeing overall trends. We can look at: year (scaled/centred), GENDER, RANKNR, TENSE and AGE (scaled/centred) (in that order).
+
+```{r pdpplots}
+pdp_yearcs <- ggpredict(m6, terms = "year_scaled [all]")
+plot(pdp_yearcs) + theme_minimal()
+
+pdp_gender <- ggpredict(m6, terms = "GENDER")
+plot(pdp_gender) + theme_minimal()
+
+pdp_rank <- ggpredict(m6, terms = "RANKNR")
+plot(pdp_rank) + theme_minimal()
+
+pdp_tense <- ggpredict(m6, terms = "Tensec")
+plot(pdp_tense) + theme_minimal()
+
+pdp_age <- ggpredict(m6, terms = "AGE_scaled [all]")
+plot(pdp_age) + theme_minimal()
+```
+
+## Model with 'present' only
+
+We can fit a model with present tense only for comparison. Fit most complex model first.
+
+```{r pres_filter and model1}
+cleaned_df_pres <- cleaned_df %>%
+  filter(Tensec == "Present")
+
+m1_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1|NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m1_pres)
+```
+Proceeding with the algorithmic procedure, we start by removing  the slope for age.
+
+```{r m2pres}
+m2_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m2_pres)
+
+anova(m2_pres, m1_pres)
+```
+
+More complex model justified. What about a model with only a random effect for author and not for letter?
+
+```{r}
+m3_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m3_pres)
+
+anova(m3_pres, m1_pres)
+```
+More complex model is better. Inclusion of full random effects structure is justified. We do not simplify the random effects any further. Now move on to simplifying fixed effects, starting with interaction terms. Downward stepwise in order of least to most theoretically justified; GENDER*RANK first.
+
+```{r m4pres}
+m4_pres <- glmer(response ~ year_scaled + GENDER + RANKNR + ORIGINREGION + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m4_pres)
+
+anova(m4_pres, m1_pres)
+```
+
+More complex model is justified. We can now drop originregion.
+
+```{r m5pres}
+m5_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + AGE_scaled + (AGE_scaled|NAME) + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m5_pres)
+
+anova(m5_pres, m1_pres)
+```
+
+m5 is better, originregion not justified. What about age, start by removing it as a fixed effect.
+
+```{r m7pres}
+m7_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + ORIGINREGION + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+
+summary(m7_pres)
+anova(m7_pres,m1_pres)
+
+```
+
+m1 is better; age is justified; now we can compare now removing ORIGINREGION, we compare models with age included to without, i.e. model below and m5
+
+```{r m8pres}
+m8_pres <- glmer(response ~ year_scaled + GENDER * RANKNR + (1 |NAME:LETTER),
+            family = binomial(link = "logit"), 
+            data = cleaned_df_pres,
+            control = glmerControl(optimizer = "bobyqa"))
+anova(m8_pres,m5_pres)
+```
+
+m5_pres is better. Let us now move on the plotting. First the interaction effects.
+
+## Model evaluation (Present)
+
+```{r pres_evaluation}
+diagnostics_output_pres <- simulateResiduals(fittedModel = m5_pres)
+plot(diagnostics_output_pres)
+testOutliers(diagnostics_output_pres)
+testDispersion(diagnostics_output_pres)
+testZeroInflation(diagnostics_output_pres)
+```
+
+Nothing overly concerning on visual inspection of these plots. Deviations w.r.t KS and outliers are also not a concern given the output above.
+
+## Goodness of fit measures
+
+```{r}
+r2nakagawa_m5_pres <- r.squaredGLMM(m5_pres)
+r2nakagawa_m5_pres
+
+pred_probs_pres <- predict(m5_pres, type = "response")
+C_index_pres <- rcorr.cens(pred_probs, cleaned_df$response)
+C_index_pres
+```
+
+These indicate reasonable performance but suggest that there is no justification for fitting separate models.
+
+## Plots (Part 2)
+
+First, a standard effect plot
+
+```{r presplot1}
+model_plot_pres <- plot_model(m5_pres, sort.est = TRUE, show.values = TRUE, value.offset = .3)
+model_plot_pres + theme_minimal()
+```
+
+
+Interaction plots.
+
+```{r presplot2}
+effects_pres <- ggpredict(m5_pres , terms = c("year_scaled [all]", "GENDER", "RANKNR"))
+plot(effects_pres) + theme_minimal()
+```
+
+Partial dependence plots are also informative here, given that we are only looking at a single level for tense.
+
+```{r partial_dependence_pres}
+pdp_yearcs_pres <- ggpredict(m5_pres, terms = "year_scaled")
+plot(pdp_yearcs_pres)
+
+pdp_gender_pres <- ggpredict(m5_pres, terms = "GENDER")
+plot(pdp_gender_pres)
+
+pdp_rank_pres <- ggpredict(m5_pres, terms = "RANKNR")
+plot(pdp_rank_pres)
+
+pdp_age_pres <- ggpredict(m5_pres, terms = "AGE_scaled")
+plot(pdp_age_pres)
+```
+

@@ -1,0 +1,550 @@
+buinn_all <- process_summary("infbuinnsum.txt")
+
+buinn_all <- distinct(buinn_all, source, .keep_all = TRUE)
+buinn_all$simplified_genre <- gsub("-(.*)", "", buinn_all$genre)
+buinn_all <- buinn_all %>%
+  group_by(textid) %>%
+  mutate(relative_frequency = hits / sum(total) * 100)
+
+
+
+library(ggplot2)
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency, group = textid, color = simplified_genre)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  scale_color_brewer(palette = "Set1", name = "Simplified Genre") +
+  labs(title = "Rel. freq. of vera búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_brewer(palette = "Set1", name = "Simplified Genre") +
+  labs(title = "Rel. freq. of vera búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_bw() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_brewer(palette = "Set1", name = "Simplified Genre") +
+  labs(title = "Rel. freq. of vera búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_bw() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+
+library(viridis)
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_viridis(discrete = TRUE, name = "Simplified Genre", option = "C") +
+  labs(title = "Búinn over time in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+ggplot(buinn_all[buinn_all$year >= 1600, ], aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_viridis_d(discrete = TRUE, name = "Simplified Genre") +
+  labs(title = "Búinn over time in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+ggplot(buinn_all[buinn_all$year >= 1600, ], aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_viridis_d(name = "Simplified Genre", option = "C") +
+  scale_size(range = c(1, 8)) +
+  labs(title = "Búinn over time in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "right") +
+  guides(color = guide_legend(override.aes = list(alpha = 1)),
+         size = guide_legend(override.aes = list(alpha = 1)))
+
+
+ggplot(buinn_all[buinn_all$year >= 1600, ], aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_viridis_d(name = "Simplified Genre") +
+  scale_size_continuous(range = c(1, 8)) +
+  labs(title = "Búinn over time in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency",
+       size = "Number of hits") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "right") +
+  guides(size=guide_legend(override.aes = list(size=3)))
+
+
+
+ggplot(buinn_all[buinn_all$year >= 1600, ], aes(x = year, y = relative_frequency, size = hits)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_viridis_d(name = "Simplified Genre") +
+  scale_size_continuous(range = c(1, 8)) +
+  labs(title = "Búinn að in IcePAHC",
+       x = "Year",
+       y = "Rel. freq.",
+       size = "Number of hits") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "right")
+
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point() +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  scale_color_manual(name = "Simplified Genre",
+                     values = c("nar" = "#440154FF", "other" = "#21908CFF"),
+                     guide = guide_legend(override.aes = list(size = 5))) +
+  labs(title = "Búinn over time in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+
+warnings()
+
+
+library(ggplot2)
+library(viridis)
+library(ggrepel)
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  scale_color_viridis(discrete = TRUE, name = "Genre", option = "C") +
+  labs(title = "Búinn over time",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(aes(size = hits)) +
+  scale_size_continuous(range = c(3, 10)) +  # Adjust the size range as needed
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  scale_color_viridis(discrete = TRUE, name = "Genre", option = "C") +
+  labs(title = "Búinn over time",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "right")
+
+
+
+buinn_all <- buinn_all %>% filter(simplified_genre != "psd")
+
+
+# Load dplyr package
+library(dplyr)
+
+process_summary <- function(file) {
+  text_lines <- suppressWarnings(readLines(file))
+  text_lines <- text_lines[-c(1, length(text_lines))]
+  
+  process_line <- function(line) {
+    matches <- regmatches(line, regexec("(\\S+)\\s+(\\d+)\\s*/\\s*(\\d+)\\s*/\\s*(\\d+)", line))[[1]]
+    return(matches[-1])
+  }
+  
+  data_list <- lapply(text_lines, process_line)
+  data <- do.call(rbind, data_list)
+  data <- data.frame(data, stringsAsFactors = FALSE)
+  # Apply unique() function to the 'data' data frame instead of 'data_list'
+  data <- unique(data, by = "source")
+  
+  colnames(data) <- c("source", "hits", "tokens", "total")
+  data$hits <- as.numeric(data$hits)
+  data$tokens <- as.numeric(data$tokens)
+  data$total <- as.numeric(data$total)
+  
+  # Extracting year, textid, and genre information
+  extract_info <- function(source) {
+    if (startsWith(source, "ntmatthew")) {
+      textid_genre <- strsplit(source, ".", fixed = TRUE)[[1]]
+      textid <- textid_genre[1]
+      genre <- textid_genre[2]
+      return(c("1540", textid, genre))
+    }
+    
+    year <- substr(source, 1, 4)
+    textid_genre <- strsplit(substr(source, 6, nchar(source)), ".", fixed = TRUE)[[1]]
+    textid <- textid_genre[1]
+    genre <- textid_genre[2]
+    
+    return(c(year, textid, genre))
+  }
+  
+  extra_data <- do.call(rbind, lapply(data$source, extract_info))
+  data <- cbind(data, as.data.frame(extra_data, stringsAsFactors = FALSE))
+  colnames(data)[5:7] <- c("year", "textid", "genre")
+  data$year <- as.numeric(data$year)
+  
+  return(data)
+}
+
+
+
+
+
+
+
+
+
+ggplot(buinn_all[buinn_all$year >= 1600, ], aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() + 
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(title = "Búinn að",
+       x = "Year",
+       y = "Rel. freq",
+       subtitle = "") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+
+# Subset the data to start at 1600
+buinn_all_sub <- subset(buinn_all, year >= 1600)
+
+# Plot the graph with the correct dataset and aesthetics
+ggplot(buinn_all_sub, aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point(alpha = 0.7) +
+  scale_color_manual(values = c("#1F77B4", "#FF7F0E", "#2CA02C", "#D62728")) +
+  geom_smooth(method = "lm", se = FALSE, linetype = "dashed") +
+  labs(title = "Búinn over time",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom") +
+  guides(size = FALSE)
+
+# Plot relative frequency by year with dot size based on number of instances and color based on genre
+ggplot(buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(aes(size = num_instances)) +
+  scale_size_continuous(range = c(1, 8)) +
+  scale_color_viridis_d(name = "Genre") +
+  xlim(1600, NA) +
+  labs(title = "Búinn over time",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "Scatterplot of relative frequency by year with dot size based on instances and color based on genre") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "bottom")
+
+# Plot relative frequency by year with regression line for nar genre
+ggplot(subset(buinn_all, simplified_genre == "nar"), aes(x = year, y = relative_frequency)) +
+  geom_point(aes(size = hits), color = "blue", alpha = 0.7) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed", color = "#440154FF") +
+  scale_size_continuous(range = c(1, 8)) +
+  xlim(1600, NA) +
+  labs(title = "Búinn að (Nar)",
+       x = "Year",
+       y = "Relative Frequency",
+       subtitle = "") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16),
+        legend.position = "none")
+
+
+# Plot the graph for nar genre only
+ggplot(subset(buinn_all_sub, simplified_genre == "nar"), aes(x = year, y = relative_frequency, size = hits)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "loess", se = FALSE, linetype = "dashed") +
+  labs(title = "Búinn að (Nar)",
+       x = "Year",
+       y = "Rel. Freq.",
+       subtitle = "") +
+  theme_minimal() +
+  theme(text = element_text(size = 14),
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+        axis.title = element_text(face = "bold", size = 16)) +
+  guides(size = FALSE)
+
+
+
+mean_year_b <- mean(buinn_all$year)
+buinn_all$centered_year <- buinn_all$year - mean_year_b
+
+buinn_all$integer <- buinn_all$hits*round(buinn_all$relative_frequency*10)
+
+
+centered_model2 <- glmer(integer ~ centered_year + simplified_genre + (1|textid), data = buinn_all, family = poisson(link = "log"))
+summary(centered_model2)
+warnings()
+centered_model1 <- glmer(integer ~ centered_year + (1|textid), data = buinn_all, family = poisson(link = "log"))
+summary(centered_model1)
+centered_model3 <- glmer(integer ~ centered_year*simplified_genre + (1|textid), data = buinn_all, family = poisson(link = "log"))
+summary(centered_model3)
+
+anova(centered_model1, centered_model2)
+anova(centered_model2, centered_model3)
+
+library(MuMIn)
+r.squaredGLMM(centered_model2)
+r.squaredGLMM(centered_model1)
+r.squaredGLMM(centered_model3)
+
+
+subset_buinn_all <- subset(buinn_all, year >= 1600)
+centered_model1 <- glmer(integer ~ centered_year + genre + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model1)
+warnings()
+
+centered_model2 <- glmer(integer ~ centered_year + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model2)
+
+centered_model3 <- glmer(integer ~ centered_year*genre + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model3)
+
+
+subset_buinn_all$standardized_year <- scale(subset_buinn_all$centered_year)
+
+centered_model1 <- glmer(integer ~ standardized_year + genre + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model1)
+warnings()
+
+centered_model2 <- glmer(integer ~ standardized_year + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model2)
+
+centered_model3 <- glmer(integer ~ standardized_year*genre + (1|textid), data = subset_buinn_all, family = poisson(link = "log"))
+summary(centered_model3)
+
+anova(centered_model1, centered_model2)
+anova(centered_model2, centered_model3)
+
+# Plot fixed effects with confidence intervals
+coefplot(pcentered_model2, confint.level = 0.95)
+
+coefplot(pcentered_model1, confint.level = 0.95,
+         xlab = "Estimate", ylab = "Fixed Effects",
+         main = "Fixed Effects with 95% Confidence Intervals")
+
+
+##Predictions plot..........
+
+subset_buinn_all$predicted <- predict(centered_model2, subset_buinn_all, type = "response")
+r.squaredGLMM(centered_model1)
+
+ggplot(subset_buinn_all, aes(x = year, y = relative_frequency)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = FALSE, color = "blue") +
+  labs(title = "Scatter plot with regression line",
+       x = "Centered Year",
+       y = "Rounded Relative Frequency")
+
+buinn_all_plot <- ggplot(subset_buinn_all, aes(x = year, y = relative_frequency, color = simplified_genre, size = hits)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() + 
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(title = "Buinn in IcePAHC (Subset)",
+       x = "Year",
+       y = "Rel. freq",
+       subtitle = "") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+buinn_all_plot
+
+
+predictions2b_df <- data.frame(
+  year = subset_buinn_all$year,
+  poisson_pred = subset_buinn_all$predicted
+)
+
+subset_buinn_all_plot <- ggplot(subset_buinn_all, aes(x = year, y = integer)) +
+  geom_point(alpha = 0.7) +
+  scale_color_viridis_d() + 
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = textid),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(title = "BUINN",
+       x = "Year",
+       y = "Rel. freq",
+       subtitle = "") +
+  theme_minimal() +
+  theme(legend.position = "right") +
+  geom_line(data = predictions2b_df, aes(x = year, y = poisson_pred), linetype = "dashed")
+
+print(subset_buinn_all_plot)
+
+
+ggplot(buinn_all, aes(x = year, y = relative_frequency,size = hits)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "blue") +
+  labs(title = "Búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency")
+
+
+ggplot(subset_buinn_all, aes(x = year, y = relative_frequency,size = hits)) +
+  geom_point() +
+  scale_color_viridis() +
+  scale_size(range = c(1, 10)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "blue") +
+  labs(title = "Búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal() +
+  theme(legend.position = "right")
+    
+
+ggplot(subset_buinn_all, aes(x = year, y = relative_frequency, size = hits)) +
+  geom_point(aes(color = factor(simplified_genre)), alpha = 0.7) +
+  scale_color_viridis(discrete = TRUE) +
+  scale_size(range = c(1, 10)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "purple") +
+  labs(title = "Búinn að in IcePAHC",
+       x = "Year",
+       y = "Relative Frequency",
+       color = "Genre") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+
+# Fit a glm model
+model <- glm(integer ~ standardized_year + simplified_genre, data = subset_buinn_all, family = poisson(link = "log"))
+summary(model)
+
+model2 <- glm(integer ~ standardized_year*simplified_genre, data = subset_buinn_all, family = poisson(link = "log"))
+summary(model2)
+
+modelsimp <- glm(integer ~ standardized_year, data = subset_buinn_all, family = poisson(link = "log"))
+summary(modelsimp)
+
+exp(0.96611)
+
+2.627703/10
+
+anova(model, model2)
+
+modelsimp <- glm(integer ~ standardized_year, data = subset_buinn_all, family = poisson(link = "log"))
+summary(modelsimp)
+4.811361/10
+
+subset_buinn_all$predictions <- predict(modelsimpprog, newdata = subset_buinn_all, type = "response")
+
+
+ggplot(subset_buinn_all, aes(x = year, y = predictions)) +
+  geom_point() +
+  labs(title = "Predicted Values vs. Actual Year",
+       x = "Actual Year",
+       y = "Predicted Values")
+
+
+
+
+
+# Obtain the predicted values for the model
+subset_buinn_all$predictions <- predict(modelsimp, newdata = subset_buinn_all, type = "response")
+
+# Compute the total predicted values
+total_predicted <- sum(subset_buinn_all$predictions)
+
+# Create a new column with the rescaled predicted values
+subset_buinn_all$rescaled_predictions <- subset_buinn_all$predictions / subset_buinn_all$hits
+subset_buinn_all$rescaled_predictions <- (subset_buinn_all$rescaled_predictions)/10
+
+subset_buinn_all <- subset_buinn_all %>%
+  mutate(rescaled_predictions = replace(rescaled_predictions, !is.finite(rescaled_predictions), NA)) %>%
+drop_na()
+
+ggplot(subset_buinn_all, aes(x = year, y = rescaled_predictions)) +
+  geom_point() +
+  labs(title = "Rescaled Predicted Values vs. Actual Year",
+       x = "Actual Year",
+       y = "Rescaled Predicted Values")
+
+ggplot(subset_buinn_all, aes(x = year, y = rescaled_predictions, size=hits)) +
+  geom_smooth(method = "glm", method.args = list(family = "poisson"), se = TRUE, color = "purple") +
+  geom_point(color = "blue") +
+  geom_point(aes(y = relative_frequency), color = "red") +
+  scale_color_viridis() +
+  labs(title = "Rescaled Predictions and Rescaled Regression Predictions vs. Actual Year",
+       x = "Actual Year",
+       y = "Relative Frequency") +
+  theme_minimal()
+
+# Extract the coefficients
+coefficients <- coef(model)
+# Extract the coefficients on the response scale
+coefficients_resp <- exp(coef(model))
+coefficients_resp
+

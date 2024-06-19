@@ -1,0 +1,279 @@
+---
+title: "OvertificationModel"
+author: "Jordan Chark"
+date: "07/04/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load in data
+
+```{r readin}
+library(readr)
+library(tidyverse)
+library(lme4)
+library(ggeffects)
+library(sjPlot)
+library(Hmisc)
+full <- read_csv("fullcsv.csv", col_types = cols(
+  be = col_character(),
+  verb = col_character()
+))
+```
+
+## Data processing
+
+```{r datacleaning}
+full <- full %>%
+  filter(is.na(Excl) | Excl == FALSE)
+
+full2 <- full %>%
+  mutate(Tense_Simplified = case_when(
+    Tense %in% c("PRS", "PRS-SBJ", "PRES-SBJ", "PRES") ~ "PRS",
+    Tense %in% c("PST", "PST-SBJ", "PAST-SBJ", "PAST") ~ "PST",
+    Tense %in% c("FUT", "FUT-SBJ", "IMP", "NF", "Samsett") ~ "Other",
+    TRUE ~ Tense))
+
+
+full3 <- full2 %>%
+  mutate(
+    Complement = ifelse(!is.na(verb) & is.na(Complement), "INF", Complement)
+  )
+
+
+str(full3)
+
+unique_values_complement <- unique(full3$Complement)
+print(unique_values_complement)
+
+unique_values_reading <- unique(full3$Reading)
+print(unique_values_reading)
+
+
+full3 <- full3 %>%
+  mutate(Complement = case_when(
+    Complement %in% c("No", NA, "NULL") ~ "NULL",
+    Complement %in% c("DAT", "GEN", "PP") ~ "PP",
+    Complement %in% c("INF", "INF-ana") ~ "INF",
+    TRUE ~ Complement
+  ))
+
+full3 <- full3 %>%
+  mutate(Reading = case_when(
+    Reading %in% c("Finished", "Complete", "Finished?", "Ambig", "Finish") ~ "Finished",
+    Reading %in% c("Attr", "svo búnir", "viðbúið", "búa til", "búist við", "að því búnu", "við svo búið", "vel búið", "svo búið", "Other") ~ "Fixed",
+    Reading %in% c("Universal???") ~ "Anterior",
+    Reading %in% c("Prepared?") ~ "Prepared",
+    TRUE ~ Reading
+  ))
+
+full3 <- full3 %>%
+  filter(Reading != "Live")
+
+library(ggplot2)
+library(viridis)
+
+full3 <- full3 %>%
+  mutate(Tense_Simplified = case_when(
+    Tense %in% c("PRS", "PRS-SBJ", "PRES-SBJ", "PRES") ~ "PRS",
+    Tense %in% c("PST", "PST-SBJ", "PAST-SBJ", "PAST") ~ "PST",
+    Tense %in% c("FUT", "FUT-SBJ", "IMP", "NF", "Samsett", "Become") ~ "Other",
+    TRUE ~ Tense))
+
+full3_19 <- full3 %>%
+  filter(Century < 20 | year < 1910)
+
+```
+## Descriptive plots
+
+Frequency of collapsed reading cats over cent
+
+```{r plots1}
+ggplot(full3, aes(x = Century, fill = Reading)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis(discrete = TRUE) +
+  theme_minimal() +
+  labs(title = "Frequency of Reading Categories by Century", x = "Century", y = "Count")
+
+ggplot(full3, aes(x = Century, fill = Complement)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis(discrete = TRUE) +
+  theme_minimal() +
+  labs(title = "Frequency of Complement Type by Century", x = "Century", y = "Count")
+
+ggplot(full3, aes(x = Century, fill = SuB)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis(discrete = TRUE) +
+  theme_minimal() +
+  labs(title = "Frequency of SuB by Century", x = "Century", y = "Count")
+
+
+```
+```{r datacleaning2}
+full3_19main <- full3_19 %>%
+  filter(Reading %in% c("Anterior", "Prepared", "Finished"))
+
+filtered_full3 <- full3_19main %>%
+  filter(Tense != "")
+
+full3_19main <- filtered_full3 %>%
+  mutate(Tense_Simplified = case_when(
+    Tense %in% c("PRS", "PRS-SBJ", "PRES-SBJ", "PRES") ~ "PRS",
+    Tense %in% c("PST", "PST-SBJ", "PAST-SBJ", "PAST") ~ "PST",
+    Tense %in% c("FUT", "FUT-SBJ", "IMP", "NF", "Samsett", "Become", NA) ~ "Other",
+    TRUE ~ Tense))
+
+ggplot(full3_19main, aes(x = Century, fill = Tense_Simplified)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis(discrete = TRUE) +
+  theme_minimal() +
+  labs(title = "Frequency of Tense (Simplified) by Century (Ant/Prep)", x = "Century", y = "Count")
+
+full3_19main <- full3_19main %>%
+  mutate(overtification = ifelse(Complement == "INF", 1, 0))
+
+full3_19main <- full3_19main %>%
+  mutate(Century_scaled = scale(Century, center = TRUE, scale = TRUE))
+```
+
+```{r datacleaning3}
+library(tidyverse)
+full3_19main_prspst  <- full3_19main  %>%
+  filter(Tense_Simplified %in% c("PRS", "PST"))
+
+full3_19mainmodeldata <- full3_19main_prspst %>%
+  mutate(
+    overtification = as.factor(overtification),
+    SuB = as.factor(SuB),
+    Tense_Simplified = as.factor(Tense_Simplified),
+    source = as.factor(source),
+    Reading = as.factor(Reading)
+  )
+
+levels(full3_19mainmodeldata$overtification)
+levels(full3_19mainmodeldata$SuB)
+levels(full3_19mainmodeldata$Tense_Simplified)
+levels(full3_19mainmodeldata$Reading)
+
+library(stringr)
+
+full3_19mainmodeldata <- full3_19mainmodeldata %>%
+  mutate(source = tolower(source))  # Convert to lowercase
+
+full3_19mainmodeldata <- full3_19mainmodeldata %>%
+  mutate(source = str_replace_all(source, "\\(|\\)", ""))  # Remove only parentheses
+
+```
+## Models
+```{r model1}
+m1_int <- glmer(overtification ~ SuB * Tense_Simplified * Century_scaled + (1 | source), 
+                data = full3_19mainmodeldata, family = binomial,  control = glmerControl(optimizer = "bobyqa"))
+
+summary(m1_int)
+
+
+```
+
+Converges nicely
+
+```{r model2}
+
+m2_int <- glmer(overtification ~ Tense_Simplified + Century_scaled + Tense_Simplified:Century_scaled + SuB + SuB:Tense_Simplified + (1 | source), 
+                data = full3_19mainmodeldata, family = binomial,  control = glmerControl(optimizer = "bobyqa"))
+summary(m2_int)
+library(car)
+
+anova(m1_int, m2_int)
+
+vif_results <- vif(m2_int)
+vif_results
+```
+
+Converges, but multicollinearity is moderate. In addition, m1 is not justified by the data given the anova. Let us fit a model that dropsthe Tense_SuB int.
+
+```{r model3}
+
+m3_int <- glmer(overtification ~ Tense_Simplified + Century_scaled + Tense_Simplified:Century_scaled + SuB + (1 | source), 
+                data = full3_19mainmodeldata, family = binomial,  control = glmerControl(optimizer = "bobyqa"))
+
+summary(m3_int)
+
+```
+
+Keep the other interaction alternatively
+
+```{r model4}
+
+m4_int <- glmer(overtification ~ Tense_Simplified + Century_scaled + SuB + SuB:Tense_Simplified + (1 | source), 
+                data = full3_19mainmodeldata, family = binomial,  control = glmerControl(optimizer = "bobyqa"))
+
+summary(m4_int)
+
+
+anova(m3_int, m4_int)
+
+anova(m4_int, m2_int)
+
+vif_results <- vif(m4_int)
+vif_results
+```
+
+Model comparison shows that m4 is better than m3, and m2 is not better than m4. We thus settle on m4.
+
+## Diagnostics
+```{r diagnostics}
+library(DHARMa)
+diagnostics_output <- simulateResiduals(fittedModel = m4_int)
+plot(diagnostics_output)
+```
+
+```{r diagnostics2}
+testOutliers(diagnostics_output)
+testDispersion(diagnostics_output, alternative="greater")
+```
+
+
+
+```{r goodness}
+library(MuMIn)
+r2nakagawa_m2 <- r.squaredGLMM(m2_int)
+r2nakagawa_m4 <- r.squaredGLMM(m4_int)
+
+r2nakagawa_m2
+r2nakagawa_m4
+
+library(pROC)
+
+```
+
+```{r goodness2}
+full3_19mainmodeldata_drop <- full3_19mainmodeldata %>%
+  filter(SuB != "")
+predicted_probs <- predict(m4_int, type = "response")
+Cindex <- rcorr.cens(predicted_probs, full3_19mainmodeldata_drop$overtification)
+Cindex
+```
+
+
+```{r plot1}
+plot_model(m4_int, type = "eff", terms = c("Century_scaled  [all]", "Tense_Simplified", "SuB")) + theme_minimal()
+plot_model(m4_int, type = "eff", terms = c("Century_scaled [all]", "SuB", "Tense_Simplified")) + theme_minimal()
+```
+
+```{r plots2}
+
+effects2 <- ggpredict(m4_int , terms = c("Tense_Simplified", "SuB"))
+plot(effects2) + theme_minimal()
+
+```
+
+
+```{r effectsplot}
+library(sjPlot)
+model_plot <- plot_model(m4_int, sort.est = TRUE, show.values = TRUE, value.offset = .3)
+model_plot + theme_minimal()
+```
+

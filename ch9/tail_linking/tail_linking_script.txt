@@ -1,0 +1,85 @@
+# Load necessary libraries
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+
+
+
+# Read the data
+data <- read_csv("complete_data.csv")
+
+head(data)
+
+# Convert proportions to binary outcomes
+data <- data %>%
+  mutate(
+    Text = as.factor(Text),  # Ensure Text is a factor
+    scaled_Year = scale(Year),  # Standardize Year
+    total_counts = `subjtopic-V n` + `V-subjtopic n` + `XP-V-subjtopic n`,
+    successes = `XP-V-subjtopic n`,
+    failures = total_counts - `XP-V-subjtopic n`
+  ) 
+
+
+# Load the dplyr package
+library(dplyr)
+
+# Assuming 'data' is your data frame and 'Year' is the column you want to filter
+filtered_data <- data %>%
+  filter(Year >= 1540 & Year <= 1900)
+
+# Print the filtered data
+print(filtered_data)
+
+
+
+
+# Fit the first model with year and genre as fixed effects, and text as a random effect
+model_nonsubjinit <- glmer(cbind(successes, failures) ~ scaled_Year * Genre + (1|Text), 
+                data = filtered_data, family = binomial, control = glmerControl(optimizer = "bobyqa"))
+
+# Print the model summary
+summary(model_nonsubjinit)
+
+
+# Fit the second model with only year as a fixed effect, and text as a random effect
+model2 <- glmer(cbind(successes, failures) ~ scaled_Year + Genre + (1|Text), 
+                data=filtered_data, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+summary(model2)
+
+# Compare the two models
+anova(model_nonsubjinit, model2)
+
+# Filter out the 'nar' genre
+filtered_data_nar <- data %>% filter(Genre != "nar")
+
+head(filtered_data_nar)
+
+filtered_data_postnt <- data %>%
+  filter(Year > 1540)
+
+# Fit the model with the filtered data
+filtered_model <- glmer(cbind(successes, failures) ~ Year + (1|Text), 
+                        data=filtered_data_postnt, family=binomial, control=glmerControl(optimizer="bobyqa"))
+
+# Print the summary of the filtered model
+summary(filtered_model)
+
+head(filtered_data_postnt)
+
+ggplot(filtered_data_postnt, aes(x = Year, y = `XP-V-subjtopic %`, color = Genre)) +
+  geom_point() +
+  scale_color_viridis_d() + 
+  geom_smooth(method = 'lm', formula = y ~ x, se = FALSE) +
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = Text),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(
+    title = "XP-V-subjtopic % over time",
+    x = "Year",
+    y = "XP-V-subjtopic %"
+  ) +
+  theme_minimal()

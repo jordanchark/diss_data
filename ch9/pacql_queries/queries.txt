@@ -1,0 +1,30 @@
+PacQL Corpus queries
+
+These corpus queries are in PaCQL format, rather than the more typical CorpusSearch interface. The queries are cross-compatible and overlap in structure, more details are found here http://treebankstudio.org/docs/tutorial.
+
+A.1. Infinitival clauses (broad)
+
+IP-(MAT|SUB) idoms BE(D|P)(I|S)
+BE(D|P)(I|S) sprec IP-INF
+IP-INF idoms VB
+
+A.2. Temporal clauses aside from þegar/nær
+
+CP-REL idoms IP-SUB
+CP-REL idoms WADVP
+IP-SUB idoms ADVP-TMP
+
+A.3. Temporal clauses with þegar/nær
+
+IP.* idoms PP
+PP idoms P
+P idomslemma (þegar|nær)
+PP idoms CP-ADV
+CP-ADV idoms IP-SUB
+
+A.4. Búinn construction with infinitive
+
+IP-(MAT|SUB) idoms BED(I|S)
+IP-(MAT|SUB) idoms (VBN|VAN)
+(VBN|VAN) idomslemma búa
+(VBN|VAN) sprec IP-INF

@@ -1,0 +1,212 @@
+latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Mon Apr 15 15:49:47 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrr}
+  \hline
+century & Class & n & proportion \\ 
+  \hline
+17.00 & Accomplishment &   5 & 0.50 \\ 
+  17.00 & Achievement &   5 & 0.50 \\ 
+  18.00 & Accomplishment &  17 & 0.68 \\ 
+  18.00 & Achievement &   7 & 0.28 \\ 
+  18.00 & Stative &   1 & 0.04 \\ 
+  19.00 & Accomplishment &  13 & 0.28 \\ 
+  19.00 & Achievement &  31 & 0.66 \\ 
+  19.00 & Activity &   1 & 0.02 \\ 
+  19.00 & Stative &   2 & 0.04 \\ 
+  20.00 & Accomplishment &  24 & 0.44 \\ 
+  20.00 & Achievement &  24 & 0.44 \\ 
+  20.00 & Activity &   3 & 0.05 \\ 
+  20.00 & Stative &   4 & 0.07 \\ 
+  21.00 & Accomplishment &  24 & 0.40 \\ 
+  21.00 & Achievement &  24 & 0.40 \\ 
+  21.00 & Activity &   6 & 0.10 \\ 
+  21.00 & Stative &   6 & 0.10 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlr}
+  \hline
+century & Tense & n \\ 
+  \hline
+17.00 & PRES &   4 \\ 
+  17.00 & PRES-SBJ &   1 \\ 
+  17.00 & PST &   5 \\ 
+  18.00 & PRES &   4 \\ 
+  18.00 & PST &  16 \\ 
+  18.00 & PST-SBJ &   1 \\ 
+  19.00 & FUT &   1 \\ 
+  19.00 & PRES &  11 \\ 
+  19.00 & PRES-SBJ &   2 \\ 
+  19.00 & PST &  29 \\ 
+  19.00 & PST-SBJ &   1 \\ 
+  20.00 & PRES &  15 \\ 
+  20.00 & PST &  36 \\ 
+  20.00 & PST-SBJ &   2 \\ 
+  21.00 & INF &   1 \\ 
+  21.00 & PRES &  38 \\ 
+  21.00 & PRES-SBJ &   3 \\ 
+  21.00 & PST &  14 \\ 
+  21.00 & PST-SBJ &   2 \\ 
+  21.00 & Compound &   1 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+ latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Mon Apr 15 15:51:57 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlr}
+  \hline
+century & Reading & n \\ 
+  \hline
+12.00 & Prepared/Complete &   1 \\ 
+  13.00 & Fixed &   1 \\ 
+  13.00 & Prepared/Complete &   5 \\ 
+  14.00 & Fixed &   2 \\ 
+  14.00 & Other &   1 \\ 
+  14.00 & Prepared/Complete &   9 \\ 
+  15.00 & Fixed &   1 \\ 
+  15.00 & Prepared/Complete &   5 \\ 
+  17.00 & Fixed &   4 \\ 
+  17.00 & Prepared/Complete &   2 \\ 
+  17.00 & Resultative &  10 \\ 
+  18.00 & Fixed &   2 \\ 
+  18.00 & Other &   2 \\ 
+  18.00 & Prepared/Complete &   2 \\ 
+  18.00 & Resultative &  25 \\ 
+  18.00 & Universal &   1 \\ 
+  19.00 & Experiential &   3 \\ 
+  19.00 & Fixed &   3 \\ 
+  19.00 & Other &   1 \\ 
+  19.00 & Prepared/Complete &   3 \\ 
+  19.00 & Resultative &  43 \\ 
+  19.00 & Universal &   1 \\ 
+  20.00 & Experiential &   2 \\ 
+  20.00 & Fixed &   1 \\ 
+  20.00 & Other &   1 \\ 
+  20.00 & Prepared/Complete &   4 \\ 
+  20.00 & Resultative &  46 \\ 
+  20.00 & Universal &   8 \\ 
+  21.00 & Experiential &   3 \\ 
+  21.00 & Fixed &   5 \\ 
+  21.00 & Other &   6 \\ 
+  21.00 & Prepared/Complete &   5 \\ 
+  21.00 & Resultative &  48 \\ 
+  21.00 & Universal &   8 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begin{table}[ht!]
+  \caption{Relative frequency of \textit{hafa} century}
+   \label{tab: disttense}
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Mon Apr 15 15:53:49 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrlrr}
+  \hline
+ & century & Tense & n & proportion \\ 
+  \hline
+1 & 17.00 & PRES &   4 & 0.02 \\ 
+  2 & 17.00 & PRES-SBJ &   1 & 0.01 \\ 
+  3 & 17.00 & PST &   5 & 0.03 \\ 
+  4 & 18.00 & PRES &   4 & 0.02 \\ 
+  5 & 18.00 & PST &  16 & 0.09 \\ 
+  6 & 18.00 & PST-SBJ &   1 & 0.01 \\ 
+  7 & 19.00 & FUT &   1 & 0.01 \\ 
+  8 & 19.00 & PRES &  11 & 0.06 \\ 
+  9 & 19.00 & PRES-SBJ &   2 & 0.01 \\ 
+  10 & 19.00 & PST &  29 & 0.16 \\ 
+  11 & 19.00 & PST-SBJ &   1 & 0.01 \\ 
+  12 & 20.00 & PRES &  15 & 0.08 \\ 
+  13 & 20.00 & PST &  36 & 0.19 \\ 
+  14 & 20.00 & PST-SBJ &   2 & 0.01 \\ 
+  15 & 21.00 & INF &   1 & 0.01 \\ 
+  16 & 21.00 & PRES &  38 & 0.20 \\ 
+  17 & 21.00 & PRES-SBJ &   3 & 0.02 \\ 
+  18 & 21.00 & PST &  14 & 0.07 \\ 
+  19 & 21.00 & PST-SBJ &   2 & 0.01 \\ 
+  20 & 21.00 & Compound &   1 & 0.01 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[ht]
+\centeringee
+\begin{tabular}{lrrrrr}
+  \hline
+source & Century & SuB & Count & Total & Proportion \\ 
+  \hline
+(ÆVISAGAN) & 18.00 & 0.00 &  74 &  91 & 0.81 \\ 
+  (ÆVISAGAN) & 18.00 & 1.00 &  17 &  91 & 0.19 \\ 
+  (campsid) & 18.00 & 0.00 &   6 &  11 & 0.55 \\ 
+  (campsid) & 18.00 & 1.00 &   5 &  11 & 0.45 \\ 
+  (eggbrud) & 18.00 & 0.00 &  19 &  20 & 0.95 \\ 
+  (eggbrud) & 18.00 & 1.00 &   1 &  20 & 0.05 \\ 
+  (klim) & 18.00 & 0.00 &  13 &  28 & 0.46 \\ 
+  (klim) & 18.00 & 1.00 &  15 &  28 & 0.54 \\ 
+  (martam) & 18.00 & 0.00 &  11 &  18 & 0.61 \\ 
+  (martam) & 18.00 & 1.00 &   7 &  18 & 0.39 \\ 
+  (Rms-sitot-18) & 18.00 & 0.00 & 148 & 166 & 0.89 \\ 
+  (Rms-sitot-18) & 18.00 & 1.00 &  18 & 166 & 0.11 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+  \hline
+source & Century & SuB & Count & Total & Proportion \\ 
+  \hline
+(pislarsaga) & 17.00 & 0.00 &  14 &  16 & 0.88 \\ 
+  (pislarsaga) & 17.00 & 1.00 &   2 &  16 & 0.12 \\ 
+  (Rms-sitot-17) & 17.00 & 0.00 &  59 &  70 & 0.84 \\ 
+  (Rms-sitot-17) & 17.00 & 1.00 &  11 &  70 & 0.16 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{rlrr}\label{tab:verbtypeicepahc}
+  \hline
+Century & Class & n & Proportion \\ 
+  \hline
+17 & Accomplishment & 5 & 0.50 \\ 
+   & Achievement    & 5 & 0.50 \\ 
+18 & Accomplishment & 17 & 0.68 \\ 
+   & Achievement    & 7 & 0.28 \\ 
+   & Stative        & 1 & 0.04 \\ 
+19 & Accomplishment & 13 & 0.28 \\ 
+   & Achievement    & 31 & 0.66 \\ 
+   & Activity       & 1 & 0.02 \\ 
+   & Stative        & 2 & 0.04 \\ 
+20 & Accomplishment & 24 & 0.44 \\ 
+   & Achievement    & 24 & 0.44 \\ 
+   & Activity       & 3 & 0.05 \\ 
+   & Stative        & 4 & 0.07 \\ 
+21 & Accomplishment & 24 & 0.40 \\ 
+   & Achievement    & 24 & 0.40 \\ 
+   & Activity       & 6 & 0.10 \\ 
+   & Stative        & 6 & 0.10 \\ 
+   \hline
+\end{tabular}
+\caption{Verb Type by Century in IcePAHC}
+\end{table}
+

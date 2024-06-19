@@ -1,0 +1,112 @@
+library(stringr)
+
+library(readr)
+library(tidyverse)
+library(lme4)
+library(ggeffects)
+library(sjPlot)
+library(Hmisc)
+
+
+
+full <- read_csv("fullcsv.csv", col_types = cols(
+  be = col_character(),
+  verb = col_character()
+))
+
+full <- full %>%
+  filter(is.na(Excl) | Excl == FALSE)
+
+full2 <- full %>%
+  mutate(Tense_Simplified = case_when(
+    Tense %in% c("PRS", "PRS-SBJ", "PRES-SBJ", "PRES") ~ "PRS",
+    Tense %in% c("PST", "PST-SBJ", "PAST-SBJ", "PAST") ~ "PST",
+    Tense %in% c("FUT", "FUT-SBJ", "IMP", "NF", "Samsett") ~ "Other",
+    TRUE ~ Tense))
+
+
+full3 <- full2 %>%
+  mutate(
+    Complement = ifelse(!is.na(verb) & is.na(Complement), "INF", Complement)
+  )
+
+
+str(full3)
+
+unique_values_complement <- unique(full3$Complement)
+print(unique_values_complement)
+
+unique_values_reading <- unique(full3$Reading)
+print(unique_values_reading)
+
+
+full3 <- full3 %>%
+  mutate(Complement = case_when(
+    Complement %in% c("No", NA, "NULL") ~ "NULL",
+    Complement %in% c("DAT", "GEN", "PP") ~ "PP",
+    Complement %in% c("INF", "INF-ana") ~ "INF",
+    TRUE ~ Complement
+  ))
+
+full3 <- full3 %>%
+  mutate(Reading = case_when(
+    Reading %in% c("Finished", "Complete", "Finished?", "Ambig", "Finish") ~ "Finished",
+    Reading %in% c("Attr", "svo búnir", "viðbúið", "búa til", "búist við", "að því búnu", "við svo búið", "vel búið", "svo búið", "Other") ~ "Fixed",
+    Reading %in% c("Universal???") ~ "Anterior",
+    Reading %in% c("Prepared?") ~ "Prepared",
+    TRUE ~ Reading
+  ))
+
+full3 <- full3 %>%
+  filter(Reading != "Live")
+
+library(ggplot2)
+library(viridis)
+
+full3 <- full3 %>%
+  mutate(Tense_Simplified = case_when(
+    Tense %in% c("PRS", "PRS-SBJ", "PRES-SBJ", "PRES") ~ "PRS",
+    Tense %in% c("PST", "PST-SBJ", "PAST-SBJ", "PAST") ~ "PST",
+    Tense %in% c("FUT", "FUT-SBJ", "IMP", "NF", "Samsett", "Become") ~ "Other",
+    TRUE ~ Tense))
+
+full3_19 <- full3 %>%
+  filter(Century < 20 | year < 1910)
+
+result <- full3 %>%
+  mutate(SuB = replace_na(SuB, 0)) %>%  # Replacing NAs in SuB with "Unknown"
+  group_by(source, Century, SuB) %>%
+  summarise(Count = n(), .groups = 'drop') %>%  # Counting entries per group
+  group_by(source, Century) %>%
+  mutate(TotalSourceCount = sum(Count)) %>%  # Summing counts by source
+  ungroup() %>%
+  mutate(Proportion = Count / TotalSourceCount) %>%
+  filter(!str_starts(source, "\\(")) %>%
+  filter(Century > 16) %>%
+  filter(source!="(synis)") 
+
+result18 <- result %>%
+  filter(Century==18)
+
+ggplot(result, aes(x = as.factor(SuB), y = Proportion, fill = as.factor(SuB))) +
+  geom_bar(stat = "identity") +
+  labs(title = "Proportion of Counts by SuB in Textasafn",
+       x = "Subgroup (SuB)",
+       y = "Proportion") +
+  facet_wrap(~source)  # Adding facet by source for clearer separation
+
+
+# Now, let's create the bar plot using ggplot2
+ggplot(result18, aes(x = source, y = Proportion, fill = as.factor(SuB))) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(
+    title = "Proportion of SuB (17th Cent. IcePAHC)",
+    x = "Source",
+    y = "Proportion"
+  ) +
+  theme_minimal()
+
+full3_19 <- full3 %>%
+  filter(Century < 20 | year < 1910)
+full3_19 <- full3_19 %>%
+  mutate(Century_scaled = scale(Century, center = TRUE, scale = TRUE))

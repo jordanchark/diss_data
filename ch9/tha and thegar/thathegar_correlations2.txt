@@ -1,0 +1,357 @@
+# Load the necessary packages
+library(lme4)
+library(ggplot2)
+library(tidyverse)
+
+getwd()
+setwd("/Users/jordanchark/Desktop/newinv")
+
+process_summary <- function(file) {
+  text_lines <- suppressWarnings(readLines(file))
+  text_lines <- text_lines[-c(1, length(text_lines))]
+  
+  process_line <- function(line) {
+    matches <- regmatches(line, regexec("(\\S+)\\s+(\\d+)\\s*/\\s*(\\d+)\\s*/\\s*(\\d+)", line))[[1]]
+    return(matches[-1])
+  }
+  
+  data_list <- lapply(text_lines, process_line)
+  data <- do.call(rbind, data_list)
+  data <- data.frame(data, stringsAsFactors = FALSE)
+  data_list <- unique(data_list, by = "source")
+  
+  colnames(data) <- c("source", "hits", "tokens", "total")
+  data$hits <- as.numeric(data$hits)
+  data$tokens <- as.numeric(data$tokens)
+  data$total <- as.numeric(data$total)
+  
+  # Extracting year, textid, and genre information
+  extract_info <- function(source) {
+    if (startsWith(source, "ntmatthew")) {
+      textid_genre <- strsplit(source, ".", fixed = TRUE)[[1]]
+      textid <- textid_genre[1]
+      genre <- textid_genre[2]
+      return(c("1540", textid, genre))
+    }
+    
+    year <- substr(source, 1, 4)
+    textid_genre <- strsplit(substr(source, 6, nchar(source)), ".", fixed = TRUE)[[1]]
+    textid <- textid_genre[1]
+    genre <- textid_genre[2]
+    
+    return(c(year, textid, genre))
+  }
+  
+  extra_data <- do.call(rbind, lapply(data$source, extract_info))
+  data <- cbind(data, as.data.frame(extra_data, stringsAsFactors = FALSE))
+  colnames(data)[5:7] <- c("year", "textid", "genre")
+  data$year <- as.numeric(data$year)
+  
+  return(data)
+}
+
+data1 <- process_summary("summarythaprevb.txt")
+data2 <- process_summary("summarythegar.txt")
+
+data1 <- distinct(data1, source, .keep_all = TRUE)
+
+common_sources <- intersect(data1$source, data2$source)
+
+# Subset data1 and data2 to only include common sources
+data1 <- data1[data1$source %in% common_sources, ]
+data2 <- data2[data2$source %in% common_sources, ]
+
+
+# Split the genre column in data1
+data1 <- data1 %>%
+  separate(genre, c("genre1", "genre2"), sep = "-", remove = FALSE)
+
+data2 <- data2 %>%
+  separate(genre, c("genre1", "genre2"), sep = "-", remove = FALSE)
+
+# Add a column to each data frame representing the 'tha' value
+data1$tha <- 1
+data2$tha <- 0
+
+# Merge the two data frames into a single data frame
+data <- rbind(data1, data2)
+
+# Calculate the relative frequency
+data <- data %>%
+  group_by(year, tha) %>%
+  mutate(relative_frequency = hits / sum(total) * 100)
+
+data1 <- data1 %>%
+  group_by(source) %>%
+  mutate(relative_frequency = hits / sum(total) * 100)
+
+data2 <- data2 %>%
+  group_by(source) %>%
+  mutate(relative_frequency = hits / sum(total) * 100)
+
+# Create a simplified genre variable
+data$simplified_genre <- gsub("-(.*)", "", data$genre)
+
+data1$simplified_genre <- gsub("-(.*)", "", data1$genre)
+data2$simplified_genre <- gsub("-(.*)", "", data2$genre)
+
+library(ggplot2)
+
+ggplot(data, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(aes(shape = as.factor(tha)), alpha = 0.6) +
+  scale_shape_discrete(name = "Tha Levels", labels = c("Data2 (Tha=0)", "Data1 (Tha=1)")) +
+  labs(title = "Relative Frequency by Year, Genre, and Tha Level",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal()
+
+ggplot(data, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(aes(shape = as.factor(tha)), alpha = 0.6) +
+  geom_smooth(aes(group = interaction(simplified_genre, tha), linetype = as.factor(tha)), method = "lm", se = FALSE) +
+  scale_shape_discrete(name = "Tha Levels", labels = c("Data2 (Tha=0)", "Data1 (Tha=1)")) +
+  scale_linetype_discrete(name = "Tha Levels", labels = c("Data2 (Tha=0)", "Data1 (Tha=1)")) +
+  labs(title = "Relative Frequency by Year, Genre, and Tha Level",
+       x = "Year",
+       y = "Relative Frequency") +
+  theme_minimal()
+
+library(lme4)
+
+
+# Create a subset of data excluding 'psd'
+data_s1 <- data1 %>% filter(simplified_genre != "psd")
+data_s2 <- data2 %>% filter(simplified_genre != "psd")
+
+model <- lm(relative_frequency ~ year * simplified_genre,
+               data = data_subset1)
+
+summary(model)
+
+correlation <- cor(data_s1$relative_frequency, data_s2$relative_frequency)
+
+# Print the correlation coefficient
+print(correlation)
+
+# Create a plot of the model predictions
+ggplot(data_s1, aes(x = year, y = relative_frequency)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Freq. of Foregrounding Þá",
+       x = "Year",
+       y = "Rel.freq") +
+  geom_text(aes(label = textid), size = 3, vjust = 1.5, show.legend = FALSE, check_overlap = TRUE) +
+  theme_minimal()
+
+ggplot(data_s1, aes(x = year, y = relative_frequency, color = simplified_genre)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Freq. of Foregrounding Þá",
+       x = "Year",
+       y = "Rel.freq") +
+  geom_text(aes(label = textid), size = 3, vjust = 1.5, show.legend = FALSE, check_overlap = TRUE) +
+  theme_minimal()
+
+ggplot(data_s2, aes(x = year, y = relative_frequency)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(title = "Freq. of temporal subordinating þegar ",
+       x = "Year",
+       y = "Rel. freq") +
+  geom_text(aes(label = textid), size = 3, vjust = 1.5, show.legend = FALSE, check_overlap = TRUE) +
+  theme_minimal()
+
+
+merge <- merge(data_s1, data_s2, by = "source", suffixes = c("_1", "_2"))
+
+correlation <- cor(merge$relative_frequency_1, merge$relative_frequency_2)
+
+cat("Correlation between the two subsets based on relative frequency:", correlation)
+
+correlation <- cor(merge$freq1, merge$freq2)
+correlation <- cor(narr_data$relative_frequency_1, narr_data$relative_frequency_2)
+correlation
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2, color = genre1_1)) +
+  geom_point() +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw()
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point() +
+  geom_text(aes(label = textid_1), nudge_x = 0.02, nudge_y = 0.02, check_overlap = TRUE, size = 3) +
+  labs(title = "Correlation of Relative Frequencies by Text",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw()
+
+library(ggrepel)
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2, label=genre1_1)) +
+  geom_point() +
+  geom_text_repel(aes(label = textid_1), nudge_x = 0.02, nudge_y = 0.02, size = 3) +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw()
+
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = TRUE) +
+    labs(title = "Correlation of Relative Frequencies by Text (All)",
+         x = "Relative Frequency of Þá",
+         y = "Relative Frequency of Þegar",
+         subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+    theme_bw() +
+  expand_limits(x=c(0,NA))
+
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Correlation of Relative Frequencies by Text (Nar)",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw() +
+  expand_limits(x=c(0,NA))
+
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2, color=genre1_1)) +
+  geom_point(size=3, alpha=0.8) +
+  labs(title = "Correlation of Relative Frequencies by Source",
+       x = "Relative Frequency in data_subset1",
+       y = "Relative Frequency in data_subset2",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw() +
+  scale_y_continuous(limits=c(0, NA), expand = expand_scale(mult=c(0, 0.1))) +
+  expand_limits(x=c(0,NA))
+
+narr_data <- merge %>% 
+  filter(genre1_1 == "nar")
+
+
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point(aes(color = genre1_1)) +
+  geom_text_repel(aes(label = textid_1, color = genre1_1),
+                  nudge_x = 0.02,
+                  nudge_y = 0.02,
+                  size = 3,
+                  max.overlaps = Inf) +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = subtitle_text) +
+  theme_bw() +
+  scale_color_discrete(name = "Genre")
+
+
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(title = "Correlation of Relative Frequencies by Text (Nar)",
+       x = "Relative Frequency of foreg. þá",
+       y = "Relative Frequency of subord. þegar",
+       subtitle = narr_subtitle_text) +
+  theme_bw()
+
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  geom_text(aes(label = textid_1), size = 3, vjust = 1.5, show.legend = FALSE, check_overlap = TRUE) +
+  labs(title = "Correlation of Relative Frequencies by Text (Nar)",
+       x = "Relative Frequency in foreg. þá",
+       y = "Relative Frequency in subord. þegar",
+       subtitle = narr_subtitle_text) +
+  theme_bw()
+
+ggplot(narr_data, aes(x = year, y = relative_frequency_2)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_text(aes(label = textid_1), size = 3, vjust = 1.5, show.legend = FALSE, check_overlap = TRUE) +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency in data_subset1",
+       y = "Relative Frequency in data_subset2",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_minimal()
+
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2, color=genre1_1, label = textid)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_text(hjust = -0.2, vjust = -0.2) +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency in data_subset1",
+       y = "Relative Frequency in data_subset2",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  scale_color_manual(values = c("narr" = "#F8766D", "other" = "#00BFC4")) +
+  expand_limits(x = 0, y = 0) +
+  theme_minimal()
+
+# Create a scatter plot with a linear regression line
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2, color=genre1_1, label = textid)) +
+  geom_point(alpha = 0.6, size = 3, aes(label = textid)) +
+  labs(title = "Correlation of Proportions by Genre",
+       x = "Proportions in Data Subset 1",
+       y = "Proportions in Data Subset 2") +
+  theme_minimal() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_brewer(palette = "Set1") +
+  theme(legend.position = "top")
+
+
+ggplot(narr_data, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point(alpha = 0.6, size = 3, aes(color = simplified_genre, label = textid)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Frequency by Year and tha",
+       x = "Year",
+       y = "Frequency",
+       color = "Genre") +
+  theme_minimal() +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  geom_text(nudge_y = 0.02, check_overlap = TRUE)
+
+
+
+
+
+# Calculate the correlation coefficient and p-value for the 'merge' dataset
+correlation_test <- cor.test(merge$relative_frequency_1, merge$relative_frequency_2)
+correlation <- correlation_test$estimate
+p_value <- correlation_test$p.value
+
+correlation_test
+p_value
+
+# Add the p-value to the subtitle of the first plot
+subtitle_text <- paste0("Correlation coefficient: ", round(correlation, 2), ", p-value: ", round(p_value, 4))
+subtitle_text
+
+# Repeat the process for the 'narr_data' dataset
+narr_correlation_test <- cor.test(narr_data$relative_frequency_1, narr_data$relative_frequency_2)
+narr_correlation <- narr_correlation_test$estimate
+narr_p_value <- narr_correlation_test$p.value
+
+narr_subtitle_text <- paste0("Correlation coefficient: ", round(narr_correlation, 2), ", p-value: ", round(narr_p_value, 4))
+
+narr_subtitle_text
+
+
+ggplot(merge, aes(x = relative_frequency_1, y = relative_frequency_2)) +
+  geom_point(aes(color = genre1_1)) +
+  geom_text_repel(aes(label = textid_1, color = genre1_1),
+                  nudge_x = 0.02,
+                  nudge_y = 0.02,
+                  size = 3,
+                  max.overlaps = Inf) +
+  labs(title = "Correlation of Relative Frequencies by Year",
+       x = "Relative Frequency of Þá",
+       y = "Relative Frequency of Þegar",
+       subtitle = paste0("Correlation coefficient: ", round(correlation, 2))) +
+  theme_bw() +
+  scale_color_discrete(name = "Genre")
+

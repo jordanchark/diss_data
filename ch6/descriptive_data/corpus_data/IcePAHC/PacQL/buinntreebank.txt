@@ -1,0 +1,349 @@
+label	century	genre	year	textid	treeid	text
+IP-SUB	12	rel	1150	homiliubok	191	Vitum vér þess von ofvalt er vér mælum fyr mjög mörgum mönnum að þeir munu á ór orð heyra flestir er bæði munu betur búnir að viti og að máli en vér séim
+IP-SUB	12	rel	1150	homiliubok	1365	og bíðið svo Drottins því að hann tekur bæði við stoðlausum og góðum ekkjum þeim er búnar eru til bænahalds eða lítillætis eða ölmusugæðis
+IP-SUB	12	rel	1150	homiliubok	2277	Það er oss mest nauðsyn að vér leitim við að vér sém búnir við andláti óru ávallt hverja stund frá annarri af því að vér vitum eigi hvort vér tökum öndina síð er vér hrindim henni frá oss
+IP-SUB	13	rel	1210	thorlakur	3173	og hafði þá enn mikið gott það af sér að miðla í kenningum sínum er hann var áður trautt jafn vel við búinn sem nú
+IP-MAT	13	rel	1210	thorlakur	3591	Þá var búið um líkamann og skorið hár hans
+IP-SUB	13	nar	1250	sturlunga	3721	sagði vera mega að þeir yrðu eigi við búnir eða komi sér eigi saman ef þá bæri skjótt að
+IP-MAT	13	nar	1250	sturlunga	3735	Lið Þorleifs var vel búið að vopnum
+IP-SUB	13	nar	1250	sturlunga	5050	En er þeir voru búnir og höfðu lagt út undir Hólm þá komu menn sunnan frá konungi og með bréfum
+IP-SUB	13	nar	1250	sturlunga	5054	Og þá er þeir voru búnir hafði hertoginn þá í boði sínu áður þeir tóku orlof
+IP-SUB	13	nar	1250	thetubrot	5884	En er hann var búinn ferðar sinnar og byr gaf þá hélt hann til hafs
+IP-SUB	13	nar	1250	thetubrot	5951	En er Egill var búinn og byr gaf þá siglir hann í haf
+IP-SUB	13	nar	1260	jomsvikingar	6586	Og síðan fóru þeir leiðar sinnar þá er þeir voru til þess búnir
+IP-SUB	13	nar	1260	jomsvikingar	6615	Og þegar er Hákon jarl veit þessi tíðendi þá gerir hann atróður harðan þá er þeir Gull<dash>Haraldur voru síst viður búnir
+IP-SUB	13	nar	1260	jomsvikingar	6645	og sögðu menn henni að dýrleg veisla var búin í móti henni að konungs
+IP-SUB	13	nar	1260	jomsvikingar	6680	Jarl fer þegar úr landi er hann er búinn
+IP-SUB	13	nar	1260	jomsvikingar	6737	og fer þegar er hann var búinn
+IP-MAT	13	nar	1260	jomsvikingar	7032	og voru allir vel búnir að klæðum og vopnum
+IP-SUB	13	nar	1260	jomsvikingar	7053	og felldu á þá tjöldin er þeir voru ekki viður búnir
+IP-SUB	13	nar	1260	jomsvikingar	7636	Hann fer úr landi þegar er ferð hans er búin
+IP-SUB	13	law	1270	gragas	7919	og er honum rétt að hafa þann tilbúning sem aðrir menn hafa til búið
+IP-SUB	13	law	1270	gragas	7923	enda er rétt að hann nýti það allt er áður hefir verið til búið ef hann vill hvort sem hann vill allt eða sumt
+IP-MAT	13	nar	1275	morkin	8412	Það lið var og einkum best búið
+IP-SUB	13	nar	1275	morkin	8822	Nú fer Hákon með lið sitt þá er hann er búinn upp á Gautland
+IP-MAT	13	nar	1275	morkin	8842	og voru þau skip ágætliga búin
+IP-MAT	13	nar	1275	morkin	8863	en það allt er honum hafði heiman fylgt var vel við búið bæði að vopnum og klæðum
+IP-SUB	13	nar	1275	morkin	9394	Og er þeir voru búnir er til Nóregs ætluðu fer Halli á fund konungs
+IP-MAT	13	nar	1275	morkin	9532	og voru búnir skrautliga
+IP-SUB	13	nar	1275	morkin	9735	og settist í rúm það eða sæti er var honum búið
+IP-SUB	13	nar	1275	morkin	9900	Segja svo allir þeir er nökkur frásögn er kunnig hér um að eigi hafi betra mannval búist af Nóregi til einnar ferðar en þetta
+IP-MAT	14	nar	1300	alexander	10340	Þetta lið var og undarliga vel búið með vopnum
+IP-SUB	14	nar	1300	alexander	10399	Og þegar er til þess var búið þá láta konungsmenn skip sín úr festum
+IP-SUB	14	nar	1300	alexander	10478	Og þegar er konungur sér byskup þá kemur honum í hug að sá maður var jafnt þannug búinn er honum vitraðist fyrr meir
+IP-MAT	14	nar	1300	alexander	10562	Þeir voru líkara búnir konum en hermönnum því að klæði þeirra voru víða gulli búin
+IP-SUB	14	nar	1300	alexander	10562	Þeir voru líkara búnir konum en hermönnum því að klæði þeirra voru víða gulli búin
+IP-SUB	14	nar	1300	alexander	10575	Og að eigi væri Grikkjum auðsótt að sækja konunginn þá lýkur hann utan fylking sína með 300-300 þúsunda fótgönguliðs þess er undarliga var vel að vopnum búið
+IP-SUB	14	nar	1300	alexander	10649	Og þá færir Philippus honum heilsudrykk þann er hann hafði búið
+IP-MAT	14	nar	1300	alexander	10786	Og fyrst verður hann sjálfur búinn af staðnum
+IP-SUB	14	nar	1300	alexander	10787	og hleypir í móti Serkjum og hjálmað og brynjað riddaralið svo hvað sem búið verður
+IP-MAT	14	nar	1300	alexander	10801	Var og flest allt liðið betur búið til rásar en bardaga
+IP-SUB	14	nar	1300	alexander	11216	Og fær hann ekki reitt sverðið sem hann vildi því að Lachesis ein af þeim þremur systrum er örlögum stýra vill eigi að Alexander konungur verði vopndauður þar sem nú var þegar fyrir búið eitur það er hann skal drekka og honum man að bana verða á vetra fresti
+IP-MAT	14	nar	1300	alexander	11275	Fílar eru og búnir til bardaga hvar sem þeir fást
+IP-SUB	14	nar	1300	alexander	11301	heldur framförinni jafnt sem áður þótt Darius konungur hafi lítt blíðliga fyrir honum búið
+IP-SUB	14	nar	1300	alexander	11375	Darius konungur tortryggvir þó sögn hans því að sú mikla ást er hann hafði við drottningu telur það fyrir honum að Alexander myni búið hafa með henni
+IP-MAT	14	nar	1300	alexander	11495	Umfram þau stórmerki er hér eru stuttliga bréfað og þann hagleik er á var þessu smíði var allt verkið með gulli búið þar er það þótti betur bera
+IP-SUB	14	nar	1300	alexander	11503	En vopnar það er áður var illa búið
+IP-SUB	14	nar	1310	grettir	11791	Reið hann nú heim þá er hann var búinn
+IP-SUB	14	nar	1310	grettir	11921	Létu þeir í haf þegar þeir voru búnir og byr gaf
+IP-SUB	14	nar	1310	grettir	12024	Hann var son Kárs hins gamla er þar hafði lengi búið
+IP-SUB	14	nar	1310	grettir	12365	Fékk Grettir þá stór högg af þeim svo að við meiðingum var búið
+IP-MAT	14	nar	1310	grettir	12527	En er hann vaknar tekur til fóta og hleypur heim var þá búið við að dýrið mundi grípa hann
+IP-SUB	14	nar	1310	grettir	12624	Og er þeir höfðu um búist sigldi skip sunnan fyrir land
+IP-MAT	14	nar	1310	grettir	12822	Var þá við sjálfu búið að þeir mundu berjast
+IP-SUB	14	nar	1325	arni	14133	Hann hafði verið í mötuneyti með þeim mönnum er annar hét Ólafur sonur Halldórs langs er þá bjó í Húsagarði en annar hét Þórður og var kallaður kuggur son Ásmundar er búið hafði á þeim bæ í Vestmannaeyjum er nú er kenndur við konu hans Vilborgu móður Þórðar því að hún lifði honum lengur
+IP-SUB	14	nar	1325	arni	14495	Það land hafði herra Árni biskup keypt að Þeóbaldusi Vilhjálmssyni þeim er átti Margrétu dóttur Barkar Ormssonar er þar hafði lengi búið og gefið að móti Dal undir Eyjafjöllum það land sem Sigvarður biskup tók undir Skálaholtsstað í próventu Þuríðar Ormsdóttur og Arnfríðar Bjarnardóttur systur Vigfúss úr Dal
+IP-MAT	14	nar	1350	bandamennM	15027	og voru þá mjög brott búnir
+IP-SUB	14	nar	1350	bandamennM	15887	og þegar hann er búinn þá koma austanveður
+IP-MAT	14	nar	1350	bandamennM	15895	Er nú búist til veislu
+IP-SUB	14	nar	1350	finnbogi	16403	Síðan þeir voru búnir reru þeir brott
+IP-SUB	14	nar	1350	finnbogi	16516	Þá er þeir voru búnir fluttu þeir Ásbjörn og Þorgeir til skips það er Finnbogi átti
+IP-SUB	14	nar	1350	finnbogi	16866	Og er þau voru búin fylgir Ingibjörg þeim til skips
+IP-SUB	14	nar	1350	finnbogi	16885	Síðan hann var búinn reri hann suður með landi
+IP-SUB	14	nar	1350	finnbogi	17169	og er þau voru búin gekk jarl til strandar með þeim
+IP-SUB	14	nar	1350	finnbogi	17234	og ganga fyrir eykirnir svo hver sem búinn var
+IP-SUB	14	nar	1350	finnbogi	17240	Síðan Hrafn var búinn lét hann ganga eftir förunautum sínum
+IP-SUB	14	nar	1350	finnbogi	17435	Líða nú stundir þar til er Finnbogi hefir búið að Borg svo lengi að son hans var annar fimm vetra en annar þrevetur
+IP-SUB	14	nar	1350	finnbogi	17704	Jökull sá að þetta mundi svo fara með því að hann mæddi mjög blóðrás og það að Svartur stóð með reidda rekuna og var búinn að slá hann með
+IP-SUB	14	nar	1350	finnbogi	17799	Og er menn voru búnir gekk Bergur hinn rakki að Kol
+IP-SUB	14	nar	1350	finnbogi	17834	Og er Bergur er búinn ríða þeir Finnbogi og Þorkell með honum
+IP-SUB	14	rel	1350	marta	18940	og var hún þar þrjá tigu vetra í þeim stað er henni var með engilligum höndum fyrirbúinn öllum mönnum ókunnigt en södd aðeins himneskum næringum lofandi guð nætur og daga með heilögum bænum án afláti
+IP-MAT	15	nar	1400	gunnar	19528	og var því búið að hann mundi standa á honum snúa við það aftur til hesta sinna
+IP-SUB	15	nar	1400	gunnar	19613	En er þeir voru búnir beiðist Gunnar að ganga á land
+IP-SUB	15	nar	1400	gunnar	19850	Þar sá hann allt tjaldað sem við veislu væri búið
+IP-MAT	15	nar	1400	gunnar	19853	Þar var borð búið
+IP-SUB	15	nar	1400	gunnar	19886	En þegar er þeir voru búnir héldu þeir þegar burt
+IP-MAT	15	nar	1400	gunnar	19998	Voru þessi skip skjótt búin bæði að mönnum og vopnum
+IP-MAT	15	nar	1400	gunnar	20130	Var þegar við boði búist og mörgum manni til boðið
+IP-MAT	15	nar	1400	gunnar2	20314	Þeir voru þá búnir til siglingar
+IP-MAT	15	nar	1400	gunnar2	20422	Var þá búist við stríði og blásið í lúðra hjá hvorutveggjum
+IP-SUB	15	nar	1400	gunnar2	20433	Þá segir Jökull að þeir skuli við búnir bardaganum
+IP-MAT	15	nar	1400	gunnar2	20545	En sem hún vissi Örn dauðan var henni sprengur búinn
+IP-SUB	15	nar	1400	viglundur	20624	Ketill lét kenna sonum sínum allar þær íþróttir sem þá voru tíðar að nema því að Ketill var betur búinn að íþróttum en flestir menn aðrir
+IP-SUB	15	nar	1400	viglundur	20642	Og þegar konungur var búinn siglir hann suður með landi
+IP-MAT	15	nar	1400	viglundur	20866	Menn hans höfðu um búist eftir því sem hann hafði skipað fyrir svo að þeir voru búnir til hafs
+IP-SUB	15	nar	1400	viglundur	20866	Menn hans höfðu um búist eftir því sem hann hafði skipað fyrir svo að þeir voru búnir til hafs
+IP-SUB	15	nar	1400	viglundur	20867	Vinda þeir nú upp segl sín þegar að Þorgrímur var búinn því að vindur stóð af landi
+IP-SUB	15	nar	1400	viglundur	21441	Hásetar Hákonar sigldu fram um sumarið þegar er þeir voru búnir
+IP-MAT	15	nar	1400	viglundur	21573	og voru þeir Gunnlaugur búnir til hafs
+IP-MAT	15	nar	1400	viglundur	21824	Ketilríður hafði við búist eftir því sem bóndi hafði fyrir sagt
+IP-SUB	15	nar	1450	bandamenn	22022	og er Oddur var búinn leiða menn hann til skips
+IP-MAT	15	nar	1450	bandamenn	22113	og voru þá mjög í burt búnir
+IP-MAT	15	nar	1450	ectorssaga	22911	Þessi hinn ágæta frú var vel að sér búin um alla hluti
+IP-MAT	15	nar	1450	ectorssaga	22971	Nú var honum til útreiðar búinn fríður fararskjóti einn af þeim er drómedari heita hver að svo er skjótur á rás sem fugl á flaug
+IP-MAT	15	nar	1450	ectorssaga	23408	og var við brullaupi búist
+IP-SUB	15	nar	1450	ectorssaga	23516	og er hann er búinn sér hann hvar fram kemur maður ef mann skal kalla og ríður einum úlfalda
+IP-MAT	15	nar	1450	ectorssaga	23815	Var þar við brullaupi búist og boðið öllum hinum vildustum mönnum til þessarar veislu
+IP-MAT	15	nar	1450	ectorssaga	24194	Hennar turnar voru gulli búnir
+IP-SUB	15	nar	1450	ectorssaga	24221	Settist kóngur í hásæti er allt var búið með gull og gimsteinna og hans son til hægri handar En útí frá hans félags menn
+IP-SUB	15	nar	1450	ectorssaga	24223	Var Apríval leiddur til sætis utarliga því hann var óvirðuliga búinn
+IP-MAT	15	nar	1450	ectorssaga	24330	Var sjá nú búinn til útreiðar
+IP-MAT	15	nar	1450	ectorssaga	24510	Hann var virðuliga búinn að klæðum og vopnum
+IP-SUB	15	rel	1450	judit	25208	og drakk af því er þjónustumenn hennar höfðu til búið
+IP-MAT	15	nar	1450	vilhjalmur	25376	Hún var vel búin
+IP-SUB	15	nar	1450	vilhjalmur	25855	og er þeir höfðu um búist var mjög á liðinn dagurinn
+IP-SUB	15	nar	1450	vilhjalmur	25913	En áður þeir voru búnir voru niður brotnar herbúðir og drepið margt manna
+IP-SUB	15	nar	1450	vilhjalmur	26425	en er hann er búinn biður hann fólk vel lifa
+IP-MAT	15	nar	1450	vilhjalmur	26807	og hafði Herkúl kóngur þá búið v langskip með góðum drengjum
+IP-SUB	15	nar	1450	vilhjalmur	26827	Sáu þeir nú hvar dýrið lá fyrir þeim hellisskúta sem Vilhjálmur hafði búið um vopn sín
+IP-MAT	15	nar	1450	vilhjalmur	27114	en hann var og viðbúinn
+IP-SUB	15	nar	1480	jarlmann	29044	Tekur hann nú orlof af kóngi þegar að hann er búinn
+IP-MAT	15	nar	1480	jarlmann	29224	Þeir voru vel búnir að klæðum
+IP-SUB	15	nar	1480	jarlmann	29497	en þó tóku þeir svo fast í móti að við því var búið að þeir mundi fá sigur
+IP-MAT	15	nar	1480	jarlmann	29515	Því er nú búin ferð þeirra með miklum fékostnaði gulli og silfri og góðum gripum og með glæsiligum skipum og hæversku hoffólki og hreinligum meyjum er Ríkilað skyldi þjóna
+IP-SUB	15	nar	1480	jarlmann	29592	En kóngur sagði að þeir skyldu ekki féskarða verða ef þeir gjörði sem honum líkaði og væri búin að veturnóttum
+IP-MAT	15	nar	1480	jarlmann	29875	Ítarliga var hún búin
+IP-MAT	15	nar	1480	jarlmann	29948	En er Austvestan heyrði hljóð þeirra þá var við sjálft búið að hann mundi eigi standast eður eigi
+IP-MAT	15	nar	1480	jarlmann	30053	og voru þeir allir vel búnir að vopnum og klæðum og reyndir að hreysti og harðfengi
+IP-SUB	16	nar	1525	erasmus	30420	En allt þetta fólk er til samans var komið lofuðu guð fyrir það að hann hafði sinn þjón og kæran hafði svo miskunnsamlega leyst úr sinna óvina valdi en var bæði fúll og fár við sjálfan sig og alla út í frá og hafði þó svo búið
+IP-SUB	16	nar	1525	erasmus	30699	En eftir þetta lífið mættum vér öðlast þá sælu og eilíft líf er faðir á himnum alsvoldugur guð hefur fyrirbúið sínum ástvinum í eilífri dýrð utan enda Amen
+IP-SUB	16	nar	1525	georgius	31034	Og þá sem þeir höfðu svo um búið sem þeir vildu og ætluðu að ganga á burt aftur til keisarans þá í því kom drottinn Jesús til sankti Georgíum
+IP-SUB	16	nar	1525	georgius	31390	og bjuggu þar eftir því sem sanktus Lúkas guðspjallamaður skrifar út af og segir í guðspjallinu að í þenna tíma sem þessi gjöf heilags anda veittist guðs postulum þá hafi þar í staðnum búið margra handa þjóðir hverjar að svo hétu Partí og Medí Elamíten og þær þjóðir er í Mesópótamíam og af Indíam Friggíam og Kappadókíam af Pontum og Asíam af Panfílíam Egiptum og af því landi er Líbíi heitir og liggur nærri því ríki er Sírenin heitir hvert að nafnið tók af Sírus kóngi
+IP-SUB	16	nar	1525	georgius	31537	Nú þá sem móðir barnsins hafði búið um skyrtuna sem fyrr greinir og barnið var skilið við móður sína og vildi fara af stað
+IP-SUB	16	rel	1593	eintal	35218	Þetta er það veglega borð sem þú hefur þínum börnum fyrir$ búið þar af þú oss sjálfur seður með þínum heilaga líkama og sjálfur nærir oss með þínu sannarlegu blóði
+IP-SUB	17	rel	1611	okur	36441	og svo fá þó samt ugglaust eins og allt sé hreint og klárt og á allar síður viturlega og vel gjört og stofnað svo sem sá ríki bóndi meinti um sig sem allar sínar kornhlöður var búinn að fylla
+IP-MAT	17	rel	1611	okur	36552	Eins segir spámaðurinn eru þeir með sínum veiðibrellum útbúnir að leggja upp og niður aftur og fram snörur fyrir fólkið
+IP-MAT	17	bio	1628	olafuregils	36961	og svo var af þeim sjálfum um oss búið hvert kvöld
+IP-SUB	17	bio	1628	olafuregils	37168	En þeirra vinskap er svo háttað Vallenzku og Tyrkjanna að nær þeir eru búnir að kaupast við og eru komnir eina mílu út frá þeim illvirkjastað þá slá hvorir aðra í hel vægðarlaust
+IP-SUB	17	bio	1628	olafuregils	37202	og þá það var búið þá mátti fólkið koma í staðinn
+IP-SUB	17	rel	1630	gerhard	37954	Guðs sonur gengur ekki inn í þess manns hjarta með náðinni þar sem Jóhannes hefur ekki áður tilbúið honum veg með iðruninni
+IP-MAT	17	rel	1630	gerhard	38259	en það straff er Guð búinn allareiðu að leggja upp á sinn hjartans son
+IP-SUB	17	rel	1630	gerhard	38270	Sá sem nú lét sér vera umhugað um þig þegar þú varst enginn skyldi honum nú ekki vera um þig hugað þar hann er búinn að skapa þig eftir sinni eigin mynd ?
+IP-SUB	17	rel	1630	gerhard	38292	Ekki skal mig því furða þótt hann hafi tilbúið oss vistarveru í því himneska húsi og herbergi með því hann hefur ekki sparað að gefa út fyrir oss sinn hjartans son í hvörjum að býr öll fylling guðdómsins
+IP-SUB	17	rel	1630	gerhard	38298	Já hann gleymir oss enn nú ekki þó hann sé búinn að framkvæma og fullgjöra vora endurlausn
+IP-SUB	17	rel	1630	gerhard	38302	Hvað er það að faðirinn skyldi ekki veita syninum þar hann er búinn að meðtaka af honum svo mikið verð fyrir vora sáluhjálp svo sem faðirinn hefur látið sér vel lynda og líka ?
+IP-MAT	17	nar	1650	illugi	38907	En er flestir létust þess ófúsir að berjast við hann og það spurðist að hann hefði harðfengt lið og fjölmennt varð engi til þess búinn
+IP-MAT	17	nar	1650	illugi	38914	Það var allvel búið að mönnum og vopnum
+IP-SUB	17	nar	1650	illugi	38917	Þegar þeir eru til búnir halda þeir brott
+IP-SUB	17	nar	1650	illugi	38959	Og sem hann er búinn kveður hann konung
+IP-SUB	17	nar	1650	illugi	39217	og sem þeir eru búnir láta þeir út
+IP-SUB	17	nar	1650	illugi	39285	Hann hafði spurt andlát Odds föður síns er búið hafði í Breiðuvík á Snæfellsnesi
+IP-MAT	17	nar	1650	illugi	39677	Var það skip vel búið að öllu bæði vistum og varnaði
+IP-MAT	17	nar	1650	illugi	39790	Nú hafa þeir Ari Másson búið um sig sem best þeir kunnu
+IP-SUB	17	bio	1659	pislarsaga	40402	Þegar ég var nú búinn að tala við Jón yngra úti kom ég inn aftur í kirkjuna
+IP-SUB	17	bio	1659	pislarsaga	40568	og sleit mig af Birni kippandi til mín svo mér var næst búið falli
+IP-SUB	17	bio	1659	pislarsaga	40648	Af öllu áðurskrifuðu má sjá hversu mikið vantað hefur til aðgjörða þess máls hinna réttustu ásamt því sem þá viðbættist þegar þetta mál var af Guði sjálfum opinbert orðið að opnuðum þeirra munni sem sjálfir sjálfkrafa og óneyddir sínar sakir meðkenndu því þá komu í ljós nóg líkindi þegar hver með frelsi mátti herma hvað heyrt og merkt hefði hvað áður lá í hylmingu á meðan minn kvalatími yfirstóð sem vorkunn er allhægt fyrir að bera meðan búið er að þessa lands lagarétti slíkum og þvílíkum sem nú er af velflestum uppáhaldið sem mér virðist lítillrar hrósunar verður af þeim sem undir galdramanna morðverkum liggja í þessu landi hvörra vegna mér væri ekki óskylt þar um að kvarta hversu lítið sem orkar
+IP-SUB	17	bio	1659	pislarsaga	40652	og hefði þeir eiðamenn getað útvegað og meinsærin endurnýjað má vel ske að réttargangur íslenskra hefði mér bál búið hvað ég hefði þakkarorð á milli gefið
+IP-SUB	17	bio	1661	indiafari	41105	Nær ég stykkin með fengpúðri og slíku sem til heyrði undir sigti tilbúið hafði þá afrétti kóngur stykkin sjálfur eftir sinni vild
+IP-MAT	17	bio	1661	indiafari	41255	og var svo um búið að hvort lá við annars síðu á trjám
+IP-SUB	17	bio	1661	indiafari	41434	og svo kippti ég honum hart að mér að honum var búið við hörðu falli
+IP-MAT	17	bio	1661	indiafari	41457	en urðu þó svo búið að hafa og láta þá frítt spássera
+IP-MAT	17	bio	1661	indiafari	41757	Þessi borgaraskapur var allur veglega búinn og útstafferaður með sínum munsturbúningi og ýmsum color og lit með gylltum skórósum og baldýruðum silkileggböndum og gylltum snúrum á sínum silkiklæðum og gylltum hattböndum og prýðilegum fjöðrum um þeirra hatta
+IP-SUB	17	bio	1661	indiafari	41782	og urðu þessir menn sem í þeirra myndir voru útbúnir þar heiðarlega meðteknir og trakteraðir
+IP-SUB	17	bio	1661	indiafari	41978	Svo bar við einn tíma er mér féll sú fyrsta vakt til um kvöldið sem voru tvær klukkustundir í senn að vaktmeistarinn Kaspar sendi boð til mín eftir það hann var búinn að læsa slotsportinu að ég gengi af skildbekknum heim til hans hvað þó ei plagaðist tíðum og setti þann í staðinn í mína vakt sem sendur var
+IP-MAT	17	nar	1675	armann	42243	sá var tígugliga búinn
+IP-SUB	17	nar	1675	armann	42342	og stóð föllin af sér þar til um síðir að Flórsokka gat mætt hann so hönum var búið að springa
+IP-MAT	17	nar	1675	armann	42723	Var þó ekki við hönum búizt á neinn hátt því allir kváðu hann dauðan vera og allra helzt drottning
+IP-MAT	17	nar	1675	armann	42992	og var búið með allskyns skrauti og fegurð
+IP-MAT	17	nar	1680	skalholt	43716	höfðu engelskir búist við og gjört sér virki með torf og grjót
+IP-SUB	17	nar	1680	skalholt	43747	Þá búið var að að brenna féll í ösku
+IP-SUB	17	nar	1680	skalholt	44292	En í vikunni eftir Pálsmessu um veturinn þá höfuðsmaður reið suður um Nes og var búinn að skipa niður fólki og hann var kominn heim í veg inn til Kirkjubóls á Miðnesi og hann hafði verið þar nótt og um morguninn eftir þá hann sat undir borði þá komu xxx norðlenskir menn öllum ókunnugum því þeir höfðu hettur og stytt upp
+IP-MAT	18	rel	1720	vidalin	44886	Þannig var Mardokheus búinn Est. 8
+IP-SUB	18	rel	1720	vidalin	44888	það er og ekki líklegt því frelsarinn mundi ei hafa til þess tekið að hann hefði svo verið í skart búinn hefði hann verið höfðingi nokkur þeim er sómt hefði að bera svo dýrmæt klæði og var í þessu ekki lítill ofmetnaður
+IP-SUB	18	rel	1720	vidalin	44897	Eg vil segja hvort sem að einn er kostum búinn eður ei þá syndgar hann ef hann klæðir sig betur en hans standi sómir
+IP-SUB	18	rel	1720	vidalin	44901	en sé nokkur ei nema almennilega kostum búinn og vill þó leita sér fordildar af klæðnaðinum þá er mikil fáviska í því
+IP-SUB	18	rel	1720	vidalin	45376	Í einu orði að segja þar um verður ekki annað sagt en það sem Jesajas í 64. kap. og Pálus 1. Kór. 2. hafa lagt oss í munn að það hafi ekki auga séð og ekki eyra heyrt sem guð hafi tilbúið þeim er hann elska
+IP-SUB	18	rel	1720	vidalin	45634	Þótt nú að guðs föðurlig ást til mannkynsins sé jafnan búinn til að taka við syndaranum nær hann snýr sér til yfirbótar þá kann eg ekki að segja að þess háttar manneskjum muni vera létt um afturhvarf því guðs raust er mjög svo harðtöluð á móti þeim er hann segir Mikh. 2. Vei þeim sem hugsa ranglætið og þeim sem stunda uppá hið illa í svefn<dash/>húsum sínum að þeir vilji framkvæma það þegar birtir nær sem það er í valdi þeirra
+IP-SUB	18	nar	1725	biskupasogur	46607	Orsök þar til var sú hin helsta þó fleira hefði undir búið
+IP-SUB	18	nar	1745	klim	46852	Þá hún var þannin búin að útrétta sitt erindi og hafði skoðað blóðið þegjandi og forundrandi gekk hún aftur sinn veg í burt
+IP-SUB	18	nar	1745	klim	46854	En eftir það ég var búinn að læra undirjarðarmálið og allt var búið að segja mér þá snerist allt mitt forakt í forundran
+IP-SUB	18	nar	1745	klim	46854	En eftir það ég var búinn að læra undirjarðarmálið og allt var búið að segja mér þá snerist allt mitt forakt í forundran
+IP-SUB	18	nar	1745	klim	46902	Allt þetta reyndi ég og aðgætti hið grandvarlegasta eftir það ég var búinn að nema undirheimamálið
+IP-SUB	18	nar	1745	klim	46913	Eftir það ég var búinn að afleggja barnaskóna sem svo er kallað eður var orðinn fullnuma í undirheimamálinu kom ný skipan frá konungsgarðinum að mér skyldi meir kenna og inntaka mig í staðarins seminarium eður háskóla til ýmislegra kúnsta og embætta svo að þarverandi Karatti gætu rannsakað mínar sinnisgáfur og úrskurðað til hvers ég mundi best hæfur vera
+IP-SUB	18	nar	1745	klim	47035	Þá ég var búinn að lesa hann í gegnum gat ég alls engu orkað fyrir reiði og efasemd
+IP-SUB	18	nar	1745	klim	47109	Vegvísarinn vor eður Karattinn sem hingað hafði fært oss bauð að vér skyldum dvelja hér um kyrrt inn til þess hann væri búinn að láta furstann vita að vér komnir værum
+IP-SUB	18	nar	1745	klim	47184	en þá hann var búinn sem grandvarlegast að yfirvega það sem honum hafði einu sinni skilist og úrskurðaði ekkert fyrr en hann hafði sem fyllilegast yfirvegað það þá mátti með öllum rétti um hann segja að hann hefði meira sýslað en tíu aðrir sem útrétta sín verkefni fljótt og hratt og almennt plaga að kallast þeir miklu andar
+IP-SUB	18	nar	1745	klim	47194	Þá miðdagsmáltíð var enduð voru borð niðurtekin með sama hraðleik sem þau fyrr búin voru
+IP-SUB	18	nar	1745	klim	47199	Stundum var og mín getið yfir borðum en þó með litlu hrósi því þeir meintu ég mundi vera trédrumbur nokkur af því mér skildist hver hlutur svo fljótt og mundi trauðlega verða tilbúið af mér nokkurt fagurt bílæti
+IP-SUB	18	nar	1745	klim	47201	og þá hann var búinn að lesa hann sá hann mig til fótanna
+IP-SUB	18	nar	1745	klim	47221	Þá nú búið var að tilkynna mér allt þetta var kallað á einhvern kiva eður sekretera sem mig skyldi teikna ásamt öðrum nýkomnum candidatis í þá bók sem í voru rituð nöfn þeirra sem verðugir voru að setjast til embætta
+IP-SUB	18	nar	1745	klim	47233	og þó ég væri gjörsamlega þreyttur gat ég þó ei sofið mest alla þá nótt því ég gat ei slitið úr mínum þanka það hið ósæmilega embætti sem mér var búið að veita
+IP-SUB	18	nar	1745	klim	47254	Ef meistari Jóhann Andreas skraddari í Björgvin sem klæðnað þenna heft tilbúið vissi að sín handaverk hefðu hlotið þá virðingu að þau væru geymd í eins undirheimafursta raritetaklefa þá yrði hann vissulega svo dramblátur að hann mundi síðan varla lofa borgmeistaranum eður staðarins yfirmanni í Björgvin að verða sér meira metinn
+IP-SUB	18	nar	1745	klim	47296	Ég kann ei að greina þá eiginlegu aðferð kunnáttu og mennt hversu þau eru tilbúinn því að þó ég hafi ei gleymt miklu í matematískum listum eður þeirri kúnst sem áhrærir augljósa hræring hlutanna þá vita eikur þessar svo meistaralega að laga og hylja alla þess háttar hluti að sá er vildi uppgötva þenna kunnátturíka hlut mætti vera glöggskyggnari en nokkur Argus og vera gæddur nálega guðlegu viti
+IP-MAT	18	nar	1745	klim	47314	Vökvinn sem þeir brúka til drykkjar er tilbúinn af vissum urtum sem eru sígrænar
+IP-SUB	18	nar	1745	klim	47472	En þá búið var að halda ráðstefnuna og safna saman meiningunum þá var forkastað þessu forslagi svo sem það væri ógrundað dárlegt og landslýðnum skaðlegt því þeir meintu að þetta mundi vekja mikinn óróa og óeining meðal þeirra konunglegu prinsa
+IP-SUB	18	nar	1745	klim	47541	og þá lögvitringarnir eru búnir að laga það rétt til og hreinskrifa er það loksins sent furstanum til staðfestingar og undirskriftar áður en það er auglýst fyrir alþýðu
+IP-SUB	18	nar	1745	klim	47550	Enginn má undir lífsstraff voga að gjöra útleggingar yfir það lögmál sem einu sinni er opinberlega búið að staðfesta svo sjálfræðinu eru meiri skorður settar í veraldlegum efnum en í þeim andlegu
+IP-SUB	18	nar	1745	klim	47584	heldur á maður að láta sinn úrskurð bíða þangað til að maður er fyrst búinn að gegnumskoða og rannsaka hlutinn rétt innvirðulega
+IP-MAT	18	nar	1790	fimmbraedra	48309	Var þessi eftirleit í mesta flýtir útbúin
+IP-SUB	18	nar	1790	fimmbraedra	48414	Patríarkinn kvað þetta vel stofnað en hans áform útheimta langan tíma til framkvæmdar því fyrst yrði guð ekki réttilega dýrkaður né tilbeðinn nema á ebresku tungumáli svo yrðu þeir allir að læra vel ebreskuna og nær þeir væru búnir að því yrðu þeir að iðka og yfirfara lögmálið og Móisesbækurnar líka spámennina og Davíðssálma
+IP-SUB	18	nar	1790	fimmbraedra	48421	Gyðingar sóttu og mikið eftir að plægja þá í öllum kaupum og sölum svo þá þeir voru búnir að dvelja þar hálft annað ár var uppgenginn mesti partur þeirra fjármuna því kennsla þeirra og forsorgun varð þeim mjög dýr svo jarlsson tók nú að iðrast eftir að hann hafði gefið sig á þeirra vald því hann þóttist sjá að nær þeir væru félausir orðnir mundu gyðingar selja þá í þrældóm því þó þeir tækju þeirra trú mundu þeir aldrei taka þá í þeirra kynkvíslatölu og yrðu þeir því að vera sem útlendingar meðal þeirra alla ævi
+IP-MAT	18	nar	1790	fimmbraedra	48917	Voru nú búin sextán skip úr landi með tíu þúsund hermanna
+IP-MAT	18	nar	1790	fimmbraedra	49187	Nú var búist við brúðkaupi Abels og boðið öllu stórmenni vígslan gjörð og veislan haldin með rausn og gleði heila viku
+IP-MAT	18	bio	1791	jonsteingrims	49228	Og þá eg og lagsmaður minn vildum léttan á leggja vorum við búnir með mælir vorn um miðmunda og nónbil
+IP-SUB	18	bio	1791	jonsteingrims	49443	og lá við um heyið sjálft er búið var að hirða
+IP-SUB	18	bio	1791	jonsteingrims	49504	Hann hélt manni mínum svo lengi hjá sér þar til búin voru leynibréf er hann sendi með honum fyrir mág sinn síra Jón MS:Vídaín Vídalín hvor eð fékk það kall en naut þess ei lengur en 4 ár þá þau dóu þar bæði
+IP-SUB	18	bio	1791	jonsteingrims	49515	Nær eg skyldi hvílast og búið var að draga af mér stígvélin dregur hún af mér sokkana sjálf
+IP-MAT	18	bio	1791	jonsteingrims	49691	Vorum við búnir að öllu þessu áður dagur rann upp
+IP-MAT	18	bio	1791	jonsteingrims	49761	og erum búnir þá hyskið fer á fætur
+IP-MAT	18	bio	1791	jonsteingrims	50041	En allan þann kostnað var eg búinn að uppvinna og betur til á 4 árum þar eftir
+IP-SUB	18	bio	1791	jonsteingrims	50092	Nú vildi svo til eitt sinn er hann kom vestan undan fjöllum lítt gáður að hann tók sér náttstað á Hvoli hjá einnri ekkju sem hét Steinunn Runólfsdóttir prófasti áður kunnug því foreldrar hennar höfðu búið á Þverá á Síðu hvar prófastur fyrrmeir þá hann var í skóla hafði oft gist með öðrum skólapiltum
+IP-MAT	18	bio	1791	jonsteingrims	50219	Var þó búinn svo að forbetra og byggja jörðina Hellur að ei ætlaði þaðan auðveldlega að fara
+IP-SUB	18	bio	1791	jonsteingrims	50387	Stóðst á að eg var búinn með prédikunina
+IP-SUB	18	bio	1791	jonsteingrims	50410	Þessu mínu loforði við hans guðdómlegu hátign gleymdi eg æ því miður hvar fyrir einn fagran hvítasunnuhátíðisdag á Sólheimum þá þar var fjöldi fyrir utan sóknarfólkið samankominn tók guð svo frá mér allt minni í prédikunarstólnum þá eg var búinn með exordíum að eg mundi ei nokkurt orð af því framflytja ætlaði og eg gagnkunni
+IP-SUB	18	bio	1791	jonsteingrims	50634	Það kom og fyrir dag sem þeir höfðu tilbúið um nóttina er guð gjörði þó að öngvu
+IP-MAT	18	bio	1791	jonsteingrims	50656	Mr. Jón MS:Schevng Scheving bróðir hans var þá og búinn að gefa sig í soldátastétt svo hér bættist eitt á annað
+IP-SUB	19	nar	1830	hellismenn	51268	Þeir Hellismenn höfðu grjótið gnógt í virkinu því þegar vóru þeir búnir til varnar
+IP-SUB	19	nar	1830	hellismenn	52132	Hafði hann þá svo til stillt að Þrándur var búinn til byrjar og lét í haf
+IP-SUB	19	sci	1835	jonasedli	52276	og væri búinn til brunnur eða málmgrafir opnaðar í fjöllunum létu jarðfræðingarnir sig aldrei vanta til að vera við og gefa gætur að því sem upp kæmi
+IP-SUB	19	sci	1835	jonasedli	52287	Margt er það líka sem enn er óljóst í ævisögu jarðarinnar því þessi vísindagrein er enn þá mjög í bernsku og fer þessi árin svo óðum fram að varla mun líða langt um áður en hún verði búin að fá annað fegra útlit
+IP-MAT	19	nar	1850	piltur	52404	þar hafði hreppstjóri Bjarni búið allan sinn búskap
+IP-SUB	19	nar	1850	piltur	52880	Eftir að búið var að kveikja og borða minntist Sigríður á hvort ekki ætti að fara að spila
+IP-MAT	19	nar	1850	piltur	53115	Vinátta sú og ylur sem verið hafði með þeim á meðan þau voru börn var nú búinn að taka aðra stefnu í hjörtum þeirra og snúinn í heita og einlæga ást er þau báru hvort til annars
+IP-MAT	19	nar	1850	piltur	53176	eru þær Sigríður og Grána þá búnar að færa leikinn út í mitt túnið
+IP-SUB	19	nar	1850	piltur	53496	Ég vildi helst að þú værir búinn að taka við því öllu saman og ég mætti hírast hérna í kofunum hafa skemmugreyið mitt út af fyrir mig nokkrar kindur í heyjum og afgjaldið af þessum fáu jarðaskikum
+IP-SUB	19	nar	1850	piltur	53662	Um það leyti sem Guðmundur var búinn að drekka kaffið víkur Ingveldur talinu til Bárðar
+IP-MAT	19	rel	1859	hugvekjur	53761	Jesús var nú búinn að skipa hið heilaga kvöldmáltíðar<dash/>sakrament og búinn að kveðja lærisveina sína með þeirri guðdómlegu skilnaðarræðu sem lesa má hjá Jóhannesi guðspjallamanni í 15.<dash/>17. kapít.
+IP-MAT	19	rel	1859	hugvekjur	53762	hann var búinn að biðjast fyrir með þeim og biðja fyrir þeim
+IP-MAT	19	rel	1859	hugvekjur	53995	hann var nú búinn að vekja lærisveina sína með þessum orðum
+IP-MAT	19	rel	1859	hugvekjur	54033	og alltaf er oss hrösun búin
+IP-SUB	19	rel	1859	hugvekjur	54182	En þegar hann er búinn að reka Jesú úr hjarta sínu þá brýst þar inn flokkur óhreinna anda og syndsamlegra girnda sem hrekja manninn á lastanna veg þangað til myrkranna vald hefir algjörlega fengið yfirráð yfir honum og hann verður syndarinnar þræll
+IP-MAT	19	rel	1859	hugvekjur	54336	Ef vér sleppum árvekni og bænrækni úr huga vorum þá er oss búið fall og hrösun
+IP-SUB	19	rel	1859	hugvekjur	54353	Enn fremur var það oftraust á sjálfum sér sem kom Pétri til að fylgja Jesú eftir að búið var að handataka hann jafnvel þó Jesús væri nýbúinn að vara hann með þessum orðum
+IP-MAT	19	rel	1859	hugvekjur	54361	og fyrr en þig varir ert þú búinn að draga dám af þínum óguðlegu sessunautum
+IP-SUB	19	rel	1859	hugvekjur	54633	Það lítur svo út af guðspjallasögunum að Júdas hafi ekki búist við því að Jesús mundi verða til dæmdur til dauða
+IP-MAT	19	nar	1861	orrusta	55109	En þá var Marmier búinn að lóga hrútnum fyrir löngu því að hann gaf Lamartine hrútinn í sumargjöf
+IP-MAT	19	nar	1861	orrusta	55375	Í þeim sal var morgunverður búinn keisarahjónunum
+IP-SUB	19	nar	1861	orrusta	55451	og fer yður sem sumum þeim er alltaf lifa í fjárkláða og saltfiski svo að þegar þeim verður illt þá hugsa þeir að nú sé þeir búnir að fá fjárkláðann eður ef þeir tapa túmarki þá dettur þeim í hug að slíkt muni hafa áhrif á saltfiskinn
+IP-MAT	19	nar	1861	orrusta	55879	en ég er búinn að drepa drauginn
+IP-MAT	19	nar	1861	orrusta	56014	þar voru nýstárliga herbergi búin því að þar stóðu súlnaraðir úr jökli ofan úr Mundíafjöllum og skærar sem steinn sá er alabastur heitir
+IP-SUB	19	nar	1861	orrusta	56512	Létti Metternich eigi fyrr en hann var búinn að ná upp úr Hjörleifi hverju einasta beini
+IP-MAT	19	nar	1882	torfhildur	57119	Tignargestunum var þar búin virðuleg veizla nærri því eins mikilfengleg og brúðkaupsveizlan sjálf
+IP-SUB	19	nar	1882	torfhildur	57559	Frá því að Daði kom í hópinn bolaði hann nær gjörsamlega Ólafi út því að jafnskjótt sem eitthvað var að reiðtygjum Vilborgar var Daði búinn að koma því í lag áður en Ólafur svo knár sem hann var var kominn af baki
+IP-MAT	19	nar	1882	torfhildur	57622	Var oft búið að segja þeim að flytja inn
+IP-SUB	19	nar	1882	torfhildur	57769	Það voru þeir sem voru nýkomnir í félagið og höfðu búizt við einhverri yfirnáttúrlegri sjón
+IP-MAT	19	nar	1882	torfhildur	57991	Nú er ég búinn að ná knettinum fjórum sinnum hvað eftir annað en þú aldrei sagði drengurinn við systur sína um leið og hann kastaði honum til hennar í fimmta skipti
+IP-SUB	19	nar	1883	voggur	58662	Og jafnlengi hafði hann raulað sömu vísuna með sama vísnalaginu fyrir munni sér þegar hann var búinn að pósta vatnið upp í föturnar sínar úr póstinum í Aðalstræti og var kominn á stað
+IP-SUB	19	nar	1888	grimur	59054	þegar hún var búin að því fór hún upp í rúmið sitt aftur
+IP-SUB	19	nar	1888	vordraumur	59448	Svo hafði verið sent eftir bestu vinkonu Bjargar sýslumannsekkjunni á Grund næsta bæ við Stað til þess að taka þátt í fögnuðinum yfir því að búið var að heimta Bjarna heilan heim eftir ferðavolkið
+IP-SUB	19	nar	1888	vordraumur	59455	Á þetta féllust líka flestir nema Ingvar í Vík bróðir síra Þorvalds í Ási sem búinn var að sækja um Stað
+IP-SUB	19	nar	1888	vordraumur	59477	Þegar hann var búinn að spyrja almæltra tíðinda úr höfuðstaðnum fór hann að ganga um gólf og tala um hvað veðráttan hefði lengst af verið köld um vorið og hvað lífshagur hér á landi væri kaldranalega eintrjáningslegur
+IP-SUB	19	nar	1888	vordraumur	59482	hann sagði að þessi stirðleiki og framkvæmdardeyfð væri engu öðru að kenna en óánægjunni með allt og alla sem væri orðin eðli manna hér og væri komin af því að menntunin og menningin væri ekki búin að ryðja sér hér til rúms nema að hálfu leyti
+IP-SUB	19	nar	1888	vordraumur	59538	og þegar hún var búin að syngja nokkur lög hætti hún að syngja
+IP-SUB	19	nar	1888	vordraumur	59595	Þegar hún var búin að láta rennigluggatjaldið niður fór hún að afklæða sig
+IP-SUB	19	nar	1888	vordraumur	59638	það væri ógnarhægt að tala um skyldurækt þegar aðrir væru búnir að búa manni lífshreiður svo maður þyrfti ekkert annað en að sitja þar eins og fugl á eggjum alla sína ævi og garga svo til vargsins fyrir utan sem annað hvort ætti ill hreiður eða engin Skyldurækt skyldurækt !
+IP-MAT	19	nar	1888	vordraumur	59839	Hann var búinn að klæða sig
+IP-SUB	19	nar	1888	vordraumur	59973	Hvað honum var rótt innanbrjósts eftir að hann var búinn að finna friðinn við sjálfan sig
+IP-SUB	19	nar	1888	vordraumur	59974	Honum fannst allt gott og göfugt í sál sinni vakna til nýs lífs þegar hann var búinn að sigra allar þessar óhreinu æsingar sem hann hafði verið í seinasta sólarhringinn
+IP-SUB	19	nar	1888	vordraumur	60015	Og þegar kjósandinn var búinn að kjósa Bjarna Sveinsson þá sló prófasturinn tvö strik í kross með bláa blýantinum yfir alla blaðsíðuna
+IP-MAT	20	nar	1902	fossar	60237	hún hafði ekki búist við þeirri þolinmæði af Brandi
+IP-SUB	20	nar	1902	fossar	60287	Þegar Brandur var búinn að borða fór Gróa líka að hjálpa Gunnari að koma erindinu fram
+IP-SUB	20	nar	1902	fossar	60312	og Brandur gat ekki annað en hugsað að það ætlaði að verða sér nokkuð nærgöngult fólkið hennar Gróu og að hann hafði ekki búist við eins tíðum heimsóknum af því og raunin vildi verða á
+IP-MAT	20	nar	1902	fossar	60336	við þessu hafði hún síst búist
+IP-MAT	20	nar	1902	fossar	60360	Gunnar gat stutt búið betur en hann gerði
+IP-MAT	20	nar	1902	fossar	60361	nú var búið að ferma yngstu börnin
+IP-MAT	20	nar	1902	fossar	60389	Á Neðra<dash/>Fossi hafði aldrei í manna minni verið búið vel
+IP-MAT	20	nar	1902	fossar	60408	Nú eru Efra<dash/>Fosshjónin búin að vera gift í sex ár
+IP-MAT	20	nar	1902	fossar	60410	þau eru búin að reyna hjúskapinn og búskapinn
+IP-MAT	20	nar	1902	fossar	60443	Hún var búin að læra að taka réttum tökum á honum þegar hún þurfti þess ef henni sýndist að koma sínu fram
+IP-MAT	20	nar	1902	fossar	60647	Fólkið var búið að borða miðdegismatinn og farið að ýta flekkjunum heim að lambhúsahlöðunni
+IP-SUB	20	nar	1902	fossar	60853	Það var í fyrsta skipti sem Gróa gat ekki dulist þess að sér gæti verið hætta búin
+IP-MAT	20	nar	1902	fossar	60900	nú væri hann viðbúinn
+IP-SUB	20	nar	1902	fossar	61185	en hann var hvorki nógu þrásækinn né lagsæll til að brjóta venjuna sem búin var að taka sér sæti á bak aftur eða ráð konu sem þekkti hann svo vel og kunni að taka tökunum á honum til þess að sigurinn yrði sér viss en hann tapaði
+IP-MAT	20	nar	1902	fossar	61219	sjálfri var henni ekki hætta búin
+IP-SUB	20	nar	1902	fossar	61303	Þegar Geirmundur var búinn að vera hálfan mánuð á Grund hljóp hann á sunnudagsmorguninn til að gæta að fjármennskunni og til þess líka að vita hvernig liði á bæjunum
+IP-SUB	20	nar	1902	fossar	61534	hann var eins og flekkóttur kláðasauður innan um hvíta mjallfilda sauði líkur ref í lambahóp þeim sem rétt er búið að reka á afrétt
+IP-SUB	20	nar	1902	fossar	61616	og þegar það var búið sneri hann að Gróu og samræðunum við hana
+IP-MAT	20	nar	1902	fossar	61720	Þegar þeir voru komnir spölkorn suðureftir var vínið búið að vekja þá Brand og Geirmund
+IP-MAT	20	nar	1902	fossar	61734	Þeir Brandur voru búnir að láta upp á einn hestinn sem hafði velt af sér þegar hin komu
+IP-MAT	20	nar	1907	leysing	61924	Þeir höfðu búist við öðru og meira en þessu
+IP-MAT	20	nar	1907	leysing	62053	Hann hafði búist við því að hann tæki þessum fréttum alt öðruvísi
+IP-MAT	20	nar	1907	leysing	62055	Sjálfur var hann vel við því búinn
+IP-MAT	20	nar	1907	leysing	62179	Nú var hún búin að koma sér upp ofurlítilli eyri fram í voginn
+IP-MAT	20	nar	1907	leysing	62186	Það var ekki búið að tala um það nema í fimmtíu ár !
+IP-MAT	20	nar	1907	leysing	62199	Þar sem bryggjurnar voru var búið að jafna úr þessu melbarði og gera líðandi halla frá húsunum fram í fjöruna
+IP-MAT	20	nar	1907	leysing	62229	Var þannig um það búið að grafið var fyrir grunninum inn í holtið og hann síðan hlaðinn upp fyrir jafnsléttu
+IP-MAT	20	nar	1907	leysing	62235	Var þar búið um rennihjól og sterka kaðla en vinda á efsta lofti svo allar vörur mátti draga upp á hvert loftið sem vera skyldi
+IP-MAT	20	nar	1907	leysing	62243	enda var hún búin að sitja þar lengur að völdum og lengst af ein
+IP-MAT	20	nar	1907	leysing	62406	Þeir eru nú búnir að draga upp kaðalinn og loka hlerunum þarna uppi
+IP-MAT	20	nar	1907	leysing	62419	Hann var búinn að hokra þar í mörg ár í þurrabúð stundum með sveitarstyrk en oftast án hans
+IP-SUB	20	nar	1907	leysing	62458	Auk þess var geymsluhúsið sama sem opið því ekki var enn búið að ganga svo frá kjallaradyrunum að hægt væri að læsa þeim
+IP-MAT	20	nar	1907	leysing	62463	Nú voru allir búnir að fá nóg af deginum
+IP-MAT	20	nar	1907	leysing	62973	og var búinn að frétta af henni út í yztu æsar jafnvel áður en hún komst á laggirnar
+IP-MAT	20	nar	1907	leysing	63013	Menn voru við bragðinu búnir
+IP-SUB	20	nar	1907	leysing	63045	En það mundi ganga úr greipum ef illa væri í garðinn búið heima í Vogabúðum en framkvæmdavaldið úti í Kaupmannahöfn
+IP-MAT	20	nar	1907	leysing	63275	Hann var búinn að semja í huganum stutt og glögt yfirlit yfir hjúskaparsögu þeirra sem hann jafnan kunni og jafnan var reiðubúinn að skýra í einstökum atriðum
+IP-MAT	20	nar	1907	leysing	63345	Nú var Þorgeir búinn að komast að nógu miklu að sinni
+IP-MAT	20	nar	1908	ofurefli	63736	— Hann er búinn að biðja um þetta nokkuð oft hérna í kirkjunni
+IP-SUB	20	nar	1908	ofurefli	63928	Hana langaði til að senda Grímsa eitthvað þegar búið væri að borða
+IP-SUB	20	nar	1908	ofurefli	64598	Hann áttar sig á því þegar hann verður búinn að jafna sig
+IP-SUB	20	nar	1908	ofurefli	64763	Vitanlega væri vafamál hvort hann væri ekki búinn að gera sjálfan sig að hálfgerðum vitfirring með trúarofsa og ýmis konar hindurvitnum eftir því sem kunnugir menn lýstu honum
+IP-MAT	20	rel	1920	arin	65460	Rússneska skáldið Turgenjev hefir búið til eins konar ævintýri eða smásögu til þess að gera mönnum þetta lögmál ljóst hvernig náttúran vinnur með sömu nákvæmni að hinu smæsta sem hinu stærsta í sköpuninni
+IP-MAT	20	nar	1985	margsaga	66332	Hún var svo löngu búin að gera mér skiljanlegt að ég kæmist ekkert en henni væri samt ekkert illa við mig og ég ætti endilega að koma og vera góður vinur
+IP-SUB	20	nar	1985	margsaga	66434	sagði frá lúmskum villum sem ég hefði fundið í því sem margir aðrir voru búnir að lesa og gefa imprímatúr
+IP-MAT	20	nar	1985	margsaga	66457	Þarna hefur hún sennilega verið búin að fá hugmyndina
+IP-SUB	20	nar	1985	margsaga	66576	En strax þegar ég var búinn að líta lauslega yfir yrkingar Gunnars varð mér ljóst að ef eitthvað var hægt að gera til að sverta og vanhelga minningu míns kæra vinar þá var það einmitt það að koma á framfæri þessum ömurlegu hugarfóstrum hans
+IP-SUB	20	nar	1985	margsaga	66920	Hafa Norðurlandaþjóðirnar búið við rangt helvíti síðan þær tóku kristna trú ?
+IP-MAT	20	nar	1985	margsaga	67056	og áður en ég vissi til var ég búinn að teygja mig í bókina
+IP-MAT	20	nar	1985	margsaga	67323	Á endanum var ég búinn að missa allar áttir
+IP-SUB	20	nar	1985	margsaga	67368	Loks gæti ég svarað játandi þeirri spurningu sem brann á allra vörum Ertu búinn að sjá Pískó ?
+IP-MAT	20	nar	1985	margsaga	67389	Hinsvegar hafði hann sjálfur búið sér til mælikvarða sem hann fór eftir þegar hann ragaði frá við dyrnar
+IP-MAT	20	nar	1985	margsaga	67412	við vorum undir allt búnir
+IP-SUB	20	nar	1985	margsaga	67656	Einhver hafði sagt mér að svo til ekkert af þeim óskilamunum sem lögreglunni bærust næði nokkurn tíma réttum eigendum sínum Yfirleitt endaði það með því að góssið væri selt á uppboði sem varla gæti þó verið nokkur lagaheimild fyrir og andvirðið rynni svo bara í kaffisjóðinn á varðstofunni eða til að standa undir hljómplötuútgáfu lögreglukórsins sem varla gæti nú talist mannúðlegt athæfi Slík sala á uppboði leiddi auk þess óhjákvæmilega til þess að hjólið fengi eiganda sem væri ekki á nokkurn hátt verðugri en til dæmis ég sem var þó að minnsta kosti búinn að hugsa um það í nokkra daga
+IP-MAT	20	nar	1985	margsaga	67703	Ég var búinn að ákveða að fara mér hægt um sumarið vinna svo að þessu í rólegheitum yfir veturinn en fara ekki að hjóla neitt fyrr en næsta vor
+IP-SUB	20	nar	1985	sagan	68276	Ef ég nóta ekki atvikin niður frá degi til dags er engu líkara en ég hafi aldrei upplifað þau Heilaböndin séu búin og núið taki yfir það sem var fyrir hendi
+IP-SUB	20	nar	1985	sagan	68277	Rétt í þessu var ég að uppgötva að ég er búinn að gleyma fornbókasalnum
+IP-SUB	20	nar	1985	sagan	68646	Væri ekki öruggari þótt hann hefði sjálfur búið hana til
+IP-MAT	20	nar	1985	sagan	68790	rétti maður þeim enda eru þau fyrr en varir búin að rekja upp alla trossuna
+IP-SUB	20	nar	1985	sagan	68823	og leit ekki á blaðið fyrr en ég var búinn
+IP-SUB	20	nar	1985	sagan	68874	Svo þegar konan í Útvarpinu er búin að segja þeim hvernig veðrið verði rísa þeir upp
+IP-SUB	20	nar	1985	sagan	69237	Hringur bregst við reiður þegar hann á að fara að hátta og rennur upp fyrir honum að dagurinn er búinn
+IP-MAT	20	nar	1985	sagan	69239	En dagurinn er búinn
+IP-SUB	20	nar	1985	sagan	69269	Var ég búinn að segja frá draugalegu tungli uppi á veðurhimni þar sem ský streyma hraðbyri úti skefur snjó og hjúfrar sig í görðum
+IP-SUB	20	nar	1985	sagan	69588	Bylgju varð svo hverft við að hún var næstum búin að velta um koll prímusnum
+IP-SUB	20	nar	1985	sagan	69817	og um leið og búið var að kveikja upp í deginum byrjuðu skorkvikindin nudd ískur og tíst
+IP-SUB	21	nar	2008	mamma	69982	Og svo þegar allt var búið stóð ég þarna á bílaplaninu með bros hennar í augnkrókunum og goluna á kinnum mér
+IP-MAT	21	nar	2008	mamma	69985	en hádegið var búið
+IP-MAT	21	nar	2008	mamma	69993	en kúlan er búin að vera þarna í vasanum í hálft ár
+IP-SUB	21	nar	2008	mamma	70155	Mér fannst það reyndar nokkuð gott hjá honum þegar hann var búinn að útskýra það fyrir mér
+IP-MAT	21	nar	2008	mamma	70172	en áður en ég vissi af var ég búinn að smella á Netið og kominn á síðu Unu Maríu Páls að gá hvort hún hefði skrifað eitthvað um Óma eftir að hann bauð henni út að borða um daginn
+IP-SUB	21	nar	2008	mamma	70188	Hús er dagarnir sem liðu allar næturnar jólin og fermingarveislurnar allir búkarnir sem þar hafa búið allt fótatakið
+IP-SUB	21	nar	2008	mamma	70258	Ég finn feginleikann þegar hann hættir að gráta og hún er búin að hugga hann Ó þá fögru steina
+IP-SUB	21	nar	2008	mamma	70418	og ég sagði henni að ég ætti einn son sem hefði aldrei búið hjá mér en byggi núna hér og þar um heiminn
+IP-SUB	21	nar	2008	mamma	70499	Ég klæddi mig á meðan hún skipti um rúmfötin sem ég var búinn að frjóvga
+IP-MAT	21	nar	2008	mamma	70694	Og kannski hafði hún meira að segja verið búin að segja mér frá einhverju en ég gleymt því
+IP-SUB	21	nar	2008	mamma	70732	Þegar hann var búinn að stinga upp í mig stakk hann upp í sig vandlega snyrtum bita
+IP-MAT	21	nar	2008	mamma	70873	Og við getum búið í Stuðlaseli
+IP-MAT	21	nar	2008	mamma	71024	og hún var búin að mála sig og taka hárið úr skátaglinu og snúa það einhvern veginn upp í einhverja hárgreiðslu
+IP-SUB	21	nar	2008	mamma	71033	Ég fann fara um mig fagnaðarbylgju þegar ég tók eftir því að hún var búin að breiða hvítan dúk á svarthvíta sjónvarpið og setja þar eitthvað rautt blóm því þetta var undursamleg tilbreyting frá öllum þessum grænu ábreiðum og dúkum alls staðar
+IP-MAT	21	nar	2008	mamma	71067	hún væri búin að ákveða þetta
+IP-MAT	21	nar	2008	mamma	71218	og loks var ég tilbúinn í morgungönguna með Pjatta
+IP-MAT	21	nar	2008	mamma	71270	Drengurinn hafði þá undirbúið ferðina með lestri í samráði við afa sinn
+IP-SUB	21	nar	2008	mamma	71535	og tilkynnir henni að nú sé þetta búið
+IP-MAT	21	nar	2008	mamma	71537	þetta var búið
+IP-MAT	21	nar	2008	ofsi	71883	það er búið að kjafta svo mikið og slúðra um samskipti mín við Sturlungana að það yrði hver sá maður vitlaus sem reyndi að komast til botns í hvað væri satt og logið
+IP-MAT	21	nar	2008	ofsi	71926	Nú er búið að drepa nógu marga
+IP-MAT	21	nar	2008	ofsi	71971	ég er búinn að eignast prinsessuna
+IP-SUB	21	nar	2008	ofsi	71979	En hún er ekki vond hún Þuríður sem betur fer því að ég gæti ekki búið með konu sem er vond
+IP-MAT	21	nar	2008	ofsi	72271	Og án þess við þyrftum að ræða það frekar var hann fljótt búinn að útlista fyrir mér hvernig málin litu út í hans augum að væri Gissur hingað kominn eins og allt benti til í því skyni að brjóta landið undir konung þá myndi hann auðvitað svo fljótt sem auðið væri ráðast til atlögu gegn helstu valdamönnum er í vegi hans gætu staðið
+IP-SUB	21	nar	2008	ofsi	72292	við ættum að kveðja upp mannskap nú þegar og ráðast suður á land og helst ganga á milli bols og höfuðs á Gissuri áður en hann væri búinn að gera sínar eigin ráðstafanir með heruppkvaðningu og banatilræði við góða menn
+IP-SUB	21	nar	2008	ofsi	72378	og ég sá að þegar hann tók blóðugar rýjur frá munninum og reyndi að fá sér vínsopa eins og til að sýna að nú væri þetta búið og menn gætu farið að snúa sér að öðrum gamanmálum þá báru kvalirnar hann ofurliði er hann reyndi að ná munninum utan um skálarbarminn
+IP-MAT	21	nar	2008	ofsi	72417	Ég var tilbúinn að þola veröldina eins og hún er og án þess að bifast
+IP-MAT	21	nar	2008	ofsi	72462	og sé svo þá er ég búin að gefast upp
+IP-SUB	21	nar	2008	ofsi	72538	og ég fékk brátt að heyra að það ætti að koma við í Stafholti í Borgarfirði því að þar væri sá orðlagði kappi Þorgils skarði búinn að koma sér fyrir og með marga fylgdarmenn ellefu vopnaða menn sagði einhver eða jafnvel fjórtán ef með væru taldir þrír strákar sem eru hafðir til að geyma hesta
+IP-MAT	21	nar	2008	ofsi	72733	Hann var búinn að loka sig af úti í skemmu
+IP-SUB	21	nar	2008	ofsi	72771	Þetta sé ég alltaf á því að augnabliki síðar er Sturla búinn að taka upp sama sið
+IP-MAT	21	nar	2008	ofsi	72873	en ég er búinn að sjá að Skagafjörðurinn er einmitt lykillinn að því að halda Sturlungum og allskyns lukkuriddurum í skefjum
+IP-MAT	21	nar	2008	ofsi	72905	var búinn að kaupa hið gamla og glæsta stórbýli Kolbeins unga Flugumýrina
+IP-MAT	21	nar	2008	ofsi	72970	hún er búin að þjást af heimþrá alveg frá því fyrst við fórum af hennar heimaslóðum
+IP-MAT	21	nar	2008	ofsi	72984	og ég var auðvitað ekkert búinn að gleyma því þótt það sé manni kannski ekki efst í huga alla daga hver vó hvern fyrir tveimur áratugum enda nóg til að æra óstöðugan að rifja upp öll vígaferli okkar blóðugu aldar

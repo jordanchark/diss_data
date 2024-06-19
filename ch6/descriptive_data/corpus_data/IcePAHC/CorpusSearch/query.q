@@ -1,0 +1,8 @@
+node: $ROOT
+
+query: 
+
+IP-MAT*|IP-MAT-*|IP-SUB*|IP-SUB-* iDoms  VBN|VAN AND
+IP-MAT*|IP-MAT-*|IP-SUB*|IP-SUB-* iDoms BEDI|BEDS|BEPI|BEPS AND
+IP-MAT*|IP-MAT-*|IP-SUB*|IP-SUB-* iDoms IP-INF|IP-INF-* AND
+VBN|VAN iDoms *-búa

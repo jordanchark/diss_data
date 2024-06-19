@@ -1,0 +1,104 @@
+
+
+df_t_er <- read.table(file = 'temp_er_treebankcsv.csv', sep = ';', header = TRUE)
+df_t_tn <- read.table(file = 'thegar_naer_simp_treebank.csv', sep = ';', header = TRUE)
+df_t_tn <- read.table(file = 'thegar_naer_treebank.csv', sep = ';', header = TRUE)
+
+
+combined_df <- bind_rows(df_t_er, df_t_tn) %>%
+  group_by(year, text, t.T) %>%
+  summarize(total_rT = sum(r.T), .groups = "drop")
+
+# Calculate the relative frequency (proportion of t.T)
+combined_df <- combined_df %>%
+  mutate(relative_frequency = (total_rT / t.T)*1000)
+
+View(combined_df)
+
+head(filtered_df_nar)
+
+ggplot(combined_df2, aes(x = year, y = relative_frequency, color = Genre,)) +
+  geom_point() +
+  scale_color_viridis_d() + 
+  scale_size(range = c(1, 10)) +
+  geom_text_repel(aes(label = text),
+                  size = 3,
+                  max.overlaps = 10,
+                  box.padding = 0.5) +
+  labs(
+    title = "Temporal subordinate clauses by text",
+    x = "Year",
+    y = "Relative Frequency (per 1000 clauses)"
+  ) +
+  theme_minimal()
+
+filtered_ts_nar2 <- filtered_ts_nar %>%
+  mutate(
+    Text = as.factor(text),  # Ensure Text is a factor
+    scaled_Year = scale(year),  # Standardize Year
+  ) 
+
+
+
+library(lme4)
+model_rf <- lmer(relative_frequency ~ scaled_Year + (1|Text), 
+                 data = filtered_ts_nar2)
+
+
+
+filtered_ts <- combined_df2 %>%
+  filter(year >= 1540 & year <= 1900)
+
+filtered_ts_nar <- combined_df2 %>%
+  filter(Genre == "nar")
+
+model <- lm(relative_frequency ~ year + Genre, 
+               data = filtered_ts)
+model
+
+model2 <- lm(relative_frequency ~ year, 
+            data = combined_df2)
+model2
+
+model_rf <- lm(relative_frequency ~ scaled_Year, 
+             data = filtered_ts_nar2)
+model_rf
+
+model_rf_int <- lm(relative_frequency ~ 1, 
+                data = filtered_ts_nar2)
+model_rf_int
+
+anova(model_rf_int, model_rf)
+
+
+model_rf_nos <- lm(relative_frequency ~ year, 
+               data = filtered_ts_nar2)
+model_rf_nos
+
+model_rf_int_nos <- lm(relative_frequency ~ 1, 
+                   data = filtered_ts_nar2)
+
+model_rf_int_nos
+
+anova(model_rf_int_nos, model_rf_nos)
+
+filtered_df_nar$text <- as.factor(filtered_df_nar$text)
+library(lme4)
+
+model_nar_int <- lmer(relative_frequency ~ 1 + (1|text), 
+                      data = filtered_df_nar)
+summary(model_nar_int)
+
+
+anova(model_nar, model_nar_int)
+
+combined_df2 <- merge(combined_df, df2[c("TextID", "Genre")], by.x = "text", by.y = "TextID", all.x = TRUE)
+
+print(combined_df2)
+
+sorted_df <- combined_df2 %>%
+  filter(year > 1539) %>%
+  arrange(year)
+
+latex_table_tempsub <- xtable(sorted_df, caption = "Temporal subordinate clauses by text (IcePAHC)")
+print(latex_table_tempsub)

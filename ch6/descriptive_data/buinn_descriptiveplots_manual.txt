@@ -1,0 +1,110 @@
+buinn_manual <- read.csv(file = "buinn-mine-an.csv", sep = ",", header = TRUE)
+
+unique_tense <- buinn_manual %>% 
+  distinct(Tense) %>% 
+  pull(Tense)
+
+print(unique_tense)
+
+unique_reading <- buinn_manual %>% 
+  distinct(Reading) %>% 
+  pull(Reading)
+
+print(unique_reading)
+
+buinn_manual_collapsed <- buinn_manual %>% 
+  mutate(Reading = case_when(
+    Reading %in% c("Prepared", "Complete", "Finish", "Prepared/Complete") ~ "Prepared/Complete",
+    Reading %in% c("við svo búið", "að því búnu", "búist við", "búa til", "svo búnir", "svo búið") ~ "Fixed",
+    Reading == "Resultative" ~ "Resultative",
+    Reading == "Experiential" ~ "Experiential",
+    Reading == "Universal" ~ "Universal",
+    TRUE ~ "Other" # This line is a catch-all for any values not explicitly mentioned above
+  ))
+
+buinn_manual_collapsed <- buinn_manual_collapsed %>%
+  mutate(century = floor(YEAR / 100) + 1)
+
+buinn_manual_collapsed_summary_tense <- buinn_manual_collapsed %>%
+  filter(Exclude != 1, !is.na(VERB), VERB != "", century > 15, Tense != "") %>%
+  mutate(Tense = fct_recode(Tense, Compound = "Samsett")) %>%
+  group_by(century, Tense) %>%
+  summarise(n = n(), .groups = 'drop') %>%
+  # Calculate proportions
+  mutate(proportion = n / sum(n))
+
+table1 <- xtable(buinn_manual_collapsed_summary_tense, include.rownames=FALSE)
+print(table1)
+
+
+
+ggplot(buinn_manual_collapsed_summary, aes(fill = Reading, y = n, x = as.factor(century))) + 
+  geom_bar(position = "fill", stat = "identity") +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Century", y = "Proportion", fill = "Reading Category") +
+  theme_minimal()
+
+
+buinn_manual_collapsed_summary_tense 
+
+
+
+ggplot(buinn_manual_collapsed_summary_tense, aes(fill = Tense, y = n, x = as.factor(century))) + 
+  geom_bar(position = "fill", stat = "identity") +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Century", y = "Proportion", fill = "Tense Category") +
+  theme_minimal() 
+
+table <- xtable(buinn_manual_collapsed_summary)
+
+
+print(xtable(table), include.rownames=FALSE)
+
+
+
+buinn_manual_collapsed_summary_class <- buinn_manual_collapsed %>%
+  mutate(Class = as.character(Class)) %>%  
+  mutate(Class = case_when(
+    grepl("-", Class) ~ sub("\\s*-.+", "", Class),  
+    TRUE ~ Class  
+  )) %>%
+  mutate(Class = trimws(Class)) %>%
+  filter(Exclude != 1, century > 15, Class != "") %>%
+  group_by(century, Class) %>%
+  summarise(n = n(), .groups = 'drop') %>%
+  # Calculate proportions within each century
+  group_by(century) %>%  # Group again by century for proportion calculation
+  mutate(proportion = n / sum(n)) %>%
+  ungroup()  # Ungroup to prevent accidental carry-over of grouping
+
+
+# Convert to xtable without row names
+table <- xtable(buinn_manual_collapsed_summary_class)
+print(xtable(table), include.rownames=FALSE)
+
+ggplot(buinn_manual_collapsed_summary_class, aes(fill = Class, y = n, x = as.factor(century))) + 
+  geom_bar(position = "fill", stat = "identity") +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Century", y = "Proportion", fill = "Verb Class") +
+  theme_minimal()
+
+table <- xtable(buinn_manual_collapsed_summary_class)
+
+
+print(xtable(table), include.rownames=FALSE)
+
+buinn_manual_collapsed_verbsummary <- buinn_manual_collapsed %>%
+  filter(Exclude != 1, VERB !="") %>%
+  group_by(VERB) %>%
+  summarise(n = n(), .groups = 'drop')
+
+# Summarize count per VERB
+buinn_manual_collapsed_verbsummary <- buinn_manual_collapsed %>%
+  filter(Exclude != 1, VERB != "") %>%
+  group_by(VERB) %>%
+  summarise(n = n(), .groups = 'drop') %>%
+  # Calculate proportions
+  mutate(proportion = n / sum(n))
+
+# Convert to xtable without row names
+table <- xtable(buinn_manual_collapsed_verbsummary, include.rownames = FALSE)
